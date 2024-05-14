@@ -6539,8 +6539,8 @@
             "autoFadeSpeed": 1,
             "id": "0043a047-2d1d-4459-8d52-fa8c51a6c775",
             "symbol": "scene_4",
-            "x": 2880.632323017828,
-            "y": 1872.1278328115848,
+            "x": 2881.444910658948,
+            "y": 1871.315245170465,
             "actors": [
                 {
                     "name": "Cuore 1",
@@ -9151,8 +9151,8 @@
             "autoFadeSpeed": 1,
             "id": "549f5543-f941-4dbb-b600-6007421b6914",
             "symbol": "scene_6",
-            "x": 2868.5547896848766,
-            "y": 1184.4611858815358,
+            "x": 2870.1799649671166,
+            "y": 1183.648598240416,
             "actors": [
                 {
                     "name": "Cuore 1",
@@ -24587,7 +24587,7 @@
                         "$actor[0]$": "2b6d4aaf-065d-4aff-8a7c-4066b3390ace",
                         "$actor[1]$": "65a61b7f-fd06-4ea1-bceb-b852326644b7",
                         "$actor[2]$": "7d0c7c35-629e-4af8-8bcc-2c4a666a8abf",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "id": "72ef18b4-95dc-42d9-80d7-476e17ee9aed"
                 },
@@ -26261,9 +26261,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 2901.333251953125,
-        "worldScrollY": 1660.6666259765625,
-        "zoom": 123.06364869418394,
+        "worldScrollX": 945,
+        "worldScrollY": 664,
+        "zoom": 73.06364869418394,
         "customColorsEnabled": true,
         "sgbEnabled": true,
         "customHead": "",
@@ -26291,9 +26291,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            204,
-            204,
-            527
+            207,
+            207,
+            534
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
