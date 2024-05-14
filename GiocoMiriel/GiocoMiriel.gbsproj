@@ -9373,6 +9373,98 @@
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
+        },
+        {
+            "name": "Scene 10",
+            "backgroundId": "bf8518d0-af23-42fd-a766-93b9ce57936e",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [
+                "default-bg-2"
+            ],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "0441f7d9-755f-47fb-9ef1-e4e6f60f7594",
+            "symbol": "scene_10",
+            "x": 2421.1462621422006,
+            "y": 1088.9215801159353,
+            "actors": [],
+            "triggers": [],
+            "script": [],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
+        },
+        {
+            "name": "Scene 11",
+            "backgroundId": "e1e28093-4e40-416c-b777-885dcf39146e",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [
+                "default-bg-2"
+            ],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "ac6b0f2e-74e1-4e30-9a5b-141787aa8fda",
+            "symbol": "scene_11",
+            "x": 2418.4782213268218,
+            "y": 1293.872224043143,
+            "actors": [],
+            "triggers": [],
+            "script": [],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
+        },
+        {
+            "name": "Scene 12",
+            "backgroundId": "72ae650f-9a2c-4f8f-a0cc-40e119eed5cb",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [
+                "default-bg-2"
+            ],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "6a1e5c3c-3997-4d68-9d5a-6e007b02fce8",
+            "symbol": "scene_12",
+            "x": 2600.979125583818,
+            "y": 1088.0406849367087,
+            "actors": [],
+            "triggers": [],
+            "script": [],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
+        },
+        {
+            "name": "Scene 13",
+            "backgroundId": "fde893ff-c2cf-4287-a667-3fd01583d42c",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [
+                "default-bg-2"
+            ],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "1ddb088e-e589-4ea8-9c26-da9f0052ce75",
+            "symbol": "scene_13",
+            "x": 2595.872775977007,
+            "y": 1293.7536262397389,
+            "actors": [],
+            "triggers": [],
+            "script": [],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
         }
     ],
     "backgrounds": [
@@ -9384,7 +9476,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "CasaDefault.png"
+            "filename": "CasaDefault.png",
+            "tileColors": []
         },
         {
             "id": "f803760d-eab6-4c3e-9c92-d038ad341244",
@@ -9394,7 +9487,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "CasaDefault2.png"
+            "filename": "CasaDefault2.png",
+            "tileColors": []
         },
         {
             "id": "f6048743-d81c-453d-8517-7c4f8df7be48",
@@ -14781,6 +14875,46 @@
                 3,
                 0
             ]
+        },
+        {
+            "id": "bf8518d0-af23-42fd-a766-93b9ce57936e",
+            "name": "StanzaLocanda",
+            "symbol": "bg_stanzalocanda",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "StanzaLocanda.png"
+        },
+        {
+            "id": "e1e28093-4e40-416c-b777-885dcf39146e",
+            "name": "StanzaLocanda2",
+            "symbol": "bg_stanzalocanda2",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "StanzaLocanda2.png"
+        },
+        {
+            "id": "72ae650f-9a2c-4f8f-a0cc-40e119eed5cb",
+            "name": "StanzaLocandaRibaltata",
+            "symbol": "bg_stanzalocandaribaltata",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "StanzaLocandaRibaltata.png"
+        },
+        {
+            "id": "fde893ff-c2cf-4287-a667-3fd01583d42c",
+            "name": "StanzaLocandaRibaltata2",
+            "symbol": "bg_stanzalocandaribaltata2",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "StanzaLocandaRibaltata2.png"
         },
         {
             "id": "3af09acd-2dd0-4e1b-b1bc-6d3977a36020",
@@ -27500,8 +27634,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 3300,
-        "worldScrollY": 1758,
+        "worldScrollX": 3178,
+        "worldScrollY": 1548,
         "zoom": 137.08422922435057,
         "customColorsEnabled": true,
         "sgbEnabled": true,
