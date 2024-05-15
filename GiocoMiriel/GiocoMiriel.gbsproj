@@ -424,8 +424,8 @@
                     "command": "EVENT_SWITCH_SCENE",
                     "args": {
                         "sceneId": "b781af23-6bcc-4890-a4ea-695d85bd67b9",
-                        "x": 9,
-                        "y": 14,
+                        "x": 29,
+                        "y": 23,
                         "direction": "",
                         "fadeSpeed": "2"
                     },
@@ -3600,8 +3600,8 @@
             "autoFadeSpeed": 1,
             "id": "b781af23-6bcc-4890-a4ea-695d85bd67b9",
             "symbol": "scene_2",
-            "x": 2769.7460967461802,
-            "y": 1393.5547547527035,
+            "x": 2790.6837959300788,
+            "y": 1355.8219622317818,
             "actors": [
                 {
                     "name": "",
@@ -8380,8 +8380,8 @@
             "autoFadeSpeed": 1,
             "id": "8b8a2add-4a26-40e6-b7e8-e2086b7836aa",
             "symbol": "scene_5",
-            "x": 2540.831986080071,
-            "y": 1767.7824056152015,
+            "x": 2499.2122688722916,
+            "y": 1621.2463179461483,
             "actors": [
                 {
                     "name": "CuoreMiriel",
@@ -8423,7 +8423,7 @@
                                 "sceneId": "b781af23-6bcc-4890-a4ea-695d85bd67b9",
                                 "x": 15,
                                 "y": 40,
-                                "direction": "",
+                                "direction": "down",
                                 "fadeSpeed": "2"
                             },
                             "id": "50923b29-aea0-496a-80fd-a94d42371d39"
@@ -8786,8 +8786,6 @@
                 15,
                 15,
                 15,
-                15,
-                15,
                 0,
                 0,
                 0,
@@ -8795,6 +8793,8 @@
                 0,
                 0,
                 0,
+                0,
+                0,
                 15,
                 15,
                 15,
@@ -8819,8 +8819,7 @@
                 0,
                 0,
                 0,
-                15,
-                15,
+                0,
                 0,
                 0,
                 0,
@@ -8891,6 +8890,7 @@
                 0,
                 0,
                 0,
+                0,
                 15,
                 15,
                 15,
@@ -8924,14 +8924,14 @@
                 0,
                 0,
                 0,
-                15,
-                15,
                 15,
                 15,
-                15,
-                15,
+                0,
+                0,
+                0,
                 0,
                 0,
+                0,
                 15,
                 15,
                 15,
@@ -8959,8 +8959,8 @@
                 0,
                 0,
                 0,
-                15,
-                15,
+                0,
+                0,
                 0,
                 0,
                 0,
@@ -9210,8 +9210,8 @@
             "autoFadeSpeed": 1,
             "id": "549f5543-f941-4dbb-b600-6007421b6914",
             "symbol": "scene_6",
-            "x": 3091.5139762351746,
-            "y": 1186.1608194700916,
+            "x": 2888.955256210277,
+            "y": 1164.5008169718392,
             "actors": [
                 {
                     "name": "CuoreMiriel",
@@ -9253,7 +9253,7 @@
                                 "sceneId": "b781af23-6bcc-4890-a4ea-695d85bd67b9",
                                 "x": 29,
                                 "y": 22,
-                                "direction": "",
+                                "direction": "down",
                                 "fadeSpeed": "2"
                             },
                             "id": "050ce7ab-2ce4-4c84-9132-8dc76375acc9"
@@ -9263,12 +9263,12 @@
                 },
                 {
                     "name": "",
-                    "id": "d37f3d27-ba84-4ac5-af8a-8a92454bca30",
+                    "id": "7706c785-3237-4701-9c68-341150b72887",
                     "x": 0,
-                    "y": 7,
+                    "y": 6,
                     "symbol": "trigger_22",
                     "width": 1,
-                    "height": 2,
+                    "height": 3,
                     "script": [
                         {
                             "command": "EVENT_SWITCH_SCENE",
@@ -9279,7 +9279,76 @@
                                 "direction": "left",
                                 "fadeSpeed": "2"
                             },
-                            "id": "fcc8e96b-8813-4886-bfcd-73adc7cbe246"
+                            "id": "dc85d958-3742-4fe4-b0fd-a9d3027b8f70"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "",
+                    "id": "8dec7813-d840-4266-b43b-5f72862b6b37",
+                    "x": 0,
+                    "y": 10,
+                    "symbol": "trigger_27",
+                    "width": 1,
+                    "height": 3,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "ac6b0f2e-74e1-4e30-9a5b-141787aa8fda",
+                                "x": 14,
+                                "y": 10,
+                                "direction": "left",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "3166526e-cd1e-41fc-b820-d28fd8e268f8"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "",
+                    "id": "53b2ba2a-4eae-49fd-b203-6257eae7393f",
+                    "x": 34,
+                    "y": 6,
+                    "symbol": "trigger_28",
+                    "width": 1,
+                    "height": 3,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "6a1e5c3c-3997-4d68-9d5a-6e007b02fce8",
+                                "x": 4,
+                                "y": 11,
+                                "direction": "right",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "3e2383d9-de74-4e70-b50d-7967a35a6b3f"
+                        }
+                    ],
+                    "leaveScript": []
+                },
+                {
+                    "name": "",
+                    "id": "f808d6d1-e4d2-4a07-9b51-56cbeea53721",
+                    "x": 34,
+                    "y": 10,
+                    "symbol": "trigger_29",
+                    "width": 1,
+                    "height": 3,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "1ddb088e-e589-4ea8-9c26-da9f0052ce75",
+                                "x": 4,
+                                "y": 10,
+                                "direction": "right",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "823dbec9-9b55-48a9-a25c-76311e2bb111"
                         }
                     ],
                     "leaveScript": []
@@ -9412,7 +9481,7 @@
             "playerHit3Script": []
         },
         {
-            "name": "Scene 7",
+            "name": "Casa_3_NPC",
             "backgroundId": "ac02dbdf-8d57-4f54-87a2-3d1ae15696e3",
             "width": 20,
             "height": 18,
@@ -9793,7 +9862,31 @@
             "symbol": "scene_7",
             "x": 3261.8866604084483,
             "y": 1804.0919251631262,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "CuoreMiriel",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "68f99ecb-76c7-4560-b114-cae769355af2",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_16",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "fa9f0ec8-d6a9-4c24-a5f9-35479929a61a",
+                    "x": 2,
+                    "y": 1
+                }
+            ],
             "triggers": [
                 {
                     "name": "",
@@ -9819,13 +9912,128 @@
                     "leaveScript": []
                 }
             ],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "062ffd11-d831-48cb-8868-510b76b9be2e",
+                        "$actor[0]$": "fa9f0ec8-d6a9-4c24-a5f9-35479929a61a"
+                    },
+                    "id": "a015766f-d7b8-4b48-a1da-ab646b13d833"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "start"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press",
+                        "__comment": false,
+                        "__collapse": false,
+                        "__label": "Menù"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_MENU",
+                                "args": {
+                                    "variable": "7",
+                                    "items": 4,
+                                    "option1": "Invent.",
+                                    "option2": "Diario",
+                                    "option3": "Prova",
+                                    "option4": "Esci",
+                                    "option5": "",
+                                    "option6": "",
+                                    "option7": "",
+                                    "option8": "",
+                                    "cancelOnB": true,
+                                    "layout": "menu",
+                                    "__comment": false
+                                },
+                                "id": "8d196e5f-5194-4359-9153-2a0ba3463cc4"
+                            },
+                            {
+                                "command": "EVENT_SWITCH",
+                                "args": {
+                                    "variable": "7",
+                                    "choices": 2,
+                                    "__collapseCase0": false,
+                                    "value0": 1,
+                                    "__collapseCase1": false,
+                                    "value1": 2,
+                                    "__collapseCase2": false,
+                                    "value2": 3,
+                                    "__collapseCase3": false,
+                                    "value3": 4,
+                                    "__collapseCase4": false,
+                                    "value4": 5,
+                                    "__collapseCase5": false,
+                                    "value5": 6,
+                                    "__collapseCase6": false,
+                                    "value6": 7,
+                                    "__collapseCase7": false,
+                                    "value7": 8,
+                                    "__collapseCase8": false,
+                                    "value8": 9,
+                                    "__collapseCase9": false,
+                                    "value9": 10,
+                                    "__collapseCase10": false,
+                                    "value10": 11,
+                                    "__collapseCase11": false,
+                                    "value11": 12,
+                                    "__collapseCase12": false,
+                                    "value12": 13,
+                                    "__collapseCase13": false,
+                                    "value13": 14,
+                                    "__collapseCase14": false,
+                                    "value14": 15,
+                                    "__collapseCase15": false,
+                                    "value15": 16,
+                                    "__collapseElse": false
+                                },
+                                "children": {
+                                    "true0": [
+                                        {
+                                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                                            "args": {
+                                                "customEventId": "7abb3079-e578-417f-814c-4064065a4497",
+                                                "$actor[0]$": "fa9f0ec8-d6a9-4c24-a5f9-35479929a61a"
+                                            },
+                                            "id": "e763a705-29b9-4fd1-961a-5c13719d2724"
+                                        }
+                                    ],
+                                    "true1": [],
+                                    "true2": [],
+                                    "true3": [],
+                                    "true4": [],
+                                    "true5": [],
+                                    "true6": [],
+                                    "true7": [],
+                                    "true8": [],
+                                    "true9": [],
+                                    "true10": [],
+                                    "true11": [],
+                                    "true12": [],
+                                    "true13": [],
+                                    "true14": [],
+                                    "true15": [],
+                                    "false": []
+                                },
+                                "id": "635677c8-53b3-411f-a80e-1e48f7949af4"
+                            }
+                        ]
+                    },
+                    "id": "dfeec1c4-d101-4eba-880a-ea50d2d31ba1"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
         },
         {
-            "name": "Scene 8",
+            "name": "Casa_2_NPC",
             "backgroundId": "f803760d-eab6-4c3e-9c92-d038ad341244",
             "width": 20,
             "height": 18,
@@ -10207,7 +10415,31 @@
             "symbol": "scene_8",
             "x": 3263.6533097466586,
             "y": 1598.367953310297,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "CuoreMiriel",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "68f99ecb-76c7-4560-b114-cae769355af2",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_15",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "caace828-9a59-4e56-91ca-de654cf77a5a",
+                    "x": 2,
+                    "y": 1
+                }
+            ],
             "triggers": [
                 {
                     "name": "",
@@ -10233,13 +10465,128 @@
                     "leaveScript": []
                 }
             ],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "062ffd11-d831-48cb-8868-510b76b9be2e",
+                        "$actor[0]$": "caace828-9a59-4e56-91ca-de654cf77a5a"
+                    },
+                    "id": "0bc07c7f-1f77-41cf-a4c4-8164fb48aa13"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "start"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press",
+                        "__comment": false,
+                        "__collapse": false,
+                        "__label": "Menù"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_MENU",
+                                "args": {
+                                    "variable": "7",
+                                    "items": 4,
+                                    "option1": "Invent.",
+                                    "option2": "Diario",
+                                    "option3": "Prova",
+                                    "option4": "Esci",
+                                    "option5": "",
+                                    "option6": "",
+                                    "option7": "",
+                                    "option8": "",
+                                    "cancelOnB": true,
+                                    "layout": "menu",
+                                    "__comment": false
+                                },
+                                "id": "21103adb-9634-4aae-b192-92c6977fe608"
+                            },
+                            {
+                                "command": "EVENT_SWITCH",
+                                "args": {
+                                    "variable": "7",
+                                    "choices": 2,
+                                    "__collapseCase0": false,
+                                    "value0": 1,
+                                    "__collapseCase1": false,
+                                    "value1": 2,
+                                    "__collapseCase2": false,
+                                    "value2": 3,
+                                    "__collapseCase3": false,
+                                    "value3": 4,
+                                    "__collapseCase4": false,
+                                    "value4": 5,
+                                    "__collapseCase5": false,
+                                    "value5": 6,
+                                    "__collapseCase6": false,
+                                    "value6": 7,
+                                    "__collapseCase7": false,
+                                    "value7": 8,
+                                    "__collapseCase8": false,
+                                    "value8": 9,
+                                    "__collapseCase9": false,
+                                    "value9": 10,
+                                    "__collapseCase10": false,
+                                    "value10": 11,
+                                    "__collapseCase11": false,
+                                    "value11": 12,
+                                    "__collapseCase12": false,
+                                    "value12": 13,
+                                    "__collapseCase13": false,
+                                    "value13": 14,
+                                    "__collapseCase14": false,
+                                    "value14": 15,
+                                    "__collapseCase15": false,
+                                    "value15": 16,
+                                    "__collapseElse": false
+                                },
+                                "children": {
+                                    "true0": [
+                                        {
+                                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                                            "args": {
+                                                "customEventId": "7abb3079-e578-417f-814c-4064065a4497",
+                                                "$actor[0]$": "caace828-9a59-4e56-91ca-de654cf77a5a"
+                                            },
+                                            "id": "956f04bf-8bb6-415e-97ba-9d9bc8eb49eb"
+                                        }
+                                    ],
+                                    "true1": [],
+                                    "true2": [],
+                                    "true3": [],
+                                    "true4": [],
+                                    "true5": [],
+                                    "true6": [],
+                                    "true7": [],
+                                    "true8": [],
+                                    "true9": [],
+                                    "true10": [],
+                                    "true11": [],
+                                    "true12": [],
+                                    "true13": [],
+                                    "true14": [],
+                                    "true15": [],
+                                    "false": []
+                                },
+                                "id": "fa5a4c0a-40ad-4300-970a-1a7dcaab18a2"
+                            }
+                        ]
+                    },
+                    "id": "13a6029e-b15f-4dd0-bf48-df6d83cc647b"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
         },
         {
-            "name": "Scene 9",
+            "name": "Casa_1_NPC",
             "backgroundId": "aff902f5-0176-40a7-b379-03d06d7569a7",
             "width": 20,
             "height": 18,
@@ -10620,9 +10967,33 @@
             "autoFadeSpeed": 1,
             "id": "7151c0d8-0eea-4dac-881e-74a02ef4b29c",
             "symbol": "scene_9",
-            "x": 3264.804574469484,
-            "y": 1393.3955210723248,
-            "actors": [],
+            "x": 3271.9232061347843,
+            "y": 1394.7417370451801,
+            "actors": [
+                {
+                    "name": "CuoreMiriel",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "68f99ecb-76c7-4560-b114-cae769355af2",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_14",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "85351242-0266-4d35-8adc-1e4caff31573",
+                    "x": 2,
+                    "y": 1
+                }
+            ],
             "triggers": [
                 {
                     "name": "",
@@ -10648,13 +11019,128 @@
                     "leaveScript": []
                 }
             ],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "062ffd11-d831-48cb-8868-510b76b9be2e",
+                        "$actor[0]$": "85351242-0266-4d35-8adc-1e4caff31573"
+                    },
+                    "id": "f526e579-b4c2-43ce-9dbe-c4b29c10692b"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "start"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press",
+                        "__comment": false,
+                        "__collapse": false,
+                        "__label": "Menù"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_MENU",
+                                "args": {
+                                    "variable": "7",
+                                    "items": 4,
+                                    "option1": "Invent.",
+                                    "option2": "Diario",
+                                    "option3": "Prova",
+                                    "option4": "Esci",
+                                    "option5": "",
+                                    "option6": "",
+                                    "option7": "",
+                                    "option8": "",
+                                    "cancelOnB": true,
+                                    "layout": "menu",
+                                    "__comment": false
+                                },
+                                "id": "4732e431-50a4-4fb0-926e-b3e82ccb09d1"
+                            },
+                            {
+                                "command": "EVENT_SWITCH",
+                                "args": {
+                                    "variable": "7",
+                                    "choices": 2,
+                                    "__collapseCase0": false,
+                                    "value0": 1,
+                                    "__collapseCase1": false,
+                                    "value1": 2,
+                                    "__collapseCase2": false,
+                                    "value2": 3,
+                                    "__collapseCase3": false,
+                                    "value3": 4,
+                                    "__collapseCase4": false,
+                                    "value4": 5,
+                                    "__collapseCase5": false,
+                                    "value5": 6,
+                                    "__collapseCase6": false,
+                                    "value6": 7,
+                                    "__collapseCase7": false,
+                                    "value7": 8,
+                                    "__collapseCase8": false,
+                                    "value8": 9,
+                                    "__collapseCase9": false,
+                                    "value9": 10,
+                                    "__collapseCase10": false,
+                                    "value10": 11,
+                                    "__collapseCase11": false,
+                                    "value11": 12,
+                                    "__collapseCase12": false,
+                                    "value12": 13,
+                                    "__collapseCase13": false,
+                                    "value13": 14,
+                                    "__collapseCase14": false,
+                                    "value14": 15,
+                                    "__collapseCase15": false,
+                                    "value15": 16,
+                                    "__collapseElse": false
+                                },
+                                "children": {
+                                    "true0": [
+                                        {
+                                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                                            "args": {
+                                                "customEventId": "7abb3079-e578-417f-814c-4064065a4497",
+                                                "$actor[0]$": "85351242-0266-4d35-8adc-1e4caff31573"
+                                            },
+                                            "id": "4be76fb0-65ed-46bd-b152-bac5e0ed3535"
+                                        }
+                                    ],
+                                    "true1": [],
+                                    "true2": [],
+                                    "true3": [],
+                                    "true4": [],
+                                    "true5": [],
+                                    "true6": [],
+                                    "true7": [],
+                                    "true8": [],
+                                    "true9": [],
+                                    "true10": [],
+                                    "true11": [],
+                                    "true12": [],
+                                    "true13": [],
+                                    "true14": [],
+                                    "true15": [],
+                                    "false": []
+                                },
+                                "id": "423b1432-f19d-4a45-98a0-033dad6826d3"
+                            }
+                        ]
+                    },
+                    "id": "933f8d19-6d78-45a8-9a74-e3aeebe24d30"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
         },
         {
-            "name": "Scene 10",
+            "name": "Stanza_1_Locanda",
             "backgroundId": "bf8518d0-af23-42fd-a766-93b9ce57936e",
             "width": 20,
             "height": 18,
@@ -10864,7 +11350,7 @@
                 0,
                 0,
                 0,
-                15,
+                0,
                 15,
                 15,
                 15,
@@ -11032,41 +11518,180 @@
             "autoFadeSpeed": 1,
             "id": "0441f7d9-755f-47fb-9ef1-e4e6f60f7594",
             "symbol": "scene_10",
-            "x": 2407.28617035228,
-            "y": 1376.0694484613036,
-            "actors": [],
+            "x": 2676.4116242965697,
+            "y": 951.9090386826757,
+            "actors": [
+                {
+                    "name": "CuoreMiriel",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "68f99ecb-76c7-4560-b114-cae769355af2",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_19",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "10f962c4-833a-422b-9cd5-a1e3fe430ccf",
+                    "x": 2,
+                    "y": 1
+                }
+            ],
             "triggers": [
                 {
                     "name": "",
-                    "id": "2f80fa44-dca7-4bb8-bbf3-c308efb7a045",
+                    "id": "3f8d739f-fcbc-4a8c-9ec9-03f518795ef5",
                     "x": 16,
-                    "y": 10,
+                    "y": 9,
                     "symbol": "trigger_21",
                     "width": 1,
-                    "height": 3,
+                    "height": 4,
                     "script": [
                         {
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "549f5543-f941-4dbb-b600-6007421b6914",
-                                "x": 2,
-                                "y": 8,
+                                "x": 1,
+                                "y": 7,
                                 "direction": "right",
                                 "fadeSpeed": "2"
                             },
-                            "id": "8a586d6e-8dc9-412b-8117-9d62b023d8fe"
+                            "id": "d8e03a51-a74b-4f99-80d5-1e042db62089"
                         }
                     ],
                     "leaveScript": []
                 }
             ],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "062ffd11-d831-48cb-8868-510b76b9be2e",
+                        "$actor[0]$": "10f962c4-833a-422b-9cd5-a1e3fe430ccf"
+                    },
+                    "id": "6fa37701-ba06-46d5-8e98-389227116db6"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "start"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press",
+                        "__comment": false,
+                        "__collapse": false,
+                        "__label": "Menù"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_MENU",
+                                "args": {
+                                    "variable": "7",
+                                    "items": 4,
+                                    "option1": "Invent.",
+                                    "option2": "Diario",
+                                    "option3": "Prova",
+                                    "option4": "Esci",
+                                    "option5": "",
+                                    "option6": "",
+                                    "option7": "",
+                                    "option8": "",
+                                    "cancelOnB": true,
+                                    "layout": "menu",
+                                    "__comment": false
+                                },
+                                "id": "82c18c8d-1f7d-4664-a3a6-ec4d7f6802b9"
+                            },
+                            {
+                                "command": "EVENT_SWITCH",
+                                "args": {
+                                    "variable": "7",
+                                    "choices": 2,
+                                    "__collapseCase0": false,
+                                    "value0": 1,
+                                    "__collapseCase1": false,
+                                    "value1": 2,
+                                    "__collapseCase2": false,
+                                    "value2": 3,
+                                    "__collapseCase3": false,
+                                    "value3": 4,
+                                    "__collapseCase4": false,
+                                    "value4": 5,
+                                    "__collapseCase5": false,
+                                    "value5": 6,
+                                    "__collapseCase6": false,
+                                    "value6": 7,
+                                    "__collapseCase7": false,
+                                    "value7": 8,
+                                    "__collapseCase8": false,
+                                    "value8": 9,
+                                    "__collapseCase9": false,
+                                    "value9": 10,
+                                    "__collapseCase10": false,
+                                    "value10": 11,
+                                    "__collapseCase11": false,
+                                    "value11": 12,
+                                    "__collapseCase12": false,
+                                    "value12": 13,
+                                    "__collapseCase13": false,
+                                    "value13": 14,
+                                    "__collapseCase14": false,
+                                    "value14": 15,
+                                    "__collapseCase15": false,
+                                    "value15": 16,
+                                    "__collapseElse": false
+                                },
+                                "children": {
+                                    "true0": [
+                                        {
+                                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                                            "args": {
+                                                "customEventId": "7abb3079-e578-417f-814c-4064065a4497",
+                                                "$actor[0]$": "10f962c4-833a-422b-9cd5-a1e3fe430ccf"
+                                            },
+                                            "id": "92d29a45-f35d-43db-ada2-63e8ab0d3b7e"
+                                        }
+                                    ],
+                                    "true1": [],
+                                    "true2": [],
+                                    "true3": [],
+                                    "true4": [],
+                                    "true5": [],
+                                    "true6": [],
+                                    "true7": [],
+                                    "true8": [],
+                                    "true9": [],
+                                    "true10": [],
+                                    "true11": [],
+                                    "true12": [],
+                                    "true13": [],
+                                    "true14": [],
+                                    "true15": [],
+                                    "false": []
+                                },
+                                "id": "9445e8f4-a2a4-476a-8aff-993144f91956"
+                            }
+                        ]
+                    },
+                    "id": "8d5db2a8-8798-4212-af76-a3c7e02d2e90"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
         },
         {
-            "name": "Scene 11",
+            "name": "Stanza_2_Locanda",
             "backgroundId": "e1e28093-4e40-416c-b777-885dcf39146e",
             "width": 20,
             "height": 18,
@@ -11257,7 +11882,7 @@
                 0,
                 0,
                 0,
-                15,
+                0,
                 15,
                 15,
                 15,
@@ -11445,17 +12070,180 @@
             "autoFadeSpeed": 1,
             "id": "ac6b0f2e-74e1-4e30-9a5b-141787aa8fda",
             "symbol": "scene_11",
-            "x": 2403.159172506383,
-            "y": 1574.7214524178476,
-            "actors": [],
-            "triggers": [],
-            "script": [],
+            "x": 2684.0533700995893,
+            "y": 1171.15826979976,
+            "actors": [
+                {
+                    "name": "CuoreMiriel",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "68f99ecb-76c7-4560-b114-cae769355af2",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_18",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "b9a7b14b-1b9d-42f3-9e1e-456081d2b868",
+                    "x": 2,
+                    "y": 1
+                }
+            ],
+            "triggers": [
+                {
+                    "name": "",
+                    "id": "0499af76-3801-45e3-ba38-21398203f509",
+                    "x": 16,
+                    "y": 8,
+                    "symbol": "trigger_30",
+                    "width": 1,
+                    "height": 4,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "549f5543-f941-4dbb-b600-6007421b6914",
+                                "x": 1,
+                                "y": 11,
+                                "direction": "right",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "dc1ed9ec-b4d9-436b-9956-bc4b37393f22"
+                        }
+                    ],
+                    "leaveScript": []
+                }
+            ],
+            "script": [
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "062ffd11-d831-48cb-8868-510b76b9be2e",
+                        "$actor[0]$": "b9a7b14b-1b9d-42f3-9e1e-456081d2b868"
+                    },
+                    "id": "cfc93407-d4fa-446d-b2aa-263232e0926b"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "start"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press",
+                        "__comment": false,
+                        "__collapse": false,
+                        "__label": "Menù"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_MENU",
+                                "args": {
+                                    "variable": "7",
+                                    "items": 4,
+                                    "option1": "Invent.",
+                                    "option2": "Diario",
+                                    "option3": "Prova",
+                                    "option4": "Esci",
+                                    "option5": "",
+                                    "option6": "",
+                                    "option7": "",
+                                    "option8": "",
+                                    "cancelOnB": true,
+                                    "layout": "menu",
+                                    "__comment": false
+                                },
+                                "id": "62b2ce9c-9bb0-4e55-9848-f1f5f2a6f0c3"
+                            },
+                            {
+                                "command": "EVENT_SWITCH",
+                                "args": {
+                                    "variable": "7",
+                                    "choices": 2,
+                                    "__collapseCase0": false,
+                                    "value0": 1,
+                                    "__collapseCase1": false,
+                                    "value1": 2,
+                                    "__collapseCase2": false,
+                                    "value2": 3,
+                                    "__collapseCase3": false,
+                                    "value3": 4,
+                                    "__collapseCase4": false,
+                                    "value4": 5,
+                                    "__collapseCase5": false,
+                                    "value5": 6,
+                                    "__collapseCase6": false,
+                                    "value6": 7,
+                                    "__collapseCase7": false,
+                                    "value7": 8,
+                                    "__collapseCase8": false,
+                                    "value8": 9,
+                                    "__collapseCase9": false,
+                                    "value9": 10,
+                                    "__collapseCase10": false,
+                                    "value10": 11,
+                                    "__collapseCase11": false,
+                                    "value11": 12,
+                                    "__collapseCase12": false,
+                                    "value12": 13,
+                                    "__collapseCase13": false,
+                                    "value13": 14,
+                                    "__collapseCase14": false,
+                                    "value14": 15,
+                                    "__collapseCase15": false,
+                                    "value15": 16,
+                                    "__collapseElse": false
+                                },
+                                "children": {
+                                    "true0": [
+                                        {
+                                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                                            "args": {
+                                                "customEventId": "7abb3079-e578-417f-814c-4064065a4497",
+                                                "$actor[0]$": "b9a7b14b-1b9d-42f3-9e1e-456081d2b868"
+                                            },
+                                            "id": "12525165-2c01-45f7-99c0-4dc8b3638f80"
+                                        }
+                                    ],
+                                    "true1": [],
+                                    "true2": [],
+                                    "true3": [],
+                                    "true4": [],
+                                    "true5": [],
+                                    "true6": [],
+                                    "true7": [],
+                                    "true8": [],
+                                    "true9": [],
+                                    "true10": [],
+                                    "true11": [],
+                                    "true12": [],
+                                    "true13": [],
+                                    "true14": [],
+                                    "true15": [],
+                                    "false": []
+                                },
+                                "id": "388a4441-8466-4956-ac3a-7c1c340fb139"
+                            }
+                        ]
+                    },
+                    "id": "1f2a04a6-ac14-4a60-81d0-67e05928829c"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
         },
         {
-            "name": "Scene 12",
+            "name": "Stanza_3_Locanda",
             "backgroundId": "72ae650f-9a2c-4f8f-a0cc-40e119eed5cb",
             "width": 20,
             "height": 18,
@@ -11653,7 +12441,7 @@
                 15,
                 15,
                 15,
-                15,
+                0,
                 0,
                 0,
                 0,
@@ -11834,17 +12622,180 @@
             "autoFadeSpeed": 1,
             "id": "6a1e5c3c-3997-4d68-9d5a-6e007b02fce8",
             "symbol": "scene_12",
-            "x": 2596.602254492264,
-            "y": 1376.6475103125952,
-            "actors": [],
-            "triggers": [],
-            "script": [],
+            "x": 3200.9956235816335,
+            "y": 953.9581934900829,
+            "actors": [
+                {
+                    "name": "CuoreMiriel",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "68f99ecb-76c7-4560-b114-cae769355af2",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_20",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "80e6d13c-656d-4539-8414-fdc7e6821a58",
+                    "x": 2,
+                    "y": 1
+                }
+            ],
+            "triggers": [
+                {
+                    "name": "",
+                    "id": "964777ab-3565-412a-9fc9-1f9b27c96440",
+                    "x": 3,
+                    "y": 9,
+                    "symbol": "trigger_31",
+                    "width": 1,
+                    "height": 4,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "549f5543-f941-4dbb-b600-6007421b6914",
+                                "x": 31,
+                                "y": 8,
+                                "direction": "left",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "729ed222-cbb0-4cbb-a456-d44c86d1cb89"
+                        }
+                    ],
+                    "leaveScript": []
+                }
+            ],
+            "script": [
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "062ffd11-d831-48cb-8868-510b76b9be2e",
+                        "$actor[0]$": "80e6d13c-656d-4539-8414-fdc7e6821a58"
+                    },
+                    "id": "e2c99cb4-5ded-4739-a055-7b30de85c6de"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "start"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press",
+                        "__comment": false,
+                        "__collapse": false,
+                        "__label": "Menù"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_MENU",
+                                "args": {
+                                    "variable": "7",
+                                    "items": 4,
+                                    "option1": "Invent.",
+                                    "option2": "Diario",
+                                    "option3": "Prova",
+                                    "option4": "Esci",
+                                    "option5": "",
+                                    "option6": "",
+                                    "option7": "",
+                                    "option8": "",
+                                    "cancelOnB": true,
+                                    "layout": "menu",
+                                    "__comment": false
+                                },
+                                "id": "8db05563-48b1-45a9-aa93-44f99c7c950a"
+                            },
+                            {
+                                "command": "EVENT_SWITCH",
+                                "args": {
+                                    "variable": "7",
+                                    "choices": 2,
+                                    "__collapseCase0": false,
+                                    "value0": 1,
+                                    "__collapseCase1": false,
+                                    "value1": 2,
+                                    "__collapseCase2": false,
+                                    "value2": 3,
+                                    "__collapseCase3": false,
+                                    "value3": 4,
+                                    "__collapseCase4": false,
+                                    "value4": 5,
+                                    "__collapseCase5": false,
+                                    "value5": 6,
+                                    "__collapseCase6": false,
+                                    "value6": 7,
+                                    "__collapseCase7": false,
+                                    "value7": 8,
+                                    "__collapseCase8": false,
+                                    "value8": 9,
+                                    "__collapseCase9": false,
+                                    "value9": 10,
+                                    "__collapseCase10": false,
+                                    "value10": 11,
+                                    "__collapseCase11": false,
+                                    "value11": 12,
+                                    "__collapseCase12": false,
+                                    "value12": 13,
+                                    "__collapseCase13": false,
+                                    "value13": 14,
+                                    "__collapseCase14": false,
+                                    "value14": 15,
+                                    "__collapseCase15": false,
+                                    "value15": 16,
+                                    "__collapseElse": false
+                                },
+                                "children": {
+                                    "true0": [
+                                        {
+                                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                                            "args": {
+                                                "customEventId": "7abb3079-e578-417f-814c-4064065a4497",
+                                                "$actor[0]$": "80e6d13c-656d-4539-8414-fdc7e6821a58"
+                                            },
+                                            "id": "71181496-f6af-4511-b101-0da1ca8b1bdc"
+                                        }
+                                    ],
+                                    "true1": [],
+                                    "true2": [],
+                                    "true3": [],
+                                    "true4": [],
+                                    "true5": [],
+                                    "true6": [],
+                                    "true7": [],
+                                    "true8": [],
+                                    "true9": [],
+                                    "true10": [],
+                                    "true11": [],
+                                    "true12": [],
+                                    "true13": [],
+                                    "true14": [],
+                                    "true15": [],
+                                    "false": []
+                                },
+                                "id": "747481d4-e560-47d0-b3e3-29ee14698aea"
+                            }
+                        ]
+                    },
+                    "id": "588c83ab-9c9a-43ed-b7af-ed4189109f5f"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
         },
         {
-            "name": "Scene 13",
+            "name": "Stanza_4_Locanda",
             "backgroundId": "fde893ff-c2cf-4287-a667-3fd01583d42c",
             "width": 20,
             "height": 18,
@@ -12021,7 +12972,7 @@
                 15,
                 15,
                 15,
-                15,
+                0,
                 0,
                 0,
                 0,
@@ -12222,17 +13173,180 @@
             "autoFadeSpeed": 1,
             "id": "1ddb088e-e589-4ea8-9c26-da9f0052ce75",
             "symbol": "scene_13",
-            "x": 2593.6843404312303,
-            "y": 1574.3361879477766,
-            "actors": [],
-            "triggers": [],
-            "script": [],
+            "x": 3202.37270459499,
+            "y": 1170.2781000555947,
+            "actors": [
+                {
+                    "name": "CuoreMiriel",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "68f99ecb-76c7-4560-b114-cae769355af2",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_17",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "b0df00f7-a4f0-4005-b8e2-8f37e055891d",
+                    "x": 2,
+                    "y": 1
+                }
+            ],
+            "triggers": [
+                {
+                    "name": "",
+                    "id": "6dff62e5-4788-4801-90e5-7db7c763d3dd",
+                    "x": 3,
+                    "y": 8,
+                    "symbol": "trigger_32",
+                    "width": 1,
+                    "height": 4,
+                    "script": [
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "549f5543-f941-4dbb-b600-6007421b6914",
+                                "x": 31,
+                                "y": 12,
+                                "direction": "left",
+                                "fadeSpeed": "2"
+                            },
+                            "id": "59f009c7-5700-4215-b2eb-982907b09d63"
+                        }
+                    ],
+                    "leaveScript": []
+                }
+            ],
+            "script": [
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "062ffd11-d831-48cb-8868-510b76b9be2e",
+                        "$actor[0]$": "b0df00f7-a4f0-4005-b8e2-8f37e055891d"
+                    },
+                    "id": "dbe76feb-0a27-4189-a32b-55b986d69f13"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "start"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press",
+                        "__comment": false,
+                        "__collapse": false,
+                        "__label": "Menù"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_MENU",
+                                "args": {
+                                    "variable": "7",
+                                    "items": 4,
+                                    "option1": "Invent.",
+                                    "option2": "Diario",
+                                    "option3": "Prova",
+                                    "option4": "Esci",
+                                    "option5": "",
+                                    "option6": "",
+                                    "option7": "",
+                                    "option8": "",
+                                    "cancelOnB": true,
+                                    "layout": "menu",
+                                    "__comment": false
+                                },
+                                "id": "cebbd0a6-9e19-4d8b-85f0-5ac59e503553"
+                            },
+                            {
+                                "command": "EVENT_SWITCH",
+                                "args": {
+                                    "variable": "7",
+                                    "choices": 2,
+                                    "__collapseCase0": false,
+                                    "value0": 1,
+                                    "__collapseCase1": false,
+                                    "value1": 2,
+                                    "__collapseCase2": false,
+                                    "value2": 3,
+                                    "__collapseCase3": false,
+                                    "value3": 4,
+                                    "__collapseCase4": false,
+                                    "value4": 5,
+                                    "__collapseCase5": false,
+                                    "value5": 6,
+                                    "__collapseCase6": false,
+                                    "value6": 7,
+                                    "__collapseCase7": false,
+                                    "value7": 8,
+                                    "__collapseCase8": false,
+                                    "value8": 9,
+                                    "__collapseCase9": false,
+                                    "value9": 10,
+                                    "__collapseCase10": false,
+                                    "value10": 11,
+                                    "__collapseCase11": false,
+                                    "value11": 12,
+                                    "__collapseCase12": false,
+                                    "value12": 13,
+                                    "__collapseCase13": false,
+                                    "value13": 14,
+                                    "__collapseCase14": false,
+                                    "value14": 15,
+                                    "__collapseCase15": false,
+                                    "value15": 16,
+                                    "__collapseElse": false
+                                },
+                                "children": {
+                                    "true0": [
+                                        {
+                                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                                            "args": {
+                                                "customEventId": "7abb3079-e578-417f-814c-4064065a4497",
+                                                "$actor[0]$": "b0df00f7-a4f0-4005-b8e2-8f37e055891d"
+                                            },
+                                            "id": "8127b1f4-21e5-4598-9996-3fb073561464"
+                                        }
+                                    ],
+                                    "true1": [],
+                                    "true2": [],
+                                    "true3": [],
+                                    "true4": [],
+                                    "true5": [],
+                                    "true6": [],
+                                    "true7": [],
+                                    "true8": [],
+                                    "true9": [],
+                                    "true10": [],
+                                    "true11": [],
+                                    "true12": [],
+                                    "true13": [],
+                                    "true14": [],
+                                    "true15": [],
+                                    "false": []
+                                },
+                                "id": "d95856fc-0022-4e1b-b354-e63854fb10ca"
+                            }
+                        ]
+                    },
+                    "id": "3d1710c0-5096-4c0e-99ca-66ae531353ad"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
         },
         {
-            "name": "Scene 14",
+            "name": "Casa_Miriel",
             "backgroundId": "3c744a96-32be-4e15-9a91-0c54e3c8c116",
             "width": 30,
             "height": 18,
@@ -12792,9 +13906,33 @@
             "autoFadeSpeed": 1,
             "id": "07324914-23b5-46fb-af9f-962fb4f21214",
             "symbol": "scene_14",
-            "x": 2810.888913107782,
-            "y": 1189.337973287771,
-            "actors": [],
+            "x": 2459.8305984280805,
+            "y": 1384.5916293221087,
+            "actors": [
+                {
+                    "name": "CuoreMiriel",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "68f99ecb-76c7-4560-b114-cae769355af2",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_13",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "f32ce4b2-69cb-4fc5-9feb-5c8100d8375b",
+                    "x": 2,
+                    "y": 1
+                }
+            ],
             "triggers": [
                 {
                     "name": "",
@@ -12820,13 +13958,128 @@
                     "leaveScript": []
                 }
             ],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "062ffd11-d831-48cb-8868-510b76b9be2e",
+                        "$actor[0]$": "f32ce4b2-69cb-4fc5-9feb-5c8100d8375b"
+                    },
+                    "id": "4e423bbd-fb3c-4293-bf2e-f8f67e29e08f"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "start"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press",
+                        "__comment": false,
+                        "__collapse": false,
+                        "__label": "Menù"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_MENU",
+                                "args": {
+                                    "variable": "7",
+                                    "items": 4,
+                                    "option1": "Invent.",
+                                    "option2": "Diario",
+                                    "option3": "Prova",
+                                    "option4": "Esci",
+                                    "option5": "",
+                                    "option6": "",
+                                    "option7": "",
+                                    "option8": "",
+                                    "cancelOnB": true,
+                                    "layout": "menu",
+                                    "__comment": false
+                                },
+                                "id": "852caf67-7814-4bf0-a949-b33c727911e3"
+                            },
+                            {
+                                "command": "EVENT_SWITCH",
+                                "args": {
+                                    "variable": "7",
+                                    "choices": 2,
+                                    "__collapseCase0": false,
+                                    "value0": 1,
+                                    "__collapseCase1": false,
+                                    "value1": 2,
+                                    "__collapseCase2": false,
+                                    "value2": 3,
+                                    "__collapseCase3": false,
+                                    "value3": 4,
+                                    "__collapseCase4": false,
+                                    "value4": 5,
+                                    "__collapseCase5": false,
+                                    "value5": 6,
+                                    "__collapseCase6": false,
+                                    "value6": 7,
+                                    "__collapseCase7": false,
+                                    "value7": 8,
+                                    "__collapseCase8": false,
+                                    "value8": 9,
+                                    "__collapseCase9": false,
+                                    "value9": 10,
+                                    "__collapseCase10": false,
+                                    "value10": 11,
+                                    "__collapseCase11": false,
+                                    "value11": 12,
+                                    "__collapseCase12": false,
+                                    "value12": 13,
+                                    "__collapseCase13": false,
+                                    "value13": 14,
+                                    "__collapseCase14": false,
+                                    "value14": 15,
+                                    "__collapseCase15": false,
+                                    "value15": 16,
+                                    "__collapseElse": false
+                                },
+                                "children": {
+                                    "true0": [
+                                        {
+                                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                                            "args": {
+                                                "customEventId": "7abb3079-e578-417f-814c-4064065a4497",
+                                                "$actor[0]$": "f32ce4b2-69cb-4fc5-9feb-5c8100d8375b"
+                                            },
+                                            "id": "080b8bd1-d4a4-4179-b05d-1cb862979686"
+                                        }
+                                    ],
+                                    "true1": [],
+                                    "true2": [],
+                                    "true3": [],
+                                    "true4": [],
+                                    "true5": [],
+                                    "true6": [],
+                                    "true7": [],
+                                    "true8": [],
+                                    "true9": [],
+                                    "true10": [],
+                                    "true11": [],
+                                    "true12": [],
+                                    "true13": [],
+                                    "true14": [],
+                                    "true15": [],
+                                    "false": []
+                                },
+                                "id": "5a044611-91a2-488e-982f-5d1018f4e7be"
+                            }
+                        ]
+                    },
+                    "id": "a8c212b3-e0d3-46dd-82a7-53939f5913e9"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
         },
         {
-            "name": "CampanaCampanile",
+            "name": "Campana_Campanile",
             "backgroundId": "e4f6b2f2-77d7-454c-89ed-a8d30a9402a4",
             "width": 20,
             "height": 18,
@@ -13204,9 +14457,67 @@
             "autoFadeSpeed": 1,
             "id": "143b19de-cef4-41dd-912d-47d4906d82d1",
             "symbol": "scene_15",
-            "x": 2339.8258171211064,
-            "y": 961.1114232816475,
-            "actors": [],
+            "x": 2226.0458889820866,
+            "y": 968.2226687903362,
+            "actors": [
+                {
+                    "name": "CuoreMiriel",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "68f99ecb-76c7-4560-b114-cae769355af2",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_10",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "cb6b0630-a6da-4d1c-910e-1e2803cdabbc",
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
+                    "direction": "up",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_21",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Cazzo vuoi\nsuonare?"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "65749be8-e3e5-463e-9056-777185e7ad64"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "8f4e6c81-a7f5-4875-a8cb-dd962b340726",
+                    "x": 6,
+                    "y": 8
+                }
+            ],
             "triggers": [
                 {
                     "name": "",
@@ -13221,7 +14532,7 @@
                             "command": "EVENT_SWITCH_SCENE",
                             "args": {
                                 "sceneId": "fd2a383e-189b-47b2-93cf-23b97935ed1a",
-                                "x": 10,
+                                "x": 9,
                                 "y": 9,
                                 "direction": "right",
                                 "fadeSpeed": "2"
@@ -13232,13 +14543,128 @@
                     "leaveScript": []
                 }
             ],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "062ffd11-d831-48cb-8868-510b76b9be2e",
+                        "$actor[0]$": "cb6b0630-a6da-4d1c-910e-1e2803cdabbc"
+                    },
+                    "id": "357f3594-6f48-43dc-9de2-e29f179717c5"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "start"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press",
+                        "__comment": false,
+                        "__collapse": false,
+                        "__label": "Menù"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_MENU",
+                                "args": {
+                                    "variable": "7",
+                                    "items": 4,
+                                    "option1": "Invent.",
+                                    "option2": "Diario",
+                                    "option3": "Prova",
+                                    "option4": "Esci",
+                                    "option5": "",
+                                    "option6": "",
+                                    "option7": "",
+                                    "option8": "",
+                                    "cancelOnB": true,
+                                    "layout": "menu",
+                                    "__comment": false
+                                },
+                                "id": "4084a98e-f24f-4686-a795-e93fa204a375"
+                            },
+                            {
+                                "command": "EVENT_SWITCH",
+                                "args": {
+                                    "variable": "7",
+                                    "choices": 2,
+                                    "__collapseCase0": false,
+                                    "value0": 1,
+                                    "__collapseCase1": false,
+                                    "value1": 2,
+                                    "__collapseCase2": false,
+                                    "value2": 3,
+                                    "__collapseCase3": false,
+                                    "value3": 4,
+                                    "__collapseCase4": false,
+                                    "value4": 5,
+                                    "__collapseCase5": false,
+                                    "value5": 6,
+                                    "__collapseCase6": false,
+                                    "value6": 7,
+                                    "__collapseCase7": false,
+                                    "value7": 8,
+                                    "__collapseCase8": false,
+                                    "value8": 9,
+                                    "__collapseCase9": false,
+                                    "value9": 10,
+                                    "__collapseCase10": false,
+                                    "value10": 11,
+                                    "__collapseCase11": false,
+                                    "value11": 12,
+                                    "__collapseCase12": false,
+                                    "value12": 13,
+                                    "__collapseCase13": false,
+                                    "value13": 14,
+                                    "__collapseCase14": false,
+                                    "value14": 15,
+                                    "__collapseCase15": false,
+                                    "value15": 16,
+                                    "__collapseElse": false
+                                },
+                                "children": {
+                                    "true0": [
+                                        {
+                                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                                            "args": {
+                                                "customEventId": "7abb3079-e578-417f-814c-4064065a4497",
+                                                "$actor[0]$": "cb6b0630-a6da-4d1c-910e-1e2803cdabbc"
+                                            },
+                                            "id": "04a890c6-3167-4d64-9c99-838288b6eca8"
+                                        }
+                                    ],
+                                    "true1": [],
+                                    "true2": [],
+                                    "true3": [],
+                                    "true4": [],
+                                    "true5": [],
+                                    "true6": [],
+                                    "true7": [],
+                                    "true8": [],
+                                    "true9": [],
+                                    "true10": [],
+                                    "true11": [],
+                                    "true12": [],
+                                    "true13": [],
+                                    "true14": [],
+                                    "true15": [],
+                                    "false": []
+                                },
+                                "id": "1e29340d-63db-4173-bfd1-ed2c96509854"
+                            }
+                        ]
+                    },
+                    "id": "9c975d12-11cf-4eed-9ba4-aec0b38e9d91"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
         },
         {
-            "name": "ScaleCampanile",
+            "name": "Scale_Campanile",
             "backgroundId": "01ae0c70-7098-479b-bb3e-f09ea653b70f",
             "width": 20,
             "height": 18,
@@ -13615,9 +15041,33 @@
             "autoFadeSpeed": 1,
             "id": "fd2a383e-189b-47b2-93cf-23b97935ed1a",
             "symbol": "scene_16",
-            "x": 2337.6373815753286,
-            "y": 1162.8474934931241,
-            "actors": [],
+            "x": 2218.5240193047907,
+            "y": 1166.4031162474682,
+            "actors": [
+                {
+                    "name": "CuoreMiriel",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "68f99ecb-76c7-4560-b114-cae769355af2",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_12",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "b256c356-184d-4df9-bbe9-a0f461066dfa",
+                    "x": 2,
+                    "y": 1
+                }
+            ],
             "triggers": [
                 {
                     "name": "",
@@ -13666,13 +15116,128 @@
                     "leaveScript": []
                 }
             ],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "062ffd11-d831-48cb-8868-510b76b9be2e",
+                        "$actor[0]$": "b256c356-184d-4df9-bbe9-a0f461066dfa"
+                    },
+                    "id": "0cad4d76-a896-4017-ba17-5e711a214279"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "start"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press",
+                        "__comment": false,
+                        "__collapse": false,
+                        "__label": "Menù"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_MENU",
+                                "args": {
+                                    "variable": "7",
+                                    "items": 4,
+                                    "option1": "Invent.",
+                                    "option2": "Diario",
+                                    "option3": "Prova",
+                                    "option4": "Esci",
+                                    "option5": "",
+                                    "option6": "",
+                                    "option7": "",
+                                    "option8": "",
+                                    "cancelOnB": true,
+                                    "layout": "menu",
+                                    "__comment": false
+                                },
+                                "id": "50c527b7-f308-45f9-a6cc-11d8b8d9b3cd"
+                            },
+                            {
+                                "command": "EVENT_SWITCH",
+                                "args": {
+                                    "variable": "7",
+                                    "choices": 2,
+                                    "__collapseCase0": false,
+                                    "value0": 1,
+                                    "__collapseCase1": false,
+                                    "value1": 2,
+                                    "__collapseCase2": false,
+                                    "value2": 3,
+                                    "__collapseCase3": false,
+                                    "value3": 4,
+                                    "__collapseCase4": false,
+                                    "value4": 5,
+                                    "__collapseCase5": false,
+                                    "value5": 6,
+                                    "__collapseCase6": false,
+                                    "value6": 7,
+                                    "__collapseCase7": false,
+                                    "value7": 8,
+                                    "__collapseCase8": false,
+                                    "value8": 9,
+                                    "__collapseCase9": false,
+                                    "value9": 10,
+                                    "__collapseCase10": false,
+                                    "value10": 11,
+                                    "__collapseCase11": false,
+                                    "value11": 12,
+                                    "__collapseCase12": false,
+                                    "value12": 13,
+                                    "__collapseCase13": false,
+                                    "value13": 14,
+                                    "__collapseCase14": false,
+                                    "value14": 15,
+                                    "__collapseCase15": false,
+                                    "value15": 16,
+                                    "__collapseElse": false
+                                },
+                                "children": {
+                                    "true0": [
+                                        {
+                                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                                            "args": {
+                                                "customEventId": "7abb3079-e578-417f-814c-4064065a4497",
+                                                "$actor[0]$": "b256c356-184d-4df9-bbe9-a0f461066dfa"
+                                            },
+                                            "id": "24279ad0-9de7-42e1-af25-cb5a060f150c"
+                                        }
+                                    ],
+                                    "true1": [],
+                                    "true2": [],
+                                    "true3": [],
+                                    "true4": [],
+                                    "true5": [],
+                                    "true6": [],
+                                    "true7": [],
+                                    "true8": [],
+                                    "true9": [],
+                                    "true10": [],
+                                    "true11": [],
+                                    "true12": [],
+                                    "true13": [],
+                                    "true14": [],
+                                    "true15": [],
+                                    "false": []
+                                },
+                                "id": "953a5012-e4cd-46f7-a978-f85813536839"
+                            }
+                        ]
+                    },
+                    "id": "24f6ab70-7e85-47fc-9acd-49b8a1fe6219"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
         },
         {
-            "name": "Scene 17",
+            "name": "Casa_Governatore",
             "backgroundId": "3e9cee3c-0741-4792-8421-4604496e1efb",
             "width": 24,
             "height": 20,
@@ -14173,9 +15738,33 @@
             "autoFadeSpeed": 1,
             "id": "cfdacf4d-d84e-4852-b1b0-fcb821f32490",
             "symbol": "scene_17",
-            "x": 2566.693635366647,
-            "y": 1155.882186855793,
-            "actors": [],
+            "x": 2406.69061142115,
+            "y": 1150.5487527242763,
+            "actors": [
+                {
+                    "name": "CuoreMiriel",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "68f99ecb-76c7-4560-b114-cae769355af2",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_11",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "ec17d94a-c6be-41e2-a6d7-5e50319ac9a0",
+                    "x": 2,
+                    "y": 1
+                }
+            ],
             "triggers": [
                 {
                     "name": "",
@@ -14201,7 +15790,122 @@
                     "leaveScript": []
                 }
             ],
-            "script": [],
+            "script": [
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "062ffd11-d831-48cb-8868-510b76b9be2e",
+                        "$actor[0]$": "ec17d94a-c6be-41e2-a6d7-5e50319ac9a0"
+                    },
+                    "id": "5182305e-8c3e-4af4-a265-d0908e5214bb"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "start"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press",
+                        "__comment": false,
+                        "__collapse": false,
+                        "__label": "Menù"
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_MENU",
+                                "args": {
+                                    "variable": "7",
+                                    "items": 4,
+                                    "option1": "Invent.",
+                                    "option2": "Diario",
+                                    "option3": "Prova",
+                                    "option4": "Esci",
+                                    "option5": "",
+                                    "option6": "",
+                                    "option7": "",
+                                    "option8": "",
+                                    "cancelOnB": true,
+                                    "layout": "menu",
+                                    "__comment": false
+                                },
+                                "id": "8ede0b4b-305b-4e2b-84ad-b0c161ff0277"
+                            },
+                            {
+                                "command": "EVENT_SWITCH",
+                                "args": {
+                                    "variable": "7",
+                                    "choices": 2,
+                                    "__collapseCase0": false,
+                                    "value0": 1,
+                                    "__collapseCase1": false,
+                                    "value1": 2,
+                                    "__collapseCase2": false,
+                                    "value2": 3,
+                                    "__collapseCase3": false,
+                                    "value3": 4,
+                                    "__collapseCase4": false,
+                                    "value4": 5,
+                                    "__collapseCase5": false,
+                                    "value5": 6,
+                                    "__collapseCase6": false,
+                                    "value6": 7,
+                                    "__collapseCase7": false,
+                                    "value7": 8,
+                                    "__collapseCase8": false,
+                                    "value8": 9,
+                                    "__collapseCase9": false,
+                                    "value9": 10,
+                                    "__collapseCase10": false,
+                                    "value10": 11,
+                                    "__collapseCase11": false,
+                                    "value11": 12,
+                                    "__collapseCase12": false,
+                                    "value12": 13,
+                                    "__collapseCase13": false,
+                                    "value13": 14,
+                                    "__collapseCase14": false,
+                                    "value14": 15,
+                                    "__collapseCase15": false,
+                                    "value15": 16,
+                                    "__collapseElse": false
+                                },
+                                "children": {
+                                    "true0": [
+                                        {
+                                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                                            "args": {
+                                                "customEventId": "7abb3079-e578-417f-814c-4064065a4497",
+                                                "$actor[0]$": "ec17d94a-c6be-41e2-a6d7-5e50319ac9a0"
+                                            },
+                                            "id": "e22ff84b-e8d4-4213-9b68-c40ef8d5936c"
+                                        }
+                                    ],
+                                    "true1": [],
+                                    "true2": [],
+                                    "true3": [],
+                                    "true4": [],
+                                    "true5": [],
+                                    "true6": [],
+                                    "true7": [],
+                                    "true8": [],
+                                    "true9": [],
+                                    "true10": [],
+                                    "true11": [],
+                                    "true12": [],
+                                    "true13": [],
+                                    "true14": [],
+                                    "true15": [],
+                                    "false": []
+                                },
+                                "id": "d9739c19-cc18-4be2-9b0b-477e1a22fdca"
+                            }
+                        ]
+                    },
+                    "id": "5c613d27-073c-4595-9d5c-fc3f8d977242"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": []
@@ -36754,9 +38458,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 4607,
-        "worldScrollY": 2734,
-        "zoom": 175,
+        "worldScrollX": 10056.6669921875,
+        "worldScrollY": 4383.33349609375,
+        "zoom": 445.62378167394945,
         "customColorsEnabled": true,
         "sgbEnabled": true,
         "customHead": "",
@@ -36784,9 +38488,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            208,
-            208,
-            532
+            205,
+            205,
+            525
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
