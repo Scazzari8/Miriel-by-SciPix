@@ -6167,14 +6167,6 @@
                     "id": "20ecbb13-4653-4f21-9811-f7a437357d8c"
                 },
                 {
-                    "command": "EVENT_CALL_CUSTOM_EVENT",
-                    "args": {
-                        "customEventId": "38f1116e-bf52-47ed-bab8-a23a69669a72",
-                        "__collapse": false
-                    },
-                    "id": "75cc72e7-ef56-41c3-b208-b48c3b9a12ce"
-                },
-                {
                     "command": "EVENT_SET_INPUT_SCRIPT",
                     "args": {
                         "input": [
@@ -6183,7 +6175,7 @@
                         "override": true,
                         "__scriptTabs": "press",
                         "__comment": false,
-                        "__collapse": false,
+                        "__collapse": true,
                         "__label": "Menù"
                     },
                     "children": {
@@ -6290,6 +6282,13 @@
                         "__collapse": true
                     },
                     "id": "201172bf-8118-4d7a-826b-90edc16a13dd"
+                },
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "38f4d88b-4837-4c83-9f05-e968f257cdd1"
+                    },
+                    "id": "3db5d0e2-3793-475b-b6af-e64315d9cff3"
                 }
             ],
             "playerHit1Script": [
@@ -40327,6 +40326,41 @@
             "symbol": "var_iscorrendo"
         },
         {
+            "id": "13",
+            "name": "LastPos",
+            "symbol": "var_lastpos"
+        },
+        {
+            "id": "14",
+            "name": "ProvaScena",
+            "symbol": "var_provascena"
+        },
+        {
+            "id": "15",
+            "name": "Monete",
+            "symbol": "var_monete"
+        },
+        {
+            "id": "16",
+            "name": "Cibo Locandiere",
+            "symbol": "var_cibo_locandiere"
+        },
+        {
+            "id": "17",
+            "name": "CostoCibo",
+            "symbol": "var_costocibo"
+        },
+        {
+            "id": "18",
+            "name": "Pozioni Locandiere",
+            "symbol": "var_pozioni_locandiere"
+        },
+        {
+            "id": "19",
+            "name": "Costo Pozione",
+            "symbol": "var_costo_pozione"
+        },
+        {
             "id": "20",
             "name": "Variable 20",
             "symbol": "var_variable_20"
@@ -40507,16 +40541,6 @@
             "symbol": "var_colpito"
         },
         {
-            "id": "13",
-            "name": "LastPos",
-            "symbol": "var_lastpos"
-        },
-        {
-            "id": "14",
-            "name": "ProvaScena",
-            "symbol": "var_provascena"
-        },
-        {
             "id": "5259fd62-0e95-49c8-a123-a3b44882daed__L1",
             "name": "Attore X",
             "symbol": "var_attore_x_4"
@@ -40547,34 +40571,9 @@
             "symbol": "var_attivacombat_3"
         },
         {
-            "id": "15",
-            "name": "Monete",
-            "symbol": "var_monete"
-        },
-        {
-            "id": "16",
-            "name": "Cibo Locandiere",
-            "symbol": "var_cibo_locandiere"
-        },
-        {
-            "id": "17",
-            "name": "CostoCibo",
-            "symbol": "var_costocibo"
-        },
-        {
             "id": "e94e07e6-bad8-4e3d-a45f-70fa5ef4cb70__L1",
             "name": "SceltaShop",
             "symbol": "var_sceltashop"
-        },
-        {
-            "id": "18",
-            "name": "Pozioni Locandiere",
-            "symbol": "var_pozioni_locandiere"
-        },
-        {
-            "id": "19",
-            "name": "Costo Pozione",
-            "symbol": "var_costo_pozione"
         }
     ],
     "engineFieldValues": [
@@ -40598,7 +40597,7 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 906,
+        "worldScrollX": 807.3333129882812,
         "worldScrollY": 329.3333435058594,
         "zoom": 57.377919882535934,
         "customColorsEnabled": true,
