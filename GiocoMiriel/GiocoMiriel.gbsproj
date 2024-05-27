@@ -3814,7 +3814,7 @@
                             "command": "EVENT_GROUP",
                             "args": {
                                 "__label": "Random Walk",
-                                "__collapse": true
+                                "__collapse": false
                             },
                             "children": {
                                 "true": [
@@ -3855,7 +3855,7 @@
                                                         "__collapseCase2": false,
                                                         "value2": 2,
                                                         "__collapseCase3": false,
-                                                        "value3": 4,
+                                                        "value3": 3,
                                                         "__collapseCase4": false,
                                                         "value4": 5,
                                                         "__collapseCase5": false,
@@ -4418,6 +4418,13 @@
             ],
             "script": [
                 {
+                    "command": "EVENT_SET_TRUE",
+                    "args": {
+                        "variable": "20"
+                    },
+                    "id": "8434318e-25a9-4685-a395-6feb511677e0"
+                },
+                {
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "Meccaniche"
@@ -4442,7 +4449,7 @@
                                     "override": true,
                                     "__scriptTabs": "press",
                                     "__comment": false,
-                                    "__collapse": false,
+                                    "__collapse": true,
                                     "__label": "Menù"
                                 },
                                 "children": {
@@ -41936,6 +41943,11 @@
             "symbol": "var_matralmorente"
         },
         {
+            "id": "21",
+            "name": "ErbePrese",
+            "symbol": "var_erbeprese"
+        },
+        {
             "id": "509",
             "name": "TileAcqua2",
             "symbol": "var_tileacqua2"
@@ -42184,11 +42196,6 @@
             "id": "0a33dc01-d698-42c0-9f1c-1ed803cd021c__L1",
             "name": "Player Y",
             "symbol": "var_player_y_0"
-        },
-        {
-            "id": "21",
-            "name": "ErbePrese",
-            "symbol": "var_erbeprese"
         }
     ],
     "engineFieldValues": [
@@ -42212,8 +42219,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 6649.33349609375,
-        "worldScrollY": 3758,
+        "worldScrollX": 6596.66650390625,
+        "worldScrollY": 3280.666748046875,
         "zoom": 239.87332347035408,
         "customColorsEnabled": true,
         "sgbEnabled": true,
