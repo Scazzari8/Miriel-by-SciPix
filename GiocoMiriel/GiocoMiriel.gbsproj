@@ -21424,16 +21424,6 @@
                             {
                                 "command": "EVENT_CALL_CUSTOM_EVENT",
                                 "args": {
-                                    "customEventId": "3df8348a-c180-47df-bcbd-c1e970a63c6f",
-                                    "$actor[0]$": "37a1e796-a06c-4df5-8948-6755ae8224d5",
-                                    "__collapse": false,
-                                    "__comment": true
-                                },
-                                "id": "85fece41-f55d-4672-b514-62d81acd73ee"
-                            },
-                            {
-                                "command": "EVENT_CALL_CUSTOM_EVENT",
-                                "args": {
                                     "customEventId": "062ffd11-d831-48cb-8868-510b76b9be2e",
                                     "$actor[0]$": "630d9ea2-3fc6-4282-a3c9-162a2f303b0d",
                                     "__collapse": false
@@ -46271,7 +46261,7 @@
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
         "worldScrollX": 7191.33349609375,
-        "worldScrollY": 5960.66650390625,
+        "worldScrollY": 6160.66650390625,
         "zoom": 345.0349829198076,
         "customColorsEnabled": true,
         "sgbEnabled": true,
