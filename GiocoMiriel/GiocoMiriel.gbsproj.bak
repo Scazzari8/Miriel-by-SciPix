@@ -156,8 +156,8 @@
                     "command": "EVENT_SWITCH_SCENE",
                     "args": {
                         "sceneId": "6c94c5b5-3f6e-498a-b26e-5e2c69fa0f69",
-                        "x": 8,
-                        "y": 12,
+                        "x": 9,
+                        "y": 10,
                         "direction": "",
                         "fadeSpeed": "2"
                     },
@@ -6176,7 +6176,11 @@
                 "e11a6430-5d9a-4a78-b45f-40da78b743a8",
                 "36c383c1-ddaf-4b7e-8845-105828357653"
             ],
-            "spritePaletteIds": [],
+            "spritePaletteIds": [
+                null,
+                null,
+                "36c383c1-ddaf-4b7e-8845-105828357653"
+            ],
             "collisions": [
                 15,
                 15,
@@ -18893,39 +18897,6 @@
             "y": 1854.4,
             "actors": [
                 {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "ad7a2dc4-a279-4b8f-9d7c-95a3333bae5c",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "symbol": "actor_9",
-                    "script": [
-                        {
-                            "command": "EVENT_TEXT",
-                            "args": {
-                                "text": [
-                                    "Cazzo vuoi\nmezzosangue!"
-                                ],
-                                "avatarId": ""
-                            },
-                            "id": "12c2340e-f870-4c07-8a5c-66b61430a8c0"
-                        }
-                    ],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "de45dadf-3cfc-42d1-a66f-68ee819cd3a1",
-                    "x": 13,
-                    "y": 8
-                },
-                {
                     "name": "CuoreMiriel",
                     "frame": 0,
                     "animate": false,
@@ -21421,16 +21392,6 @@
                     },
                     "children": {
                         "true": [
-                            {
-                                "command": "EVENT_CALL_CUSTOM_EVENT",
-                                "args": {
-                                    "customEventId": "3df8348a-c180-47df-bcbd-c1e970a63c6f",
-                                    "$actor[0]$": "37a1e796-a06c-4df5-8948-6755ae8224d5",
-                                    "__collapse": false,
-                                    "__comment": true
-                                },
-                                "id": "85fece41-f55d-4672-b514-62d81acd73ee"
-                            },
                             {
                                 "command": "EVENT_CALL_CUSTOM_EVENT",
                                 "args": {
@@ -46270,9 +46231,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 7191.33349609375,
-        "worldScrollY": 5960.66650390625,
-        "zoom": 345.0349829198076,
+        "worldScrollX": 2350,
+        "worldScrollY": 1617,
+        "zoom": 125,
         "customColorsEnabled": true,
         "sgbEnabled": true,
         "customHead": "",
@@ -46300,9 +46261,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
+            207,
             205,
-            203,
-            527
+            536
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
