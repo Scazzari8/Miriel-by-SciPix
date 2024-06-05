@@ -155,7 +155,7 @@
                 {
                     "command": "EVENT_SWITCH_SCENE",
                     "args": {
-                        "sceneId": "6c94c5b5-3f6e-498a-b26e-5e2c69fa0f69",
+                        "sceneId": "705b7bb8-dc2d-4a54-a4ff-92627310c374",
                         "x": 9,
                         "y": 14,
                         "direction": "",
@@ -4432,7 +4432,7 @@
             "autoFadeEventCollapse": false
         },
         {
-            "name": "Fiume-Villaggio",
+            "name": "Fiume-Verdivalle",
             "backgroundId": "3af09acd-2dd0-4e1b-b1bc-6d3977a36020",
             "width": 32,
             "height": 32,
@@ -5849,7 +5849,7 @@
             "playerSpriteSheetId": "97725d76-8ca3-4667-b96f-9b8867edcf4f"
         },
         {
-            "name": "Uscita Villaggio",
+            "name": "Uscita Verdivalle",
             "backgroundId": "f6048743-d81c-453d-8517-7c4f8df7be48",
             "width": 40,
             "height": 18,
@@ -9892,7 +9892,7 @@
                     "y": 10
                 },
                 {
-                    "name": "",
+                    "name": "Locandiere",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "ad7a2dc4-a279-4b8f-9d7c-95a3333bae5c",
@@ -10711,6 +10711,29 @@
                     "id": "e94e07e6-bad8-4e3d-a45f-70fa5ef4cb70",
                     "x": 17,
                     "y": 8
+                },
+                {
+                    "name": "NPC1",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "b671ff91-32d3-45f8-9cc3-470b09464469",
+                    "direction": "up",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_33",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "6161f114-a040-4e92-b4bd-d7d078b9a3fc",
+                    "x": 13,
+                    "y": 11
                 }
             ],
             "triggers": [
@@ -11995,6 +12018,29 @@
                     "id": "caace828-9a59-4e56-91ca-de654cf77a5a",
                     "x": 2,
                     "y": 1
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "b671ff91-32d3-45f8-9cc3-470b09464469",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_41",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "425a2b37-7e97-49c5-bbb1-1f091bf5009b",
+                    "x": 4,
+                    "y": 7
                 }
             ],
             "triggers": [
@@ -12591,6 +12637,29 @@
                     "id": "85351242-0266-4d35-8adc-1e4caff31573",
                     "x": 2,
                     "y": 1
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "34f1e8cd-0447-45a8-8b65-b84695165c3d",
+                    "direction": "right",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_40",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "4763feab-472d-4c72-8c35-99ba47256086",
+                    "x": 12,
+                    "y": 7
                 }
             ],
             "triggers": [
@@ -13184,6 +13253,29 @@
                     "id": "10f962c4-833a-422b-9cd5-a1e3fe430ccf",
                     "x": 2,
                     "y": 1
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "a01c7de0-cf09-497c-9640-8952163b93f6",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_34",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "3c0a4b34-dfb6-4d57-a4ed-972158e37dc5",
+                    "x": 9,
+                    "y": 9
                 }
             ],
             "triggers": [
@@ -13778,6 +13870,29 @@
                     "id": "b9a7b14b-1b9d-42f3-9e1e-456081d2b868",
                     "x": 2,
                     "y": 1
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "ba2f4e08-8410-4371-9ae8-6a4d06e87e68",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_35",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "21c84ee3-0a0c-404b-84b9-7fa94e609bc3",
+                    "x": 7,
+                    "y": 10
                 }
             ],
             "triggers": [
@@ -14520,6 +14635,29 @@
                     "id": "80e6d13c-656d-4539-8414-fdc7e6821a58",
                     "x": 2,
                     "y": 1
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "b671ff91-32d3-45f8-9cc3-470b09464469",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_37",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "13f67cbb-d619-48a7-b0d9-07bab6ed7b91",
+                    "x": 12,
+                    "y": 8
                 }
             ],
             "triggers": [
@@ -15113,6 +15251,29 @@
                     "id": "b0df00f7-a4f0-4005-b8e2-8f37e055891d",
                     "x": 2,
                     "y": 1
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "ca9a0f48-5610-411c-a30e-e1ca65f030b0",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_36",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "ef1bf0e0-98ce-4da2-a67c-4774fa605f29",
+                    "x": 13,
+                    "y": 14
                 }
             ],
             "triggers": [
@@ -16618,8 +16779,8 @@
             "autoFadeSpeed": 1,
             "id": "143b19de-cef4-41dd-912d-47d4906d82d1",
             "symbol": "scene_15",
-            "x": 2226.0458889820866,
-            "y": 968.2226687903362,
+            "x": 2219.9316382541224,
+            "y": 980.091508438738,
             "actors": [
                 {
                     "name": "CuoreMiriel",
@@ -17482,7 +17643,7 @@
             "playerHit3Script": []
         },
         {
-            "name": "Casa_Governatore",
+            "name": "Casa_Sindaco",
             "backgroundId": "3e9cee3c-0741-4792-8421-4604496e1efb",
             "width": 24,
             "height": 20,
@@ -18008,6 +18169,52 @@
                     "id": "ec17d94a-c6be-41e2-a6d7-5e50319ac9a0",
                     "x": 2,
                     "y": 1
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "b671ff91-32d3-45f8-9cc3-470b09464469",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_38",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "d93374c9-a46b-46e1-8467-50b4231f24ef",
+                    "x": 14,
+                    "y": 6
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_39",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "eff8c38a-28ca-4989-8b4a-391cd58ee95c",
+                    "x": 14,
+                    "y": 7
                 }
             ],
             "triggers": [
@@ -18198,7 +18405,7 @@
             "playerHit3Script": []
         },
         {
-            "name": "Scene 18",
+            "name": "Fabbro",
             "backgroundId": "44c23d9c-a6d0-472d-82f8-cda2f2567f56",
             "width": 20,
             "height": 18,
@@ -21436,7 +21643,7 @@
             "playerHit3Script": []
         },
         {
-            "name": "Villaggio Superiore",
+            "name": "Verdivalle Superiore",
             "backgroundId": "0e6de2e3-887d-4300-8915-c1953e16cd46",
             "width": 56,
             "height": 33,
@@ -23305,11 +23512,11 @@
             "autoFadeSpeed": 1,
             "id": "705b7bb8-dc2d-4a54-a4ff-92627310c374",
             "symbol": "scene_20",
-            "x": 2763.6507006055344,
-            "y": 1345.4862999449513,
+            "x": 2763.789207735707,
+            "y": 1340.1070149738891,
             "actors": [
                 {
-                    "name": "",
+                    "name": "NPC4",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "967c0aef-531d-4bea-b53f-a7a96e9fab00",
@@ -23366,7 +23573,7 @@
                     "y": 1
                 },
                 {
-                    "name": "",
+                    "name": "NPC3 ",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "b671ff91-32d3-45f8-9cc3-470b09464469",
@@ -23541,7 +23748,7 @@
                     "y": 18
                 },
                 {
-                    "name": "",
+                    "name": "NPC2",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "967c0aef-531d-4bea-b53f-a7a96e9fab00",
@@ -23716,7 +23923,7 @@
                     "y": 18
                 },
                 {
-                    "name": "",
+                    "name": "NPC1",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "34f1e8cd-0447-45a8-8b65-b84695165c3d",
@@ -24268,7 +24475,7 @@
                                     "override": true,
                                     "__scriptTabs": "press",
                                     "__comment": false,
-                                    "__collapse": true,
+                                    "__collapse": false,
                                     "__label": "Menù"
                                 },
                                 "children": {
@@ -24680,7 +24887,7 @@
             "playerSpriteSheetId": "817b3ea9-77ae-475d-be36-ad75221fba4e"
         },
         {
-            "name": "Villaggio Inferiore",
+            "name": "Verdivalle Inferiore",
             "backgroundId": "397da70b-cfdd-48d4-8935-16363bbfe11d",
             "width": 56,
             "height": 23,
@@ -26014,6 +26221,29 @@
                     "id": "1138a865-f95b-4d33-a402-a3d111e48110",
                     "x": 2,
                     "y": 1
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "34f1e8cd-0447-45a8-8b65-b84695165c3d",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_32",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "a1674535-a002-4201-b2ef-447779d6452b",
+                    "x": 21,
+                    "y": 7
                 }
             ],
             "triggers": [
@@ -53789,6 +54019,11 @@
             "symbol": "var_scarpeprese"
         },
         {
+            "id": "25",
+            "name": "IntroduzioneCasaMiriel",
+            "symbol": "var_introduzionecasamiriel"
+        },
+        {
             "id": "509",
             "name": "TileAcqua2",
             "symbol": "var_tileacqua2"
@@ -54129,11 +54364,6 @@
             "symbol": "var_cambiofascia2"
         },
         {
-            "id": "25",
-            "name": "IntroduzioneCasaMiriel",
-            "symbol": "var_introduzionecasamiriel"
-        },
-        {
             "id": "c70b6e43-1a68-407a-ad37-861366a8b07b__L0",
             "name": "Scelta",
             "symbol": "var_scelta_1"
@@ -54165,9 +54395,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 5112.66650390625,
-        "worldScrollY": 2532,
-        "zoom": 188.96596774086356,
+        "worldScrollX": 4526,
+        "worldScrollY": 2685.333251953125,
+        "zoom": 187.23585139328316,
         "customColorsEnabled": true,
         "sgbEnabled": true,
         "customHead": "",
