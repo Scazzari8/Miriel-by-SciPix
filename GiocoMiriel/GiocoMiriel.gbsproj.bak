@@ -8981,30 +8981,7 @@
                     "y": 10
                 },
                 {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_62",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "224147f0-e4fc-4fa5-a860-c97353f4342e",
-                    "x": 19,
-                    "y": 5
-                },
-                {
-                    "name": "",
+                    "name": "MITI E LEGGENDE DI LUMNIRIA",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
@@ -9016,7 +8993,120 @@
                     "persistent": false,
                     "collisionGroup": "",
                     "symbol": "actor_63",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Vuoi leggere \n\"MITI E LEGGENDE \n  DI LUMNIRIA\"?"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "b2388dae-8721-49a8-813d-2fe5eeee5320"
+                        },
+                        {
+                            "command": "EVENT_CHOICE",
+                            "args": {
+                                "variable": "L0",
+                                "trueText": "SI",
+                                "falseText": "NO"
+                            },
+                            "id": "b22dd9ad-f453-4fa2-8146-3d9bb6d4f4f8"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "L0",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "   MITI E LEGGENDE \n      DI LUMNIRIA\n\n1. Il Canto della Luna"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "213cd0f4-1ad4-48c8-b96e-bbd072c75759"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "La leggenda narra di \nuna fanciulla di Lumniria\nche, affascinata dalla \nluce argentea della \nluna, fu colta",
+                                                "da un incantesimo. \nOgni notte, usciva nel \nchiaro di luna e \nintonava un canto così\ndolce e malinconico da",
+                                                "rapire il cuore di \nchiunque lo ascoltasse. \nSi dice che il suo canto\nsia ancora udibile nelle\nnotti serene, portando ",
+                                                "con sé il ricordo di un\namore perduto e di un\ntempo dimenticato."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "c550e4da-3c96-460e-9b31-e3f933f9bd56"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "2. Il Bosco Incantato"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "04fe3ab8-8bac-4d72-99ea-6efcdc38788e"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "In una remota foresta\ndi Lumniria si dice che\nrisieda un bosco\nincantato, abitato da\ncreature fatate e",
+                                                "spiriti della natura. \nChi osa avventurarsi al\nsuo interno può\nimbattersi in alberi che\nsussurrano segreti",
+                                                "antichi, ruscelli che\ncantano melodie\nincantevoli e animali che\nparlano con voce umana.\nSi narra che chiunque",
+                                                "entri nel bosco\nincantato non ne esca\nmai più lo stesso,\nportando con sé la\nmagia e la meraviglia di",
+                                                "un mondo nascosto agli \nocchi dei comuni \nmortali."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "150d18dd-0922-4a81-9ac7-b14c4bf043a6"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "3. La Stella Errante"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "c0a10e7a-ccd5-4d39-88b6-68bb2a0b87ad"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Una notte, una stella\ncadente attraversò il\ncielo di Lumniria\nlasciando dietro di sé\nuna scia di luce dorata.",
+                                                "Si dice che chiunque \nveda la stella errante\npossa esprimere un\ndesiderio che verrà\nesaudito solo se",
+                                                "pronunciato con il \ncuorepieno di speranza\ne fiducia. Da allora, la\nstella è diventata un\nsimbolo di fortuna e di ",
+                                                "speranza per il popolo\ndi Lumniria, brillando\nnel cielo notturno come\nuna promessa di gioia\ne di felicità."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "4c973236-19b0-4475-8bb2-4151b51c19ae"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "            *FINE*"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "62ef3827-6e58-447f-9718-e525318dc0d5"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "eaa3727b-918a-4902-a67a-3d6c886bede2"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -9024,29 +9114,6 @@
                     "hit3Script": [],
                     "id": "ea2f76de-7c39-47ab-9000-8d554d352c63",
                     "x": 17,
-                    "y": 5
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_64",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "88070992-8e40-4e0a-8532-0cce431302ad",
-                    "x": 21,
                     "y": 5
                 },
                 {
@@ -10476,6 +10543,278 @@
                     "id": "fe59eb78-721a-4e3b-92f1-215e2637e01c",
                     "x": 5,
                     "y": 10
+                },
+                {
+                    "name": "MITI E LEGGENDE DI LUMNIRIA",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_62",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Vuoi leggere \n\"MITI E LEGGENDE \n  DI LUMNIRIA\"?"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "cb97aaf0-a2d1-4d80-b015-1ac453bfd1ff"
+                        },
+                        {
+                            "command": "EVENT_CHOICE",
+                            "args": {
+                                "variable": "L0",
+                                "trueText": "SI",
+                                "falseText": "NO"
+                            },
+                            "id": "1cac30f4-0206-4419-b9b5-5370a559afc8"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "L0",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "   MITI E LEGGENDE \n      DI LUMNIRIA\n\n1. Il Canto della Luna"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "f161cca9-3f9f-4355-ae1a-005e5d5d5226"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "La leggenda narra di \nuna fanciulla di Lumniria\nche, affascinata dalla \nluce argentea della \nluna, fu colta",
+                                                "da un incantesimo. \nOgni notte, usciva nel \nchiaro di luna e \nintonava un canto così\ndolce e malinconico da",
+                                                "rapire il cuore di \nchiunque lo ascoltasse. \nSi dice che il suo canto\nsia ancora udibile nelle\nnotti serene, portando ",
+                                                "con sé il ricordo di un\namore perduto e di un\ntempo dimenticato."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "46517b64-e2b3-4a8d-9237-664b96edb5ca"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "2. Il Bosco Incantato"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "b53fc53a-00a3-423e-bbdb-732c59759fbc"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "In una remota foresta\ndi Lumniria si dice che\nrisieda un bosco\nincantato, abitato da\ncreature fatate e",
+                                                "spiriti della natura. \nChi osa avventurarsi al\nsuo interno può\nimbattersi in alberi che\nsussurrano segreti",
+                                                "antichi, ruscelli che\ncantano melodie\nincantevoli e animali che\nparlano con voce umana.\nSi narra che chiunque",
+                                                "entri nel bosco\nincantato non ne esca\nmai più lo stesso,\nportando con sé la\nmagia e la meraviglia di",
+                                                "un mondo nascosto agli \nocchi dei comuni \nmortali."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "23eed89c-759b-40b6-8e4f-3d5dc287c815"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "3. La Stella Errante"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "a54a6680-da68-46f4-bb31-78b8d53da00c"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Una notte, una stella\ncadente attraversò il\ncielo di Lumniria\nlasciando dietro di sé\nuna scia di luce dorata.",
+                                                "Si dice che chiunque \nveda la stella errante\npossa esprimere un\ndesiderio che verrà\nesaudito solo se",
+                                                "pronunciato con il \ncuorepieno di speranza\ne fiducia. Da allora, la\nstella è diventata un\nsimbolo di fortuna e di ",
+                                                "speranza per il popolo\ndi Lumniria, brillando\nnel cielo notturno come\nuna promessa di gioia\ne di felicità."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "49c6b69d-64ce-4770-a73e-7aa909c03ea9"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "            *FINE*"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "03e6ed7a-153d-42f7-8b68-9871b1586518"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "d370db1e-7414-4942-810d-48fcc9ded98a"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "4e0c5b3f-d70a-45d9-ba9e-d42b0632d033",
+                    "x": 19,
+                    "y": 5
+                },
+                {
+                    "name": "MITI E LEGGENDE DI LUMNIRIA",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_64",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Vuoi leggere \n\"MITI E LEGGENDE \n  DI LUMNIRIA\"?"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "c5ae6b20-1451-47ae-80ad-f73d5d1a0b8f"
+                        },
+                        {
+                            "command": "EVENT_CHOICE",
+                            "args": {
+                                "variable": "L0",
+                                "trueText": "SI",
+                                "falseText": "NO"
+                            },
+                            "id": "1e1a027d-2786-4b0d-8af2-c65e182b642e"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "L0",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "   MITI E LEGGENDE \n      DI LUMNIRIA\n\n1. Il Canto della Luna"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "a69f026c-0b96-4362-87fb-d4bc6ec7859d"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "La leggenda narra di \nuna fanciulla di Lumniria\nche, affascinata dalla \nluce argentea della \nluna, fu colta",
+                                                "da un incantesimo. \nOgni notte, usciva nel \nchiaro di luna e \nintonava un canto così\ndolce e malinconico da",
+                                                "rapire il cuore di \nchiunque lo ascoltasse. \nSi dice che il suo canto\nsia ancora udibile nelle\nnotti serene, portando ",
+                                                "con sé il ricordo di un\namore perduto e di un\ntempo dimenticato."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "4ce2eb9c-8f55-45fe-a79c-be16804e0d74"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "2. Il Bosco Incantato"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "d5e3c187-165f-4009-aeb9-22cde140420a"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "In una remota foresta\ndi Lumniria si dice che\nrisieda un bosco\nincantato, abitato da\ncreature fatate e",
+                                                "spiriti della natura. \nChi osa avventurarsi al\nsuo interno può\nimbattersi in alberi che\nsussurrano segreti",
+                                                "antichi, ruscelli che\ncantano melodie\nincantevoli e animali che\nparlano con voce umana.\nSi narra che chiunque",
+                                                "entri nel bosco\nincantato non ne esca\nmai più lo stesso,\nportando con sé la\nmagia e la meraviglia di",
+                                                "un mondo nascosto agli \nocchi dei comuni \nmortali."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "2b583b09-d182-402a-bdaf-b4c15efb55a1"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "3. La Stella Errante"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "1e8b145f-db67-4123-9cc6-713e30c4a11f"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Una notte, una stella\ncadente attraversò il\ncielo di Lumniria\nlasciando dietro di sé\nuna scia di luce dorata.",
+                                                "Si dice che chiunque \nveda la stella errante\npossa esprimere un\ndesiderio che verrà\nesaudito solo se",
+                                                "pronunciato con il \ncuorepieno di speranza\ne fiducia. Da allora, la\nstella è diventata un\nsimbolo di fortuna e di ",
+                                                "speranza per il popolo\ndi Lumniria, brillando\nnel cielo notturno come\nuna promessa di gioia\ne di felicità."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "e1d1ab7b-38d9-4fbe-98c8-6ca741ee5d94"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "            *FINE*"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "7fe2199b-7f5b-4168-bfc1-b185063d9eac"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "c0902d36-a739-44f0-976b-962d9725d255"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "c89fb93f-7a0e-4da2-bd20-a5251a7bcbfe",
+                    "x": 21,
+                    "y": 5
                 }
             ],
             "triggers": [
@@ -15809,7 +16148,156 @@
                     "collisionGroup": "",
                     "symbol": "actor_34",
                     "script": [],
-                    "startScript": [],
+                    "startScript": [
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "Random Facing"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_SET_TIMER_SCRIPT",
+                                        "args": {
+                                            "timer": 2,
+                                            "duration": 1.5,
+                                            "frames": 30,
+                                            "__scriptTabs": "end",
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "script": [
+                                                {
+                                                    "command": "EVENT_VARIABLE_MATH",
+                                                    "args": {
+                                                        "vectorX": "L0",
+                                                        "operation": "set",
+                                                        "other": "rnd",
+                                                        "vectorY": "L0",
+                                                        "value": "0",
+                                                        "minValue": "0",
+                                                        "maxValue": 3,
+                                                        "clamp": false
+                                                    },
+                                                    "id": "5a7f78ec-e1bf-4ee1-8ac2-613b6fadf51b"
+                                                },
+                                                {
+                                                    "command": "EVENT_SWITCH",
+                                                    "args": {
+                                                        "variable": "L0",
+                                                        "choices": 4,
+                                                        "__collapseCase0": false,
+                                                        "value0": 0,
+                                                        "__collapseCase1": false,
+                                                        "value1": 1,
+                                                        "__collapseCase2": false,
+                                                        "value2": 2,
+                                                        "__collapseCase3": false,
+                                                        "value3": 3,
+                                                        "__collapseCase4": false,
+                                                        "value4": 5,
+                                                        "__collapseCase5": false,
+                                                        "value5": 6,
+                                                        "__collapseCase6": false,
+                                                        "value6": 7,
+                                                        "__collapseCase7": false,
+                                                        "value7": 8,
+                                                        "__collapseCase8": false,
+                                                        "value8": 9,
+                                                        "__collapseCase9": false,
+                                                        "value9": 10,
+                                                        "__collapseCase10": false,
+                                                        "value10": 11,
+                                                        "__collapseCase11": false,
+                                                        "value11": 12,
+                                                        "__collapseCase12": false,
+                                                        "value12": 13,
+                                                        "__collapseCase13": false,
+                                                        "value13": 14,
+                                                        "__collapseCase14": false,
+                                                        "value14": 15,
+                                                        "__collapseCase15": false,
+                                                        "value15": 16,
+                                                        "__collapseElse": false
+                                                    },
+                                                    "children": {
+                                                        "true0": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "direction": {
+                                                                        "type": "direction",
+                                                                        "value": "up"
+                                                                    }
+                                                                },
+                                                                "id": "13783c76-0366-4a72-8c9d-7fb05f688a64"
+                                                            }
+                                                        ],
+                                                        "true1": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "direction": {
+                                                                        "type": "direction",
+                                                                        "value": "down"
+                                                                    }
+                                                                },
+                                                                "id": "b8f819e5-fe9f-4d38-af52-46f8fcec26f8"
+                                                            }
+                                                        ],
+                                                        "true2": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "direction": {
+                                                                        "type": "direction",
+                                                                        "value": "left"
+                                                                    }
+                                                                },
+                                                                "id": "991ed79a-284f-435f-9d60-6ac163ebc78a"
+                                                            }
+                                                        ],
+                                                        "true3": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "direction": {
+                                                                        "type": "direction",
+                                                                        "value": "right"
+                                                                    }
+                                                                },
+                                                                "id": "4ef4366f-4407-46e1-9474-683305132d71"
+                                                            }
+                                                        ],
+                                                        "true4": [],
+                                                        "true5": [],
+                                                        "true6": [],
+                                                        "true7": [],
+                                                        "true8": [],
+                                                        "true9": [],
+                                                        "true10": [],
+                                                        "true11": [],
+                                                        "true12": [],
+                                                        "true13": [],
+                                                        "true14": [],
+                                                        "true15": [],
+                                                        "false": []
+                                                    },
+                                                    "id": "3f384956-c349-4d1a-a60f-df14c4591117"
+                                                }
+                                            ]
+                                        },
+                                        "id": "41723138-cd19-4545-a1cd-862fc8abce2e"
+                                    }
+                                ]
+                            },
+                            "id": "f99aefa5-3851-47cc-ac2c-03073046d807"
+                        }
+                    ],
                     "updateScript": [],
                     "hit1Script": [],
                     "hit2Script": [],
@@ -16426,7 +16914,156 @@
                     "collisionGroup": "",
                     "symbol": "actor_35",
                     "script": [],
-                    "startScript": [],
+                    "startScript": [
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "Random Facing"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_SET_TIMER_SCRIPT",
+                                        "args": {
+                                            "timer": 2,
+                                            "duration": 1.5,
+                                            "frames": 30,
+                                            "__scriptTabs": "end",
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "script": [
+                                                {
+                                                    "command": "EVENT_VARIABLE_MATH",
+                                                    "args": {
+                                                        "vectorX": "L0",
+                                                        "operation": "set",
+                                                        "other": "rnd",
+                                                        "vectorY": "L0",
+                                                        "value": "0",
+                                                        "minValue": "0",
+                                                        "maxValue": 3,
+                                                        "clamp": false
+                                                    },
+                                                    "id": "a480524e-5cbc-4ec8-a26f-cd70f1890771"
+                                                },
+                                                {
+                                                    "command": "EVENT_SWITCH",
+                                                    "args": {
+                                                        "variable": "L0",
+                                                        "choices": 4,
+                                                        "__collapseCase0": false,
+                                                        "value0": 0,
+                                                        "__collapseCase1": false,
+                                                        "value1": 1,
+                                                        "__collapseCase2": false,
+                                                        "value2": 2,
+                                                        "__collapseCase3": false,
+                                                        "value3": 3,
+                                                        "__collapseCase4": false,
+                                                        "value4": 5,
+                                                        "__collapseCase5": false,
+                                                        "value5": 6,
+                                                        "__collapseCase6": false,
+                                                        "value6": 7,
+                                                        "__collapseCase7": false,
+                                                        "value7": 8,
+                                                        "__collapseCase8": false,
+                                                        "value8": 9,
+                                                        "__collapseCase9": false,
+                                                        "value9": 10,
+                                                        "__collapseCase10": false,
+                                                        "value10": 11,
+                                                        "__collapseCase11": false,
+                                                        "value11": 12,
+                                                        "__collapseCase12": false,
+                                                        "value12": 13,
+                                                        "__collapseCase13": false,
+                                                        "value13": 14,
+                                                        "__collapseCase14": false,
+                                                        "value14": 15,
+                                                        "__collapseCase15": false,
+                                                        "value15": 16,
+                                                        "__collapseElse": false
+                                                    },
+                                                    "children": {
+                                                        "true0": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "direction": {
+                                                                        "type": "direction",
+                                                                        "value": "up"
+                                                                    }
+                                                                },
+                                                                "id": "def2bc3b-4981-4e97-8500-440674d5fb3e"
+                                                            }
+                                                        ],
+                                                        "true1": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "direction": {
+                                                                        "type": "direction",
+                                                                        "value": "down"
+                                                                    }
+                                                                },
+                                                                "id": "b8adaed6-1e19-4abe-b572-5161c1cd8700"
+                                                            }
+                                                        ],
+                                                        "true2": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "direction": {
+                                                                        "type": "direction",
+                                                                        "value": "left"
+                                                                    }
+                                                                },
+                                                                "id": "17153537-be11-43e1-aa01-2a8b781f7a4f"
+                                                            }
+                                                        ],
+                                                        "true3": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "direction": {
+                                                                        "type": "direction",
+                                                                        "value": "right"
+                                                                    }
+                                                                },
+                                                                "id": "2311706b-2dc1-43e6-bd1f-55e85a0bbdb7"
+                                                            }
+                                                        ],
+                                                        "true4": [],
+                                                        "true5": [],
+                                                        "true6": [],
+                                                        "true7": [],
+                                                        "true8": [],
+                                                        "true9": [],
+                                                        "true10": [],
+                                                        "true11": [],
+                                                        "true12": [],
+                                                        "true13": [],
+                                                        "true14": [],
+                                                        "true15": [],
+                                                        "false": []
+                                                    },
+                                                    "id": "3eea58f7-4275-4b01-b725-c65d8ccf4fd3"
+                                                }
+                                            ]
+                                        },
+                                        "id": "f0984844-8c6c-4359-8905-13de3d2f11f8"
+                                    }
+                                ]
+                            },
+                            "id": "caf30cf7-c9ba-4757-af65-8b654e3caec4"
+                        }
+                    ],
                     "updateScript": [],
                     "hit1Script": [],
                     "hit2Script": [],
@@ -17191,7 +17828,156 @@
                     "collisionGroup": "",
                     "symbol": "actor_37",
                     "script": [],
-                    "startScript": [],
+                    "startScript": [
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "Random Facing"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_SET_TIMER_SCRIPT",
+                                        "args": {
+                                            "timer": 2,
+                                            "duration": 1.5,
+                                            "frames": 30,
+                                            "__scriptTabs": "end",
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "script": [
+                                                {
+                                                    "command": "EVENT_VARIABLE_MATH",
+                                                    "args": {
+                                                        "vectorX": "L0",
+                                                        "operation": "set",
+                                                        "other": "rnd",
+                                                        "vectorY": "L0",
+                                                        "value": "0",
+                                                        "minValue": "0",
+                                                        "maxValue": 3,
+                                                        "clamp": false
+                                                    },
+                                                    "id": "4b2ca96d-49b1-4837-b370-2b3fb4aa6829"
+                                                },
+                                                {
+                                                    "command": "EVENT_SWITCH",
+                                                    "args": {
+                                                        "variable": "L0",
+                                                        "choices": 4,
+                                                        "__collapseCase0": false,
+                                                        "value0": 0,
+                                                        "__collapseCase1": false,
+                                                        "value1": 1,
+                                                        "__collapseCase2": false,
+                                                        "value2": 2,
+                                                        "__collapseCase3": false,
+                                                        "value3": 3,
+                                                        "__collapseCase4": false,
+                                                        "value4": 5,
+                                                        "__collapseCase5": false,
+                                                        "value5": 6,
+                                                        "__collapseCase6": false,
+                                                        "value6": 7,
+                                                        "__collapseCase7": false,
+                                                        "value7": 8,
+                                                        "__collapseCase8": false,
+                                                        "value8": 9,
+                                                        "__collapseCase9": false,
+                                                        "value9": 10,
+                                                        "__collapseCase10": false,
+                                                        "value10": 11,
+                                                        "__collapseCase11": false,
+                                                        "value11": 12,
+                                                        "__collapseCase12": false,
+                                                        "value12": 13,
+                                                        "__collapseCase13": false,
+                                                        "value13": 14,
+                                                        "__collapseCase14": false,
+                                                        "value14": 15,
+                                                        "__collapseCase15": false,
+                                                        "value15": 16,
+                                                        "__collapseElse": false
+                                                    },
+                                                    "children": {
+                                                        "true0": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "direction": {
+                                                                        "type": "direction",
+                                                                        "value": "up"
+                                                                    }
+                                                                },
+                                                                "id": "ec8a43c6-7d05-41c3-b3e3-f644461f91ce"
+                                                            }
+                                                        ],
+                                                        "true1": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "direction": {
+                                                                        "type": "direction",
+                                                                        "value": "down"
+                                                                    }
+                                                                },
+                                                                "id": "3516158e-4589-41af-9c2b-e7d2953e6e22"
+                                                            }
+                                                        ],
+                                                        "true2": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "direction": {
+                                                                        "type": "direction",
+                                                                        "value": "left"
+                                                                    }
+                                                                },
+                                                                "id": "b3cce004-89f3-43ab-b4ea-c187eb207496"
+                                                            }
+                                                        ],
+                                                        "true3": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "direction": {
+                                                                        "type": "direction",
+                                                                        "value": "right"
+                                                                    }
+                                                                },
+                                                                "id": "465c39c2-9cd8-4203-b463-2123b8c2a021"
+                                                            }
+                                                        ],
+                                                        "true4": [],
+                                                        "true5": [],
+                                                        "true6": [],
+                                                        "true7": [],
+                                                        "true8": [],
+                                                        "true9": [],
+                                                        "true10": [],
+                                                        "true11": [],
+                                                        "true12": [],
+                                                        "true13": [],
+                                                        "true14": [],
+                                                        "true15": [],
+                                                        "false": []
+                                                    },
+                                                    "id": "279f9502-f057-41ca-a253-2b9f992cc591"
+                                                }
+                                            ]
+                                        },
+                                        "id": "c1819d44-64b8-4134-84f3-72482701035e"
+                                    }
+                                ]
+                            },
+                            "id": "9c5d1c8b-1cfe-4dab-9aca-08233ba31a24"
+                        }
+                    ],
                     "updateScript": [],
                     "hit1Script": [],
                     "hit2Script": [],
@@ -26190,7 +26976,7 @@
                                     {
                                         "command": "EVENT_SET_TIMER_SCRIPT",
                                         "args": {
-                                            "timer": 2,
+                                            "timer": 1,
                                             "duration": 0.9,
                                             "frames": 30,
                                             "__scriptTabs": "end",
@@ -26515,7 +27301,156 @@
                             "id": "2f0fe2a7-d6f0-434f-b4f0-7b3bf27b21f9"
                         }
                     ],
-                    "startScript": [],
+                    "startScript": [
+                        {
+                            "command": "EVENT_GROUP",
+                            "args": {
+                                "__label": "Random Facing"
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_SET_TIMER_SCRIPT",
+                                        "args": {
+                                            "timer": 2,
+                                            "duration": 1.5,
+                                            "frames": 30,
+                                            "__scriptTabs": "end",
+                                            "__collapse": false
+                                        },
+                                        "children": {
+                                            "script": [
+                                                {
+                                                    "command": "EVENT_VARIABLE_MATH",
+                                                    "args": {
+                                                        "vectorX": "L0",
+                                                        "operation": "set",
+                                                        "other": "rnd",
+                                                        "vectorY": "L0",
+                                                        "value": "0",
+                                                        "minValue": "0",
+                                                        "maxValue": 3,
+                                                        "clamp": false
+                                                    },
+                                                    "id": "b4dd3528-3d28-4e1f-bb24-2eed9fe03604"
+                                                },
+                                                {
+                                                    "command": "EVENT_SWITCH",
+                                                    "args": {
+                                                        "variable": "L0",
+                                                        "choices": 4,
+                                                        "__collapseCase0": false,
+                                                        "value0": 0,
+                                                        "__collapseCase1": false,
+                                                        "value1": 1,
+                                                        "__collapseCase2": false,
+                                                        "value2": 2,
+                                                        "__collapseCase3": false,
+                                                        "value3": 3,
+                                                        "__collapseCase4": false,
+                                                        "value4": 5,
+                                                        "__collapseCase5": false,
+                                                        "value5": 6,
+                                                        "__collapseCase6": false,
+                                                        "value6": 7,
+                                                        "__collapseCase7": false,
+                                                        "value7": 8,
+                                                        "__collapseCase8": false,
+                                                        "value8": 9,
+                                                        "__collapseCase9": false,
+                                                        "value9": 10,
+                                                        "__collapseCase10": false,
+                                                        "value10": 11,
+                                                        "__collapseCase11": false,
+                                                        "value11": 12,
+                                                        "__collapseCase12": false,
+                                                        "value12": 13,
+                                                        "__collapseCase13": false,
+                                                        "value13": 14,
+                                                        "__collapseCase14": false,
+                                                        "value14": 15,
+                                                        "__collapseCase15": false,
+                                                        "value15": 16,
+                                                        "__collapseElse": false
+                                                    },
+                                                    "children": {
+                                                        "true0": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "direction": {
+                                                                        "type": "direction",
+                                                                        "value": "up"
+                                                                    }
+                                                                },
+                                                                "id": "4a535264-ca11-4525-ad2e-2f8606c66725"
+                                                            }
+                                                        ],
+                                                        "true1": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "direction": {
+                                                                        "type": "direction",
+                                                                        "value": "down"
+                                                                    }
+                                                                },
+                                                                "id": "b85feeb6-9ea2-41da-997e-55856fb672c1"
+                                                            }
+                                                        ],
+                                                        "true2": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "direction": {
+                                                                        "type": "direction",
+                                                                        "value": "left"
+                                                                    }
+                                                                },
+                                                                "id": "f7d81ee8-8402-4b8e-9c8f-17e29bc94424"
+                                                            }
+                                                        ],
+                                                        "true3": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "direction": {
+                                                                        "type": "direction",
+                                                                        "value": "right"
+                                                                    }
+                                                                },
+                                                                "id": "0094580d-5a7a-4a39-a967-1ec16c814156"
+                                                            }
+                                                        ],
+                                                        "true4": [],
+                                                        "true5": [],
+                                                        "true6": [],
+                                                        "true7": [],
+                                                        "true8": [],
+                                                        "true9": [],
+                                                        "true10": [],
+                                                        "true11": [],
+                                                        "true12": [],
+                                                        "true13": [],
+                                                        "true14": [],
+                                                        "true15": [],
+                                                        "false": []
+                                                    },
+                                                    "id": "186ea18a-c30b-4122-83d2-e0509e87b689"
+                                                }
+                                            ]
+                                        },
+                                        "id": "4001fb1a-be38-47b1-bbe9-a2ab81aaed0d"
+                                    }
+                                ]
+                            },
+                            "id": "50681198-b9ca-407b-af83-98cee40dd907"
+                        }
+                    ],
                     "updateScript": [],
                     "hit1Script": [],
                     "hit2Script": [],
@@ -28654,141 +29589,152 @@
                     "script": [],
                     "startScript": [
                         {
-                            "command": "EVENT_SET_TIMER_SCRIPT",
+                            "command": "EVENT_GROUP",
                             "args": {
-                                "timer": 2,
-                                "duration": 1.5,
-                                "frames": 30,
-                                "__scriptTabs": "end",
-                                "__collapse": false
+                                "__label": "Random Facing"
                             },
                             "children": {
-                                "script": [
+                                "true": [
                                     {
-                                        "command": "EVENT_VARIABLE_MATH",
+                                        "command": "EVENT_SET_TIMER_SCRIPT",
                                         "args": {
-                                            "vectorX": "L0",
-                                            "operation": "set",
-                                            "other": "rnd",
-                                            "vectorY": "L0",
-                                            "value": "0",
-                                            "minValue": "0",
-                                            "maxValue": 3,
-                                            "clamp": false
-                                        },
-                                        "id": "489e904c-1e11-4e0a-9f64-580b9b8a2fa3"
-                                    },
-                                    {
-                                        "command": "EVENT_SWITCH",
-                                        "args": {
-                                            "variable": "L0",
-                                            "choices": 4,
-                                            "__collapseCase0": false,
-                                            "value0": 0,
-                                            "__collapseCase1": false,
-                                            "value1": 1,
-                                            "__collapseCase2": false,
-                                            "value2": 2,
-                                            "__collapseCase3": false,
-                                            "value3": 3,
-                                            "__collapseCase4": false,
-                                            "value4": 5,
-                                            "__collapseCase5": false,
-                                            "value5": 6,
-                                            "__collapseCase6": false,
-                                            "value6": 7,
-                                            "__collapseCase7": false,
-                                            "value7": 8,
-                                            "__collapseCase8": false,
-                                            "value8": 9,
-                                            "__collapseCase9": false,
-                                            "value9": 10,
-                                            "__collapseCase10": false,
-                                            "value10": 11,
-                                            "__collapseCase11": false,
-                                            "value11": 12,
-                                            "__collapseCase12": false,
-                                            "value12": 13,
-                                            "__collapseCase13": false,
-                                            "value13": 14,
-                                            "__collapseCase14": false,
-                                            "value14": 15,
-                                            "__collapseCase15": false,
-                                            "value15": 16,
-                                            "__collapseElse": false
+                                            "timer": 2,
+                                            "duration": 1.5,
+                                            "frames": 30,
+                                            "__scriptTabs": "end",
+                                            "__collapse": false
                                         },
                                         "children": {
-                                            "true0": [
+                                            "script": [
                                                 {
-                                                    "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                    "command": "EVENT_VARIABLE_MATH",
                                                     "args": {
-                                                        "actorId": "$self$",
-                                                        "direction": {
-                                                            "type": "direction",
-                                                            "value": "up"
-                                                        }
+                                                        "vectorX": "L0",
+                                                        "operation": "set",
+                                                        "other": "rnd",
+                                                        "vectorY": "L0",
+                                                        "value": "0",
+                                                        "minValue": "0",
+                                                        "maxValue": 3,
+                                                        "clamp": false
                                                     },
-                                                    "id": "636db19c-827a-4194-9b31-916f57b7b6f7"
-                                                }
-                                            ],
-                                            "true1": [
+                                                    "id": "489e904c-1e11-4e0a-9f64-580b9b8a2fa3"
+                                                },
                                                 {
-                                                    "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                    "command": "EVENT_SWITCH",
                                                     "args": {
-                                                        "actorId": "$self$",
-                                                        "direction": {
-                                                            "type": "direction",
-                                                            "value": "down"
-                                                        }
+                                                        "variable": "L0",
+                                                        "choices": 4,
+                                                        "__collapseCase0": false,
+                                                        "value0": 0,
+                                                        "__collapseCase1": false,
+                                                        "value1": 1,
+                                                        "__collapseCase2": false,
+                                                        "value2": 2,
+                                                        "__collapseCase3": false,
+                                                        "value3": 3,
+                                                        "__collapseCase4": false,
+                                                        "value4": 5,
+                                                        "__collapseCase5": false,
+                                                        "value5": 6,
+                                                        "__collapseCase6": false,
+                                                        "value6": 7,
+                                                        "__collapseCase7": false,
+                                                        "value7": 8,
+                                                        "__collapseCase8": false,
+                                                        "value8": 9,
+                                                        "__collapseCase9": false,
+                                                        "value9": 10,
+                                                        "__collapseCase10": false,
+                                                        "value10": 11,
+                                                        "__collapseCase11": false,
+                                                        "value11": 12,
+                                                        "__collapseCase12": false,
+                                                        "value12": 13,
+                                                        "__collapseCase13": false,
+                                                        "value13": 14,
+                                                        "__collapseCase14": false,
+                                                        "value14": 15,
+                                                        "__collapseCase15": false,
+                                                        "value15": 16,
+                                                        "__collapseElse": false
                                                     },
-                                                    "id": "c7adb619-d1d9-4935-bc80-8ffa1147a118"
-                                                }
-                                            ],
-                                            "true2": [
-                                                {
-                                                    "command": "EVENT_ACTOR_SET_DIRECTION",
-                                                    "args": {
-                                                        "actorId": "$self$",
-                                                        "direction": {
-                                                            "type": "direction",
-                                                            "value": "left"
-                                                        }
+                                                    "children": {
+                                                        "true0": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "direction": {
+                                                                        "type": "direction",
+                                                                        "value": "up"
+                                                                    }
+                                                                },
+                                                                "id": "636db19c-827a-4194-9b31-916f57b7b6f7"
+                                                            }
+                                                        ],
+                                                        "true1": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "direction": {
+                                                                        "type": "direction",
+                                                                        "value": "down"
+                                                                    }
+                                                                },
+                                                                "id": "c7adb619-d1d9-4935-bc80-8ffa1147a118"
+                                                            }
+                                                        ],
+                                                        "true2": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "direction": {
+                                                                        "type": "direction",
+                                                                        "value": "left"
+                                                                    }
+                                                                },
+                                                                "id": "3bf7e9f1-346c-475c-b3c7-fd98344c9bfa"
+                                                            }
+                                                        ],
+                                                        "true3": [
+                                                            {
+                                                                "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                                "args": {
+                                                                    "actorId": "$self$",
+                                                                    "direction": {
+                                                                        "type": "direction",
+                                                                        "value": "right"
+                                                                    }
+                                                                },
+                                                                "id": "7c751ac7-498f-476d-91c5-7d885148f2fe"
+                                                            }
+                                                        ],
+                                                        "true4": [],
+                                                        "true5": [],
+                                                        "true6": [],
+                                                        "true7": [],
+                                                        "true8": [],
+                                                        "true9": [],
+                                                        "true10": [],
+                                                        "true11": [],
+                                                        "true12": [],
+                                                        "true13": [],
+                                                        "true14": [],
+                                                        "true15": [],
+                                                        "false": []
                                                     },
-                                                    "id": "3bf7e9f1-346c-475c-b3c7-fd98344c9bfa"
+                                                    "id": "4d8778e4-5f81-4047-9fd7-1e9c4eaa27d2"
                                                 }
-                                            ],
-                                            "true3": [
-                                                {
-                                                    "command": "EVENT_ACTOR_SET_DIRECTION",
-                                                    "args": {
-                                                        "actorId": "$self$",
-                                                        "direction": {
-                                                            "type": "direction",
-                                                            "value": "right"
-                                                        }
-                                                    },
-                                                    "id": "7c751ac7-498f-476d-91c5-7d885148f2fe"
-                                                }
-                                            ],
-                                            "true4": [],
-                                            "true5": [],
-                                            "true6": [],
-                                            "true7": [],
-                                            "true8": [],
-                                            "true9": [],
-                                            "true10": [],
-                                            "true11": [],
-                                            "true12": [],
-                                            "true13": [],
-                                            "true14": [],
-                                            "true15": [],
-                                            "false": []
+                                            ]
                                         },
-                                        "id": "4d8778e4-5f81-4047-9fd7-1e9c4eaa27d2"
+                                        "id": "b8dc7118-8f1c-42b7-a5b5-05d7f46eb90a"
                                     }
                                 ]
                             },
-                            "id": "b8dc7118-8f1c-42b7-a5b5-05d7f46eb90a"
+                            "id": "92a3af9d-ec45-4ccf-b4d9-db78ddbb9b8c"
                         }
                     ],
                     "updateScript": [],
@@ -58220,9 +59166,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 1226.6666259765625,
-        "worldScrollY": 566.6666870117188,
-        "zoom": 66.79446973429549,
+        "worldScrollX": 5562.66650390625,
+        "worldScrollY": 2063.333251953125,
+        "zoom": 207.49553670512068,
         "customColorsEnabled": true,
         "sgbEnabled": true,
         "customHead": "",
