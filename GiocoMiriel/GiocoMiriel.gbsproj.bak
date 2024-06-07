@@ -8267,53 +8267,7 @@
                     "y": 1
                 },
                 {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_47",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "c0ec3eb5-91b4-4ce7-a018-efadfb710bfe",
-                    "x": 5,
-                    "y": 5
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_48",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "b9572099-7441-4170-8998-0e40c5eb4a40",
-                    "x": 3,
-                    "y": 5
-                },
-                {
-                    "name": "",
+                    "name": "LA GUERRA SCOPPIA",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
@@ -8325,7 +8279,117 @@
                     "persistent": false,
                     "collisionGroup": "",
                     "symbol": "actor_49",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Vuoi leggere\n\"LA GUERRA SCOPPIA\""
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "33f438c3-b8eb-400b-aced-b11a8587277f"
+                        },
+                        {
+                            "command": "EVENT_CHOICE",
+                            "args": {
+                                "variable": "L0",
+                                "trueText": "SI",
+                                "falseText": "NO"
+                            },
+                            "id": "0bc5c5d5-32a3-4aa9-a1d2-86609a28b9a8"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "L0",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "   LA GUERRA SCOPPIA\n\n1. Il primo conflitto"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "f4dee70b-09d3-4c74-9ce0-6e402c2e791b"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "La tensione raggiunse il\nculmine quando un \ngruppo di soldati \nNotterim attraversò il \nconfine durante una ",
+                                                "missione di \n\"ricognizione\" e si \nscontrò con una\npattuglia di Lumniria.",
+                                                "Il breve ma violento \nscontro lasciò molti \nmorti e feriti su \nentrambi i lati. Questo \nincidente, interpretato",
+                                                "come un'invasione \ndeliberata, scatenò \nl'ira dei Luminir."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "ad6060f2-8496-44c4-bb60-b1e1d8a1f73f"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "2. La Spirale di\n    Distruzione"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "a9c4ef0b-c365-4eba-b9f1-12e7f4ed66fc"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "La battaglia di confine \nsegnò l'inizio di una \nlunga spirale di \ndistruzione. Ogni \ntentativo di ",
+                                                "negoziazione fallì, con \nentrambe le nazioni \nincapaci di superare la \ndiffidenza reciproca. \nOgni nuovo scontro ",
+                                                "portava con sé nuove \natrocità, alimentando \nun ciclo infinito di \nvendetta e\nsofferenza."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "ec4ad656-2d0f-4d07-bf86-b12202c84437"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "3. Pace: un ricordo\n    lontano"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "67af165a-3f6e-45fc-b7ec-3762f982f72f"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "La continua escalation \ndel conflitto creò un \nclima di odio e sospetto\ntra le due nazioni. \nGli abitanti di Valindor",
+                                                "e Lumniria iniziarono a \nvedere l'un l'altro come\nnemici naturali, \ndimenticando i secoli di \npace e cooperazione",
+                                                "che li avevano\npreceduti."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "2b1e5f8d-f313-4d7e-943e-0977fbe57f0d"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "            *FINE*"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "618f2b1c-3844-4b48-a5ce-5ddee0e299cc"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "24549063-6600-45f7-87cc-6835b246e5a1"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -8336,7 +8400,7 @@
                     "y": 5
                 },
                 {
-                    "name": "",
+                    "name": "IL POPOLO DI VALINDOR",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
@@ -8348,7 +8412,119 @@
                     "persistent": false,
                     "collisionGroup": "",
                     "symbol": "actor_50",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Vuoi leggere \n\"LE RAZZE DI \n ARKANIA v.2\"?"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "c4e6e160-e926-4393-836a-2231b2066657"
+                        },
+                        {
+                            "command": "EVENT_CHOICE",
+                            "args": {
+                                "variable": "L0",
+                                "trueText": "SI",
+                                "falseText": "NO"
+                            },
+                            "id": "1b9c1591-a7f5-4761-96d5-c5064ffe7a48"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "L0",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                " LE RAZZE DI ARKANIA\n               v.2\n\n1. Prefazione"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "9b4acc33-9b6b-451d-ab10-3a41ed554a9b"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Benvenuti nel secondo \nvolume del \"Libro delle \nRazze di Arkania\", \ndedicato ai Notterim di \nValindor.",
+                                                "Queste pagine \nesploreranno le \ncaratteristiche fisiche\nuniche e la cultura\naffascinante di questa",
+                                                "antica e misteriosa\nrazza."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "71422070-4de4-4e39-a9f0-523ae43eefc9"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "2. Caratteristiche\n    fisiche"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "96ee65da-f9dd-4ac6-a601-7fce17a77026"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "I Notterim, abitanti di\nValindor, sono\nconosciuti per la loro\npelle scura e\niridescente, ",
+                                                "che riflette come \nl'argento alla luce del\nsole e brilla con una\nluminescenza eterea\nsotto la luce della luna.",
+                                                "Questa caratteristica \ndona loro un aspetto\nsorprendente e\nsoprannaturale. Gli\nocchi dei Notterim sono ",
+                                                "chiari e brillano con una\nluce interiore,\nemanando una\nsensazione di calma e\nsaggezza che",
+                                                "contrasta\nmagnificamente con la\nloro pelle luminosa."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "ce1ce8b9-c14e-4d51-8193-04686c9df471"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "3. Cultura di Valindor"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "36f64978-8539-4545-ac99-bf7d05993124"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "La cultura dei Notterim\nè caratterizzata da \nuna mentalità \nguerrigliera e dalla \npratica delle arti",
+                                                "belliche. Essi sono abili\nguerrieri e difensori \ndel loro regno, pronti a\ndifendere la loro terra\nda qualsiasi minaccia.",
+                                                "La società Notterim è\norganizzata attorno\nalla forza militare, con\nun sistema gerarchico\nche premia il coraggio",
+                                                "e la destrezza \nnel combattimento."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "3ad5ba34-cfd6-44ca-860a-69736330ae41"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "            *FINE*"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "84cacafb-e17d-41a7-a60f-dcfe8b6a2cdd"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "f96f1477-92eb-41f6-8453-89ca0a2f52bb"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -8359,53 +8535,7 @@
                     "y": 10
                 },
                 {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_51",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "a1152ab0-29e0-44da-bfe6-ce729f22571e",
-                    "x": 3,
-                    "y": 10
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_52",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "4f84ea08-f290-43ae-813b-d041951bfbe6",
-                    "x": 5,
-                    "y": 10
-                },
-                {
-                    "name": "",
+                    "name": "RICETTE REGIONALI",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
@@ -8417,7 +8547,162 @@
                     "persistent": false,
                     "collisionGroup": "",
                     "symbol": "actor_53",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Vuoi leggere\n\"LE RICETTE DI\n  LUMNIRIA\"?"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "b2302bc3-9eb4-4ed0-a173-16f5a84a9f23"
+                        },
+                        {
+                            "command": "EVENT_CHOICE",
+                            "args": {
+                                "variable": "L0",
+                                "trueText": "SI",
+                                "falseText": "NO"
+                            },
+                            "id": "984c193f-3150-456f-a86c-9dbd5796ebc0"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "L0",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "     LE RICETTE DI \n        LUMNIRIA\n\n1. Zuppa di Fiori di Luna"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "93273ae4-7154-434d-8b07-34b773937a12"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Soffriggi una cipolla \ntritata e due spicchi \nd'aglio in un cucchiaio \ndi burro. Aggiungi \nquattro carote e due ",
+                                                "patate a cubetti, \ncuocendo per cinque \nminuti. Versa un litro di\nbrodo vegetale e cuoci\na fuoco lento per venti",
+                                                "minuti. Aggiungi cento \ngrammi di petali di fiori \neduli e un po' di timo e \nrosmarino, cuocendo \nper altri cinque minuti.",
+                                                "Aggiusta di sale e\npepe e servi caldo."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "a5ee051b-ebe2-4ec5-9e67-ec282a351a01"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "2. Stufato di Radici\n    Incantate"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "67d79115-e511-48af-82f3-226c30ffb168"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Soffriggi una cipolla \ntritata in un cucchiaio\ndi olio. Aggiungi quattro\npatate, tre carote e \nuna radice di pastinaca",
+                                                "a cubetti. Copri con \nbrodo vegetale e cuoci\na fuoco lento per \ntrenta minuti. Aggiungi \ndue cucchiai di miele,",
+                                                "un pizzico di cannella e\nuna manciata di uvetta.\nAggiusta di sale e pepe\ne cuoci per altri dieci\nminuti. ",
+                                                "Servi caldo con\npane integrale."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "4782afab-6bef-4ef1-82e0-05e24f0710cd"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "3. Bevanda della Luce"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "1d3195b4-2d1e-4e26-a160-60bff824ccdd"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Scalda un litro di latte \ncon una stecca di \ncannella, due chiodi di\ngarofano e una bacca\ndi vaniglia incisa. ",
+                                                "Sobbollisci per dieci \nminuti, poi togli dal\nfuocoe aggiungi due \ncucchiai di miele. ",
+                                                "Filtra la bevanda e \nservi caldo con una \nspolverata di cannella."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "d814e0a5-e249-4aea-b8a9-af24c96b5b00"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "4. Arrosto di Cervo\n    al Miele"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "9834ced3-2230-486d-b31f-80b49c371e45"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Marina un cosciotto di \ncervo con olio, \nrosmarino, timo, sale e\npepe per un'ora. \nScalda una padella e",
+                                                "rosola il cervo su tutti \ni lati. Cuoci per un'ora.\nLascia riposare la \ncarne prima di \naffettarla",
+                                                "e servirla con \npatate arrosto."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "b4ff7076-3254-4166-b522-b9f71349d25b"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "5. Spezzatino di \n    Cinghiale"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "6f22aec0-ab08-410e-8d13-b7c2928c4d0e"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Taglia la carne di \ncinghiale a cubetti e\nmarinala con vino rosso,\nalloro, aglio e pepe per\nuna notte.",
+                                                "Scola la carne e \nsoffriggila in una \npentola. Aggiungi cipolle\ntritate, carote e\nsedano. Versa il vino ",
+                                                "della marinata e cuoci a \nfuoco lento per due \nore. Aggiusta di sale e \npepe e servi con pane\nrustico."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "bf9fe6cc-33ae-4d40-8dd6-88c75b1c815e"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "            *FINE*"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "daff56b2-6b61-4f9e-adc9-7cc7caae49cd"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "1b8dfaba-885e-48a8-9fec-29e71604e71a"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -8428,53 +8713,7 @@
                     "y": 15
                 },
                 {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_54",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "c6709393-6bf9-4a03-95a3-52fc3151815b",
-                    "x": 3,
-                    "y": 15
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_55",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "04d259b9-646f-470c-9a2f-4f76839ff694",
-                    "x": 5,
-                    "y": 15
-                },
-                {
-                    "name": "",
+                    "name": "IL POPOLO DI LUMNIRIA",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
@@ -8486,7 +8725,119 @@
                     "persistent": false,
                     "collisionGroup": "",
                     "symbol": "actor_56",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Vuoi leggere \n\"LE RAZZE DI \n ARKANIA v.1\"?"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "39d08641-9d06-497c-ae6b-02d7318bbf01"
+                        },
+                        {
+                            "command": "EVENT_CHOICE",
+                            "args": {
+                                "variable": "L0",
+                                "trueText": "SI",
+                                "falseText": "NO"
+                            },
+                            "id": "43647250-b19e-4812-8f90-8a0f429f69b3"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "L0",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                " LE RAZZE DI ARKANIA\n               v.1\n\n1. Prefazione"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "9f8c073e-3451-4b7a-b0b6-baf64883548f"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Benvenuti nel primo \nvolume del \"Libro delle \nRazze di Arkania\", \ndedicato agli Abitanti \ndi Lumniria.",
+                                                "Queste pagine \nesploreranno le \ncaratteristiche fisiche \nuniche e la cultura \naffascinante di questa",
+                                                "magica e \nincantata razza."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "b10465be-5001-4ba9-bef4-e09055771ffe"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "2. Caratteristiche\n    fisiche"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "b485a06a-04bd-49f1-aa53-51fff3a27548"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Gli abitanti di Lumniria\npossiedono una pelle\ntraslucida che emette\nuna delicata luce\ninterna, conferendo",
+                                                "loro un aspetto simile a\nquello delle creature\nfatate. I loro occhi\nsono di un colore scuro\ne profondo, riflettendo",
+                                                "la loro misteriosa \nsaggezza e aggiungendo\nun tocco di grazia e\nfascino al loro aspetto\ngià incantevole. ",
+                                                "Le orecchie degli \nabitanti di Lumniria \nsono appuntite e \nleggermente allungate,\nulteriormente ",
+                                                "enfatizzando \nla loro natura mistica."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "21caeaa5-717d-49c1-aadf-e57efb83f9c8"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "3. Cultura di Lumniria"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "40b3382b-2462-4cc3-b909-c4448c212745"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "La cultura degli abitanti\ndi Lumniria è intrisa di\nmisticismo e spiritualità.\nSono un popolo pacifico\ne saggio, con una ",
+                                                "profonda connessione\ncon la natura e il mondo\ndegli spiriti. La loro\nsocietà è guidata dalla\nsaggezza degli anziani e",
+                                                "dalla ricerca della pace\ne dell'equilibrio.\nLa storia degli abitanti\ndi Lumniria è ricca di\nleggende e racconti ",
+                                                "che celebrano la\nbellezza e l'armonia del\nloro regno incantato."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "99e84c00-b8f7-43b1-a8b3-55f7a5bc6dfb"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "            *FINE*"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "d462be2a-fb0e-4fe3-8de6-e53156d23a1e"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "6f8d0276-8edf-4a3e-8dc7-e83c3e16c105"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -8497,76 +8848,7 @@
                     "y": 15
                 },
                 {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_57",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "c2856d70-48de-4d1c-864f-176a2682fa86",
-                    "x": 19,
-                    "y": 15
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_58",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "a2b03f22-078f-46b7-baf3-8f6e64035f43",
-                    "x": 21,
-                    "y": 15
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_59",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "a8a73f13-f752-4b77-9814-44a34ec77245",
-                    "x": 19,
-                    "y": 10
-                },
-                {
-                    "name": "",
+                    "name": "LA STORIA ANTICA",
                     "frame": 0,
                     "animate": false,
                     "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
@@ -8578,7 +8860,117 @@
                     "persistent": false,
                     "collisionGroup": "",
                     "symbol": "actor_60",
-                    "script": [],
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Vuoi leggere \n\"LA STORIA ANTICA\"?"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "5c17a979-47af-4624-87d0-c8014f3fc5b1"
+                        },
+                        {
+                            "command": "EVENT_CHOICE",
+                            "args": {
+                                "variable": "L0",
+                                "trueText": "SI",
+                                "falseText": "NO"
+                            },
+                            "id": "07b37cad-ec11-4663-8ccd-1157590b7f41"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "L0",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "   LA STORIA ANTICA\n\n1. Le radici della \n   discordia"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "1458283e-0028-4067-be30-4d14075cc475"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Arkania, un mondo dalle\nmeraviglie eteree, \nospitava due grandi \nnazioni: Valindor, terra \ndei Notterim, e ",
+                                                "Lumniria, dimora dei \nLuminir. Entrambe le \npopolazioni vivevano in \narmonia sotto la guida \ndi saggi regnanti che, ",
+                                                "attraverso il rispetto \nreciproco e la \ncooperazione, \nmantenevano l'equilibrio\ntra le loro terre.",
+                                                "Tuttavia, la pace era \ndestinata a essere \ninfranta da eventi \ninaspettati e \nincomprensioni che ",
+                                                "avrebbero cambiato \nil corso della storia."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "d710a126-775d-47af-99ae-4ac266bfe198"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "2. La Prima Scintilla"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "3cbdb7d9-802a-410a-8a96-b8ee149b3961"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "La guerra ebbe inizio \ncon l'ambizione \ncrescente del nuovo re\ndei Notterim che,\nspinto dal desiderio di",
+                                                "espandere il proprio \nregno e consolidare il \npotere, decise di \naffermare la sua \nsupremazia su Lumniria."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "8e3979bc-4529-4a8d-af6e-64dccb5040dc"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "3. La Provocazione di\n    Valindor"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "8ae769c7-a03d-4e2b-b109-69b31026f37e"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Il primo atto di \naggressione avvenne \nquando i Notterim \niniziarono a costruire \navamposti militari lungo i",
+                                                "confini con Lumniria. \nQuesto gesto fu visto \ndai Luminir come una \nprovocazione diretta e \nun chiaro segno di ",
+                                                "preparativi bellici."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "d834c2ef-92de-480f-b355-aa01cb66fe23"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "            *FINE*"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "75427461-b248-4cf3-b248-631d27d12bd4"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "d2ae70cd-9578-4537-9fb5-1dd6c7f85a89"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -8586,29 +8978,6 @@
                     "hit3Script": [],
                     "id": "aaf4c619-24b0-4cd4-aaec-66b5606720ff",
                     "x": 17,
-                    "y": 10
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_61",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "356ad7b6-0158-4973-8ab8-7a27ef11247f",
-                    "x": 21,
                     "y": 10
                 },
                 {
@@ -8679,6 +9048,1434 @@
                     "id": "88070992-8e40-4e0a-8532-0cce431302ad",
                     "x": 21,
                     "y": 5
+                },
+                {
+                    "name": "LA STORIA ANTICA",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_59",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Vuoi leggere \n\"LA STORIA ANTICA\"?"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "3d1864e2-5607-4030-b537-5b3459146776"
+                        },
+                        {
+                            "command": "EVENT_CHOICE",
+                            "args": {
+                                "variable": "L0",
+                                "trueText": "SI",
+                                "falseText": "NO"
+                            },
+                            "id": "931a5af1-6fd1-4f24-b7a3-b08ca2618c03"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "L0",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "   LA STORIA ANTICA\n\n1. Le radici della \n   discordia"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "3d81e836-f0eb-4955-9c32-bd280ac5545e"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Arkania, un mondo dalle\nmeraviglie eteree, \nospitava due grandi \nnazioni: Valindor, terra \ndei Notterim, e ",
+                                                "Lumniria, dimora dei \nLuminir. Entrambe le \npopolazioni vivevano in \narmonia sotto la guida \ndi saggi regnanti che, ",
+                                                "attraverso il rispetto \nreciproco e la \ncooperazione, \nmantenevano l'equilibrio\ntra le loro terre.",
+                                                "Tuttavia, la pace era \ndestinata a essere \ninfranta da eventi \ninaspettati e \nincomprensioni che ",
+                                                "avrebbero cambiato \nil corso della storia."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "6d7026b3-5040-44d4-bd4e-dfa4e0fb1781"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "2. La Prima Scintilla"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "df59690f-b0df-4deb-829b-ce23cffc77b4"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "La guerra ebbe inizio \ncon l'ambizione \ncrescente del nuovo re\ndei Notterim che,\nspinto dal desiderio di",
+                                                "espandere il proprio \nregno e consolidare il \npotere, decise di \naffermare la sua \nsupremazia su Lumniria."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "cba3407b-3067-4075-b915-0f1ec318f281"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "3. La Provocazione di\n    Valindor"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "834e8e4c-a81f-425e-9386-1fff482a6d37"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Il primo atto di \naggressione avvenne \nquando i Notterim \niniziarono a costruire \navamposti militari lungo i",
+                                                "confini con Lumniria. \nQuesto gesto fu visto \ndai Luminir come una \nprovocazione diretta e \nun chiaro segno di ",
+                                                "preparativi bellici."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "6f8f04f6-ddb1-400d-9f7d-686374b53ebc"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "            *FINE*"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "36d94055-2508-4ca5-9bd9-91ed7e624b7a"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "d396a541-2421-4f9d-b305-a9f301d11d56"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "edce0a25-a1a7-47aa-83ef-775471345fc9",
+                    "x": 19,
+                    "y": 10
+                },
+                {
+                    "name": "LA STORIA ANTICA",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_61",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Vuoi leggere \n\"LA STORIA ANTICA\"?"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "d29c3070-af9a-48d5-bede-2d59175cbb1a"
+                        },
+                        {
+                            "command": "EVENT_CHOICE",
+                            "args": {
+                                "variable": "L0",
+                                "trueText": "SI",
+                                "falseText": "NO"
+                            },
+                            "id": "b54bc4c7-4c1e-43c7-b98b-c3ab01bb4c11"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "L0",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "   LA STORIA ANTICA\n\n1. Le radici della \n   discordia"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "f31d6874-7c18-4f40-9c77-5fc6508cc2e5"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Arkania, un mondo dalle\nmeraviglie eteree, \nospitava due grandi \nnazioni: Valindor, terra \ndei Notterim, e ",
+                                                "Lumniria, dimora dei \nLuminir. Entrambe le \npopolazioni vivevano in \narmonia sotto la guida \ndi saggi regnanti che, ",
+                                                "attraverso il rispetto \nreciproco e la \ncooperazione, \nmantenevano l'equilibrio\ntra le loro terre.",
+                                                "Tuttavia, la pace era \ndestinata a essere \ninfranta da eventi \ninaspettati e \nincomprensioni che ",
+                                                "avrebbero cambiato \nil corso della storia."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "e6b9309e-6ad8-4d99-bbfe-b911903c2c4a"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "2. La Prima Scintilla"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "291f43dc-8782-4368-8d10-2d89adadf6b6"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "La guerra ebbe inizio \ncon l'ambizione \ncrescente del nuovo re\ndei Notterim che,\nspinto dal desiderio di",
+                                                "espandere il proprio \nregno e consolidare il \npotere, decise di \naffermare la sua \nsupremazia su Lumniria."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "6a1e88cd-536b-4665-be14-b69d24ffe6be"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "3. La Provocazione di\n    Valindor"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "9638e911-b6c6-4552-9797-fc150a84e477"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Il primo atto di \naggressione avvenne \nquando i Notterim \niniziarono a costruire \navamposti militari lungo i",
+                                                "confini con Lumniria. \nQuesto gesto fu visto \ndai Luminir come una \nprovocazione diretta e \nun chiaro segno di ",
+                                                "preparativi bellici."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "145c822e-11a8-48bc-93ee-e39f7dfadeb1"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "            *FINE*"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "6a9fba21-cfdd-424b-8bb8-e80d638f42cf"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "b98e32a9-de02-4c22-847f-3eecf7821fb0"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "1eb52aa1-aa16-48cb-b6ce-91a141839770",
+                    "x": 21,
+                    "y": 10
+                },
+                {
+                    "name": "LA GUERRA SCOPPIA",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_48",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Vuoi leggere\n\"LA GUERRA SCOPPIA\""
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "ab92ec1a-c3a6-4e7b-b539-a7b81decb963"
+                        },
+                        {
+                            "command": "EVENT_CHOICE",
+                            "args": {
+                                "variable": "L0",
+                                "trueText": "SI",
+                                "falseText": "NO"
+                            },
+                            "id": "a2e8fd3c-3221-472d-9c2c-bda0aab10aa7"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "L0",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "   LA GUERRA SCOPPIA\n\n1. Il primo conflitto"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "51b954ae-28a8-49b7-8532-978763ebd797"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "La tensione raggiunse il\nculmine quando un \ngruppo di soldati \nNotterim attraversò il \nconfine durante una ",
+                                                "missione di \n\"ricognizione\" e si \nscontrò con una\npattuglia di Lumniria.",
+                                                "Il breve ma violento \nscontro lasciò molti \nmorti e feriti su \nentrambi i lati. Questo \nincidente, interpretato",
+                                                "come un'invasione \ndeliberata, scatenò \nl'ira dei Luminir."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "cea35230-479a-48d8-a4fb-81ffea4e9b76"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "2. La Spirale di\n    Distruzione"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "26d5d9f8-a33a-4c1a-9789-11d23073242d"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "La battaglia di confine \nsegnò l'inizio di una \nlunga spirale di \ndistruzione. Ogni \ntentativo di ",
+                                                "negoziazione fallì, con \nentrambe le nazioni \nincapaci di superare la \ndiffidenza reciproca. \nOgni nuovo scontro ",
+                                                "portava con sé nuove \natrocità, alimentando \nun ciclo infinito di \nvendetta e\nsofferenza."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "e05aaf2a-cfb9-42f5-bee1-0e7b90b0e182"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "3. Pace: un ricordo\n    lontano"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "923330e2-cd4c-47c0-b9b5-7716c99706ee"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "La continua escalation \ndel conflitto creò un \nclima di odio e sospetto\ntra le due nazioni. \nGli abitanti di Valindor",
+                                                "e Lumniria iniziarono a \nvedere l'un l'altro come\nnemici naturali, \ndimenticando i secoli di \npace e cooperazione",
+                                                "che li avevano\npreceduti."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "44ed22d5-c5a3-4495-be6c-4b29ad1c1c9e"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "            *FINE*"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "bb07a2f5-4d6e-4089-9523-192de55e5d22"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "db548e79-cd13-47dc-a45b-f59b2c27ac18"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "0c7616ef-ab62-45f4-aa66-180099df6091",
+                    "x": 3,
+                    "y": 5
+                },
+                {
+                    "name": "LA GUERRA SCOPPIA",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_47",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Vuoi leggere\n\"LA GUERRA SCOPPIA\""
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "cc0d659a-75ba-4c46-8236-03661bc4b6f3"
+                        },
+                        {
+                            "command": "EVENT_CHOICE",
+                            "args": {
+                                "variable": "L0",
+                                "trueText": "SI",
+                                "falseText": "NO"
+                            },
+                            "id": "69e0ec73-48a9-4e60-b581-b79ce51fd33f"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "L0",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "   LA GUERRA SCOPPIA\n\n1. Il primo conflitto"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "ec0123a1-773f-4f57-8fed-334b094a91d5"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "La tensione raggiunse il\nculmine quando un \ngruppo di soldati \nNotterim attraversò il \nconfine durante una ",
+                                                "missione di \n\"ricognizione\" e si \nscontrò con una\npattuglia di Lumniria.",
+                                                "Il breve ma violento \nscontro lasciò molti \nmorti e feriti su \nentrambi i lati. Questo \nincidente, interpretato",
+                                                "come un'invasione \ndeliberata, scatenò \nl'ira dei Luminir."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "038a9f7b-9b66-48a8-9395-7203bf939d91"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "2. La Spirale di\n    Distruzione"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "2b2da4d4-9e7c-445b-81be-da14a716237e"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "La battaglia di confine \nsegnò l'inizio di una \nlunga spirale di \ndistruzione. Ogni \ntentativo di ",
+                                                "negoziazione fallì, con \nentrambe le nazioni \nincapaci di superare la \ndiffidenza reciproca. \nOgni nuovo scontro ",
+                                                "portava con sé nuove \natrocità, alimentando \nun ciclo infinito di \nvendetta e\nsofferenza."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "aa6904f0-ec55-4c4f-9587-c7a680a80edc"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "3. Pace: un ricordo\n    lontano"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "e90d3611-ff41-4ba9-9324-4ce1fa5bc37a"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "La continua escalation \ndel conflitto creò un \nclima di odio e sospetto\ntra le due nazioni. \nGli abitanti di Valindor",
+                                                "e Lumniria iniziarono a \nvedere l'un l'altro come\nnemici naturali, \ndimenticando i secoli di \npace e cooperazione",
+                                                "che li avevano\npreceduti."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "24e88fb2-72ed-4879-9374-bd82b2020ceb"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "            *FINE*"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "148022a5-c0ca-4821-b0fc-4e2de76581fd"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "b2b5d641-1b20-430f-9e6b-d27df0ee9622"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "eb8a2cd4-faa3-4f16-876f-b099f6cda4b3",
+                    "x": 5,
+                    "y": 5
+                },
+                {
+                    "name": "RICETTE REGIONALI",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_54",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Vuoi leggere\n\"LE RICETTE DI\n  LUMNIRIA\"?"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "a6190be8-b2ae-4f19-b866-604f3fe74a93"
+                        },
+                        {
+                            "command": "EVENT_CHOICE",
+                            "args": {
+                                "variable": "L0",
+                                "trueText": "SI",
+                                "falseText": "NO"
+                            },
+                            "id": "680a4ea9-a58d-4879-96a0-185c122d10a7"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "L0",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "     LE RICETTE DI \n        LUMNIRIA\n\n1. Zuppa di Fiori di Luna"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "42594c66-579d-431e-91f6-efc01efed4bb"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Soffriggi una cipolla \ntritata e due spicchi \nd'aglio in un cucchiaio \ndi burro. Aggiungi \nquattro carote e due ",
+                                                "patate a cubetti, \ncuocendo per cinque \nminuti. Versa un litro di\nbrodo vegetale e cuoci\na fuoco lento per venti",
+                                                "minuti. Aggiungi cento \ngrammi di petali di fiori \neduli e un po' di timo e \nrosmarino, cuocendo \nper altri cinque minuti.",
+                                                "Aggiusta di sale e\npepe e servi caldo."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "84ba3809-3f38-4827-8c8a-82ed7079f3c3"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "2. Stufato di Radici\n    Incantate"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "fe9014a7-da14-46a6-8b25-81aef1bfde0f"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Soffriggi una cipolla \ntritata in un cucchiaio\ndi olio. Aggiungi quattro\npatate, tre carote e \nuna radice di pastinaca",
+                                                "a cubetti. Copri con \nbrodo vegetale e cuoci\na fuoco lento per \ntrenta minuti. Aggiungi \ndue cucchiai di miele,",
+                                                "un pizzico di cannella e\nuna manciata di uvetta.\nAggiusta di sale e pepe\ne cuoci per altri dieci\nminuti. ",
+                                                "Servi caldo con\npane integrale."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "65bf7674-d612-46a4-b87e-aa581eeb895b"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "3. Bevanda della Luce"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "8fa22c4a-8174-4295-a72b-5742042c8cef"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Scalda un litro di latte \ncon una stecca di \ncannella, due chiodi di\ngarofano e una bacca\ndi vaniglia incisa. ",
+                                                "Sobbollisci per dieci \nminuti, poi togli dal\nfuocoe aggiungi due \ncucchiai di miele. ",
+                                                "Filtra la bevanda e \nservi caldo con una \nspolverata di cannella."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "c8db9a9d-5982-4ff6-9b94-171f17ac8abe"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "4. Arrosto di Cervo\n    al Miele"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "6ac348bd-d93e-4c13-985d-3349ba428c73"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Marina un cosciotto di \ncervo con olio, \nrosmarino, timo, sale e\npepe per un'ora. \nScalda una padella e",
+                                                "rosola il cervo su tutti \ni lati. Cuoci per un'ora.\nLascia riposare la \ncarne prima di \naffettarla",
+                                                "e servirla con \npatate arrosto."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "20c28226-4e7d-43e0-91d1-99f1598654a6"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "5. Spezzatino di \n    Cinghiale"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "fbc283d0-9ba4-4d74-95ef-3202d6177124"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Taglia la carne di \ncinghiale a cubetti e\nmarinala con vino rosso,\nalloro, aglio e pepe per\nuna notte.",
+                                                "Scola la carne e \nsoffriggila in una \npentola. Aggiungi cipolle\ntritate, carote e\nsedano. Versa il vino ",
+                                                "della marinata e cuoci a \nfuoco lento per due \nore. Aggiusta di sale e \npepe e servi con pane\nrustico."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "3c8e7da0-019f-499d-a26b-a6410aa76b83"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "            *FINE*"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "1658f1d9-43f7-4c44-9617-ec7c4828f5bf"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "6d6483da-a782-4326-83b2-16420cb0cc27"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "9b9876aa-7962-4bd8-a4ec-96233fcc2fda",
+                    "x": 3,
+                    "y": 15
+                },
+                {
+                    "name": "RICETTE REGIONALI",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_55",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Vuoi leggere\n\"LE RICETTE DI\n  LUMNIRIA\"?"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "04dd05cc-e3b8-47c7-bbad-e572f90cd354"
+                        },
+                        {
+                            "command": "EVENT_CHOICE",
+                            "args": {
+                                "variable": "L0",
+                                "trueText": "SI",
+                                "falseText": "NO"
+                            },
+                            "id": "7c9227b4-c6f1-48ec-9316-6ed6bbb0f535"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "L0",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "     LE RICETTE DI \n        LUMNIRIA\n\n1. Zuppa di Fiori di Luna"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "c5a7799e-e9c3-4ebf-b8a4-709125c760d8"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Soffriggi una cipolla \ntritata e due spicchi \nd'aglio in un cucchiaio \ndi burro. Aggiungi \nquattro carote e due ",
+                                                "patate a cubetti, \ncuocendo per cinque \nminuti. Versa un litro di\nbrodo vegetale e cuoci\na fuoco lento per venti",
+                                                "minuti. Aggiungi cento \ngrammi di petali di fiori \neduli e un po' di timo e \nrosmarino, cuocendo \nper altri cinque minuti.",
+                                                "Aggiusta di sale e\npepe e servi caldo."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "f8c93ebd-6fc5-4e44-89f1-225300955d1c"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "2. Stufato di Radici\n    Incantate"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "143e958d-6b39-454f-ad4c-9396d9977c71"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Soffriggi una cipolla \ntritata in un cucchiaio\ndi olio. Aggiungi quattro\npatate, tre carote e \nuna radice di pastinaca",
+                                                "a cubetti. Copri con \nbrodo vegetale e cuoci\na fuoco lento per \ntrenta minuti. Aggiungi \ndue cucchiai di miele,",
+                                                "un pizzico di cannella e\nuna manciata di uvetta.\nAggiusta di sale e pepe\ne cuoci per altri dieci\nminuti. ",
+                                                "Servi caldo con\npane integrale."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "2d39b938-19c9-4265-b53d-f55f82133aa2"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "3. Bevanda della Luce"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "3347a80c-f587-4ef2-a26a-045b89712f62"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Scalda un litro di latte \ncon una stecca di \ncannella, due chiodi di\ngarofano e una bacca\ndi vaniglia incisa. ",
+                                                "Sobbollisci per dieci \nminuti, poi togli dal\nfuocoe aggiungi due \ncucchiai di miele. ",
+                                                "Filtra la bevanda e \nservi caldo con una \nspolverata di cannella."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "2304fec6-6bdf-45f1-8c59-0e579ea3ac47"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "4. Arrosto di Cervo\n    al Miele"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "c2c0cfcd-bdea-4cd0-9b26-644e1b18020d"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Marina un cosciotto di \ncervo con olio, \nrosmarino, timo, sale e\npepe per un'ora. \nScalda una padella e",
+                                                "rosola il cervo su tutti \ni lati. Cuoci per un'ora.\nLascia riposare la \ncarne prima di \naffettarla",
+                                                "e servirla con \npatate arrosto."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "87806a53-d7bc-496e-b643-f32e16e6b921"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "5. Spezzatino di \n    Cinghiale"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "718af282-0d4f-41db-b750-7db5f726fac8"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Taglia la carne di \ncinghiale a cubetti e\nmarinala con vino rosso,\nalloro, aglio e pepe per\nuna notte.",
+                                                "Scola la carne e \nsoffriggila in una \npentola. Aggiungi cipolle\ntritate, carote e\nsedano. Versa il vino ",
+                                                "della marinata e cuoci a \nfuoco lento per due \nore. Aggiusta di sale e \npepe e servi con pane\nrustico."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "d3e4c9c1-c873-4267-8774-9f056b8cf55e"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "            *FINE*"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "92e135a1-41a2-42c7-a370-eaef8c337468"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "a62fbc0a-c91e-44ae-8fc6-4ed4f600794d"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "0e266c70-1504-4638-93b0-3ebd1ea339ec",
+                    "x": 5,
+                    "y": 15
+                },
+                {
+                    "name": "IL POPOLO DI LUMNIRIA",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_57",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Vuoi leggere \n\"LE RAZZE DI \n ARKANIA v.1\"?"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "17d82b96-cfd8-4061-9096-50214c814503"
+                        },
+                        {
+                            "command": "EVENT_CHOICE",
+                            "args": {
+                                "variable": "L0",
+                                "trueText": "SI",
+                                "falseText": "NO"
+                            },
+                            "id": "87e00484-6535-46f2-af90-75fad907a7ce"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "L0",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                " LE RAZZE DI ARKANIA\n               v.1\n\n1. Prefazione"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "581ede6e-fbd5-4bc2-b854-12e297404693"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Benvenuti nel primo \nvolume del \"Libro delle \nRazze di Arkania\", \ndedicato agli Abitanti \ndi Lumniria.",
+                                                "Queste pagine \nesploreranno le \ncaratteristiche fisiche \nuniche e la cultura \naffascinante di questa",
+                                                "magica e \nincantata razza."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "c42cb80d-96d3-4a52-b681-8b5501e52492"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "2. Caratteristiche\n    fisiche"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "c3e9432b-2d43-49e5-8735-62eb622b93bf"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Gli abitanti di Lumniria\npossiedono una pelle\ntraslucida che emette\nuna delicata luce\ninterna, conferendo",
+                                                "loro un aspetto simile a\nquello delle creature\nfatate. I loro occhi\nsono di un colore scuro\ne profondo, riflettendo",
+                                                "la loro misteriosa \nsaggezza e aggiungendo\nun tocco di grazia e\nfascino al loro aspetto\ngià incantevole. ",
+                                                "Le orecchie degli \nabitanti di Lumniria \nsono appuntite e \nleggermente allungate,\nulteriormente ",
+                                                "enfatizzando \nla loro natura mistica."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "d233bc2f-4354-4c8f-beeb-9ccd756ceb4f"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "3. Cultura di Lumniria"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "e8df862e-1ca5-40c1-bf18-e7df94e61b36"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "La cultura degli abitanti\ndi Lumniria è intrisa di\nmisticismo e spiritualità.\nSono un popolo pacifico\ne saggio, con una ",
+                                                "profonda connessione\ncon la natura e il mondo\ndegli spiriti. La loro\nsocietà è guidata dalla\nsaggezza degli anziani e",
+                                                "dalla ricerca della pace\ne dell'equilibrio.\nLa storia degli abitanti\ndi Lumniria è ricca di\nleggende e racconti ",
+                                                "che celebrano la\nbellezza e l'armonia del\nloro regno incantato."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "a350d88c-02d8-4be5-ad34-8756f5696a5f"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "            *FINE*"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "6658fa02-4b30-4b1b-97fc-1f7211d73b46"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "98d0e7b2-3555-417a-a27f-3ad8f134dc59"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "64189156-6d03-4f4c-981f-7deaa775b2bf",
+                    "x": 19,
+                    "y": 15
+                },
+                {
+                    "name": "IL POPOLO DI LUMNIRIA",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_58",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Vuoi leggere \n\"LE RAZZE DI \n ARKANIA v.1\"?"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "2b38e331-3c58-479e-ab9b-5dbbf45b56d1"
+                        },
+                        {
+                            "command": "EVENT_CHOICE",
+                            "args": {
+                                "variable": "L0",
+                                "trueText": "SI",
+                                "falseText": "NO"
+                            },
+                            "id": "b8def4d7-1fd1-4d35-a2d9-7b4465373f98"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "L0",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                " LE RAZZE DI ARKANIA\n               v.1\n\n1. Prefazione"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "e9da3f5b-d2fe-4b52-b1e0-a941871f419b"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Benvenuti nel primo \nvolume del \"Libro delle \nRazze di Arkania\", \ndedicato agli Abitanti \ndi Lumniria.",
+                                                "Queste pagine \nesploreranno le \ncaratteristiche fisiche \nuniche e la cultura \naffascinante di questa",
+                                                "magica e \nincantata razza."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "35301f1b-94f2-40cb-bb1b-3e5a14a3db8c"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "2. Caratteristiche\n    fisiche"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "7450b120-7e3a-4b60-a688-9e2c337e53e6"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Gli abitanti di Lumniria\npossiedono una pelle\ntraslucida che emette\nuna delicata luce\ninterna, conferendo",
+                                                "loro un aspetto simile a\nquello delle creature\nfatate. I loro occhi\nsono di un colore scuro\ne profondo, riflettendo",
+                                                "la loro misteriosa \nsaggezza e aggiungendo\nun tocco di grazia e\nfascino al loro aspetto\ngià incantevole. ",
+                                                "Le orecchie degli \nabitanti di Lumniria \nsono appuntite e \nleggermente allungate,\nulteriormente ",
+                                                "enfatizzando \nla loro natura mistica."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "e4f5e136-2e34-434d-90d8-f05c0d4646ce"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "3. Cultura di Lumniria"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "707a0b5f-1750-4101-91d3-9bb2c17fd74b"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "La cultura degli abitanti\ndi Lumniria è intrisa di\nmisticismo e spiritualità.\nSono un popolo pacifico\ne saggio, con una ",
+                                                "profonda connessione\ncon la natura e il mondo\ndegli spiriti. La loro\nsocietà è guidata dalla\nsaggezza degli anziani e",
+                                                "dalla ricerca della pace\ne dell'equilibrio.\nLa storia degli abitanti\ndi Lumniria è ricca di\nleggende e racconti ",
+                                                "che celebrano la\nbellezza e l'armonia del\nloro regno incantato."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "18aee91c-bd16-4f7a-95b7-e49ca31d032f"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "            *FINE*"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "1314eb1d-6b09-41ec-9349-4ae69390171f"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "0de332d8-0325-4744-aa52-dc13a4dca733"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "3955560b-4831-4b71-b46f-b2e06746767a",
+                    "x": 21,
+                    "y": 15
+                },
+                {
+                    "name": "IL POPOLO DI VALINDOR",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_51",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Vuoi leggere \n\"LE RAZZE DI \n ARKANIA v.2\"?"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "09739b4e-c5f3-4777-9efa-ed0b85778837"
+                        },
+                        {
+                            "command": "EVENT_CHOICE",
+                            "args": {
+                                "variable": "L0",
+                                "trueText": "SI",
+                                "falseText": "NO"
+                            },
+                            "id": "acba1cd0-efce-44f2-bf44-b92f37df5a7c"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "L0",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                " LE RAZZE DI ARKANIA\n               v.2\n\n1. Prefazione"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "086164e2-7f11-42ae-aec9-dfcfd260c229"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Benvenuti nel secondo \nvolume del \"Libro delle \nRazze di Arkania\", \ndedicato ai Notterim di \nValindor.",
+                                                "Queste pagine \nesploreranno le \ncaratteristiche fisiche\nuniche e la cultura\naffascinante di questa",
+                                                "antica e misteriosa\nrazza."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "572590be-5507-461d-8df0-9fff2f33e99e"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "2. Caratteristiche\n    fisiche"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "4ea89547-bb01-44fd-9a65-a78e6855a73a"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "I Notterim, abitanti di\nValindor, sono\nconosciuti per la loro\npelle scura e\niridescente, ",
+                                                "che riflette come \nl'argento alla luce del\nsole e brilla con una\nluminescenza eterea\nsotto la luce della luna.",
+                                                "Questa caratteristica \ndona loro un aspetto\nsorprendente e\nsoprannaturale. Gli\nocchi dei Notterim sono ",
+                                                "chiari e brillano con una\nluce interiore,\nemanando una\nsensazione di calma e\nsaggezza che",
+                                                "contrasta\nmagnificamente con la\nloro pelle luminosa."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "1b581d05-7d23-4701-a7b5-e452d1338007"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "3. Cultura di Valindor"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "9905b58e-0398-423b-8651-3912979f80e2"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "La cultura dei Notterim\nè caratterizzata da \nuna mentalità \nguerrigliera e dalla \npratica delle arti",
+                                                "belliche. Essi sono abili\nguerrieri e difensori \ndel loro regno, pronti a\ndifendere la loro terra\nda qualsiasi minaccia.",
+                                                "La società Notterim è\norganizzata attorno\nalla forza militare, con\nun sistema gerarchico\nche premia il coraggio",
+                                                "e la destrezza \nnel combattimento."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "9aad401f-891a-4234-a524-9792b7046c2c"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "            *FINE*"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "09f069ef-82cf-4787-a666-c3660fd701f4"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "8bcd5553-498f-45d2-b469-d69e74f70dce"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "37baf4c9-ee22-483c-8c35-f3042ab0a52a",
+                    "x": 3,
+                    "y": 10
+                },
+                {
+                    "name": "IL POPOLO DI VALINDOR",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_52",
+                    "script": [
+                        {
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Vuoi leggere \n\"LE RAZZE DI \n ARKANIA v.2\"?"
+                                ],
+                                "avatarId": ""
+                            },
+                            "id": "12b0944e-a3a0-44b8-a9fe-2b4e7a7e3f48"
+                        },
+                        {
+                            "command": "EVENT_CHOICE",
+                            "args": {
+                                "variable": "L0",
+                                "trueText": "SI",
+                                "falseText": "NO"
+                            },
+                            "id": "54247a21-49ac-4fcf-9c26-209edbcc7c40"
+                        },
+                        {
+                            "command": "EVENT_IF_TRUE",
+                            "args": {
+                                "variable": "L0",
+                                "__collapseElse": true
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                " LE RAZZE DI ARKANIA\n               v.2\n\n1. Prefazione"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "c71fd446-53c7-4dc1-bafb-36b420fb2a21"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "Benvenuti nel secondo \nvolume del \"Libro delle \nRazze di Arkania\", \ndedicato ai Notterim di \nValindor.",
+                                                "Queste pagine \nesploreranno le \ncaratteristiche fisiche\nuniche e la cultura\naffascinante di questa",
+                                                "antica e misteriosa\nrazza."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "6972a4e1-4629-4595-a818-3950fe5a49cf"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "2. Caratteristiche\n    fisiche"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "aed1a149-fad1-4a3a-8853-98441006dfc0"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "I Notterim, abitanti di\nValindor, sono\nconosciuti per la loro\npelle scura e\niridescente, ",
+                                                "che riflette come \nl'argento alla luce del\nsole e brilla con una\nluminescenza eterea\nsotto la luce della luna.",
+                                                "Questa caratteristica \ndona loro un aspetto\nsorprendente e\nsoprannaturale. Gli\nocchi dei Notterim sono ",
+                                                "chiari e brillano con una\nluce interiore,\nemanando una\nsensazione di calma e\nsaggezza che",
+                                                "contrasta\nmagnificamente con la\nloro pelle luminosa."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "b659044a-36a6-4906-91a5-79defcaf26cb"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "3. Cultura di Valindor"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "734e52c8-0f75-47a5-b2fe-b6d0933ef910"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "La cultura dei Notterim\nè caratterizzata da \nuna mentalità \nguerrigliera e dalla \npratica delle arti",
+                                                "belliche. Essi sono abili\nguerrieri e difensori \ndel loro regno, pronti a\ndifendere la loro terra\nda qualsiasi minaccia.",
+                                                "La società Notterim è\norganizzata attorno\nalla forza militare, con\nun sistema gerarchico\nche premia il coraggio",
+                                                "e la destrezza \nnel combattimento."
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "829df418-f899-4379-99a6-6fdb86b6c99c"
+                                    },
+                                    {
+                                        "command": "EVENT_TEXT",
+                                        "args": {
+                                            "text": [
+                                                "            *FINE*"
+                                            ],
+                                            "avatarId": ""
+                                        },
+                                        "id": "956d7706-5954-4413-96f1-60716a5e72db"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "a319c333-0d4c-4776-b60d-245fac3bb5de"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "fe59eb78-721a-4e3b-92f1-215e2637e01c",
+                    "x": 5,
+                    "y": 10
                 }
             ],
             "triggers": [
@@ -11212,7 +13009,7 @@
                     "hit3Script": [],
                     "id": "6161f114-a040-4e92-b4bd-d7d078b9a3fc",
                     "x": 13,
-                    "y": 11
+                    "y": 12
                 }
             ],
             "triggers": [
@@ -15604,7 +17401,11 @@
                 "78035e9c-8c42-4d44-960d-1a3f9e8abf88",
                 "default-sprite"
             ],
-            "spritePaletteIds": [],
+            "spritePaletteIds": [
+                null,
+                null,
+                "33678536-d7e1-410f-98d1-8b9ab5fe6c63"
+            ],
             "collisions": [
                 15,
                 15,
@@ -16000,10 +17801,10 @@
                     "name": "",
                     "frame": 0,
                     "animate": false,
-                    "spriteSheetId": "ca9a0f48-5610-411c-a30e-e1ca65f030b0",
-                    "direction": "down",
+                    "spriteSheetId": "2ee85c95-6be9-468c-90b8-2cbc0002c1fb",
+                    "direction": "left",
                     "moveSpeed": 1,
-                    "animSpeed": 15,
+                    "animSpeed": 255,
                     "paletteId": "",
                     "isPinned": false,
                     "persistent": false,
@@ -16017,7 +17818,7 @@
                     "hit3Script": [],
                     "id": "ef1bf0e0-98ce-4da2-a67c-4774fa605f29",
                     "x": 13,
-                    "y": 14
+                    "y": 13
                 }
             ],
             "triggers": [
@@ -26851,7 +28652,145 @@
                     "collisionGroup": "",
                     "symbol": "actor_32",
                     "script": [],
-                    "startScript": [],
+                    "startScript": [
+                        {
+                            "command": "EVENT_SET_TIMER_SCRIPT",
+                            "args": {
+                                "timer": 2,
+                                "duration": 1.5,
+                                "frames": 30,
+                                "__scriptTabs": "end",
+                                "__collapse": false
+                            },
+                            "children": {
+                                "script": [
+                                    {
+                                        "command": "EVENT_VARIABLE_MATH",
+                                        "args": {
+                                            "vectorX": "L0",
+                                            "operation": "set",
+                                            "other": "rnd",
+                                            "vectorY": "L0",
+                                            "value": "0",
+                                            "minValue": "0",
+                                            "maxValue": 3,
+                                            "clamp": false
+                                        },
+                                        "id": "489e904c-1e11-4e0a-9f64-580b9b8a2fa3"
+                                    },
+                                    {
+                                        "command": "EVENT_SWITCH",
+                                        "args": {
+                                            "variable": "L0",
+                                            "choices": 4,
+                                            "__collapseCase0": false,
+                                            "value0": 0,
+                                            "__collapseCase1": false,
+                                            "value1": 1,
+                                            "__collapseCase2": false,
+                                            "value2": 2,
+                                            "__collapseCase3": false,
+                                            "value3": 3,
+                                            "__collapseCase4": false,
+                                            "value4": 5,
+                                            "__collapseCase5": false,
+                                            "value5": 6,
+                                            "__collapseCase6": false,
+                                            "value6": 7,
+                                            "__collapseCase7": false,
+                                            "value7": 8,
+                                            "__collapseCase8": false,
+                                            "value8": 9,
+                                            "__collapseCase9": false,
+                                            "value9": 10,
+                                            "__collapseCase10": false,
+                                            "value10": 11,
+                                            "__collapseCase11": false,
+                                            "value11": 12,
+                                            "__collapseCase12": false,
+                                            "value12": 13,
+                                            "__collapseCase13": false,
+                                            "value13": 14,
+                                            "__collapseCase14": false,
+                                            "value14": 15,
+                                            "__collapseCase15": false,
+                                            "value15": 16,
+                                            "__collapseElse": false
+                                        },
+                                        "children": {
+                                            "true0": [
+                                                {
+                                                    "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "direction": {
+                                                            "type": "direction",
+                                                            "value": "up"
+                                                        }
+                                                    },
+                                                    "id": "636db19c-827a-4194-9b31-916f57b7b6f7"
+                                                }
+                                            ],
+                                            "true1": [
+                                                {
+                                                    "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "direction": {
+                                                            "type": "direction",
+                                                            "value": "down"
+                                                        }
+                                                    },
+                                                    "id": "c7adb619-d1d9-4935-bc80-8ffa1147a118"
+                                                }
+                                            ],
+                                            "true2": [
+                                                {
+                                                    "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "direction": {
+                                                            "type": "direction",
+                                                            "value": "left"
+                                                        }
+                                                    },
+                                                    "id": "3bf7e9f1-346c-475c-b3c7-fd98344c9bfa"
+                                                }
+                                            ],
+                                            "true3": [
+                                                {
+                                                    "command": "EVENT_ACTOR_SET_DIRECTION",
+                                                    "args": {
+                                                        "actorId": "$self$",
+                                                        "direction": {
+                                                            "type": "direction",
+                                                            "value": "right"
+                                                        }
+                                                    },
+                                                    "id": "7c751ac7-498f-476d-91c5-7d885148f2fe"
+                                                }
+                                            ],
+                                            "true4": [],
+                                            "true5": [],
+                                            "true6": [],
+                                            "true7": [],
+                                            "true8": [],
+                                            "true9": [],
+                                            "true10": [],
+                                            "true11": [],
+                                            "true12": [],
+                                            "true13": [],
+                                            "true14": [],
+                                            "true15": [],
+                                            "false": []
+                                        },
+                                        "id": "4d8778e4-5f81-4047-9fd7-1e9c4eaa27d2"
+                                    }
+                                ]
+                            },
+                            "id": "b8dc7118-8f1c-42b7-a5b5-05d7f46eb90a"
+                        }
+                    ],
                     "updateScript": [],
                     "hit1Script": [],
                     "hit2Script": [],
@@ -55640,6 +57579,15 @@
                     "id": "f16b2da8-6e60-4c63-b7fb-691fc07f2a6f"
                 }
             ]
+        },
+        {
+            "id": "5743c455-e229-4edc-9b5d-69c72f6bb53f",
+            "name": "RandomFacing",
+            "description": "",
+            "variables": {},
+            "actors": {},
+            "symbol": "script_23",
+            "script": []
         }
     ],
     "music": [
@@ -55879,6 +57827,11 @@
             "id": "25",
             "name": "IntroduzioneCasaMiriel",
             "symbol": "var_introduzionecasamiriel"
+        },
+        {
+            "id": "26",
+            "name": "ArborlucisSbloccato",
+            "symbol": "var_arborlucissbloccato"
         },
         {
             "id": "509",
@@ -56241,9 +58194,9 @@
             "symbol": "var_first_0"
         },
         {
-            "id": "26",
-            "name": "ArborlucisSbloccato",
-            "symbol": "var_arborlucissbloccato"
+            "id": "a1674535-a002-4201-b2ef-447779d6452b__L0",
+            "name": "Rand",
+            "symbol": "var_rand"
         }
     ],
     "engineFieldValues": [
@@ -56267,9 +58220,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 2000,
-        "worldScrollY": 924.6666870117188,
-        "zoom": 89.2577656587764,
+        "worldScrollX": 1226.6666259765625,
+        "worldScrollY": 566.6666870117188,
+        "zoom": 66.79446973429549,
         "customColorsEnabled": true,
         "sgbEnabled": true,
         "customHead": "",
@@ -56302,7 +58255,7 @@
             526
         ],
         "showNavigator": true,
-        "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
+        "defaultFontId": "8ed435d9-51cb-44e7-8b0d-ca85e63ca427",
         "defaultCharacterEncoding": "",
         "defaultPlayerSprites": {
             "TOPDOWN": "97725d76-8ca3-4667-b96f-9b8867edcf4f",
