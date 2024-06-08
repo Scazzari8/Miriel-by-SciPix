@@ -5572,7 +5572,7 @@
                                 "sceneId": "d0162c12-034d-4494-a35c-cb123d4d211a",
                                 "x": 9,
                                 "y": 16,
-                                "direction": "",
+                                "direction": "up",
                                 "fadeSpeed": "2"
                             },
                             "id": "0ffa2329-bb8b-4ecc-92c5-37aead87b2a0"
@@ -59166,8 +59166,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 5562.66650390625,
-        "worldScrollY": 2063.333251953125,
+        "worldScrollX": 4979.33349609375,
+        "worldScrollY": 2357.333251953125,
         "zoom": 207.49553670512068,
         "customColorsEnabled": true,
         "sgbEnabled": true,
