@@ -156,8 +156,8 @@
                     "command": "EVENT_SWITCH_SCENE",
                     "args": {
                         "sceneId": "705b7bb8-dc2d-4a54-a4ff-92627310c374",
-                        "x": 30,
-                        "y": 30,
+                        "x": 23,
+                        "y": 5,
                         "direction": "",
                         "fadeSpeed": "2"
                     },
@@ -1959,8 +1959,48 @@
                 0,
                 0,
                 0,
+                15,
+                15,
+                15,
+                15,
                 0,
                 0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                15,
+                15,
                 15,
                 15,
                 0,
@@ -2001,48 +2041,6 @@
                 0,
                 0,
                 0,
-                15,
-                15,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
                 0,
                 0,
                 0,
@@ -2163,6 +2161,8 @@
                 0,
                 15,
                 15,
+                15,
+                15,
                 0,
                 0,
                 0,
@@ -2199,8 +2199,8 @@
                 0,
                 0,
                 0,
-                0,
-                0,
+                15,
+                15,
                 15,
                 15,
                 0,
@@ -3142,7 +3142,7 @@
                     "hit2Script": [],
                     "hit3Script": [],
                     "id": "af385451-373f-401c-b7db-acfd6f4d95e8",
-                    "x": 23,
+                    "x": 22,
                     "y": 10
                 }
             ],
@@ -3189,6 +3189,17 @@
                     "symbol": "trigger_15",
                     "width": 3,
                     "height": 1,
+                    "script": [],
+                    "leaveScript": []
+                },
+                {
+                    "name": "",
+                    "id": "ceb7de40-d5b0-495e-8001-f5a2fe8e5acf",
+                    "x": 3,
+                    "y": 9,
+                    "symbol": "trigger_0",
+                    "width": 1,
+                    "height": 3,
                     "script": [],
                     "leaveScript": []
                 }
@@ -3371,6 +3382,13 @@
                         ]
                     },
                     "id": "2a2ad64e-5c3f-4ec3-818e-c103367b3b14"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "fa898efb-eb4c-407f-b996-91e4907e8bc8"
+                    },
+                    "id": "585d4f3b-ca77-4b4c-becc-a3a052b2b280"
                 }
             ],
             "playerHit1Script": [],
@@ -3987,7 +4005,7 @@
             "id": "8b8a2add-4a26-40e6-b7e8-e2086b7836aa",
             "symbol": "scene_5",
             "x": 2453.8045097972768,
-            "y": 1635.197569776942,
+            "y": 1636.5309031102752,
             "actors": [
                 {
                     "name": "CuoreMiriel",
@@ -6747,6 +6765,13 @@
                         ]
                     },
                     "id": "329d8232-51a1-4e2c-90ac-b94c76e77252"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "161f6035-29c7-43e2-8215-4273dfc3683b"
+                    },
+                    "id": "48fde9b1-b66a-4578-b8a7-f5e39397c8c8"
                 }
             ],
             "playerHit1Script": [],
@@ -9377,7 +9402,7 @@
                 {
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
-                        "musicId": "fec112f4-1465-4f83-b781-3991777fb037"
+                        "musicId": "bd3cba85-ad6a-4c05-a3fb-d6eabdf1e8ed"
                     },
                     "id": "95b4d2ba-be6b-4a54-b818-23173781d038"
                 }
@@ -10239,6 +10264,13 @@
                         ]
                     },
                     "id": "b1758d0b-8d20-4dff-931b-de05b306a736"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "161f6035-29c7-43e2-8215-4273dfc3683b"
+                    },
+                    "id": "882b6ec4-d3f9-412b-a225-0e0a647f15bc"
                 }
             ],
             "playerHit1Script": [],
@@ -10857,6 +10889,13 @@
                         ]
                     },
                     "id": "7fc3ae9f-f9a0-4a4d-a3c1-6436db96e755"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "161f6035-29c7-43e2-8215-4273dfc3683b"
+                    },
+                    "id": "3ad1311f-eb09-48a3-a1ef-5193c7b522c1"
                 }
             ],
             "playerHit1Script": [],
@@ -11476,6 +11515,13 @@
                         ]
                     },
                     "id": "977b48f4-c783-4de3-81dc-a2cae59bb072"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "161f6035-29c7-43e2-8215-4273dfc3683b"
+                    },
+                    "id": "115b51b7-3014-4211-94b2-1840ed057127"
                 }
             ],
             "playerHit1Script": [],
@@ -12241,6 +12287,13 @@
                         ]
                     },
                     "id": "41cce5c9-e255-4442-a94d-11e3e7ef1bd8"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "bd3cba85-ad6a-4c05-a3fb-d6eabdf1e8ed"
+                    },
+                    "id": "2fb3852f-d496-4f27-aea8-5c97f1cfcea1"
                 }
             ],
             "playerHit1Script": [],
@@ -13155,6 +13208,13 @@
                         ]
                     },
                     "id": "4079db8f-52da-4db8-95d1-370dfcc8dd31"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "bd3cba85-ad6a-4c05-a3fb-d6eabdf1e8ed"
+                    },
+                    "id": "5e2f7718-2b95-4aee-89aa-87bf660a7965"
                 }
             ],
             "playerHit1Script": [],
@@ -13542,7 +13602,7 @@
             "id": "6a1e5c3c-3997-4d68-9d5a-6e007b02fce8",
             "symbol": "scene_12",
             "x": 3106.3352427302893,
-            "y": 963.6669505004772,
+            "y": 965.0002838338106,
             "actors": [
                 {
                     "name": "CuoreMiriel",
@@ -13921,6 +13981,13 @@
                         ]
                     },
                     "id": "2ae3bf68-9b01-4c93-88b4-f582bb09e5eb"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "bd3cba85-ad6a-4c05-a3fb-d6eabdf1e8ed"
+                    },
+                    "id": "97a6d98e-554c-486c-849c-b07a1dac776e"
                 }
             ],
             "playerHit1Script": [],
@@ -14541,6 +14608,13 @@
                         ]
                     },
                     "id": "a15662d6-7ac9-4121-8b36-3864c1fbb932"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "bd3cba85-ad6a-4c05-a3fb-d6eabdf1e8ed"
+                    },
+                    "id": "131b6da0-adc9-4d44-a640-78ee20988713"
                 }
             ],
             "playerHit1Script": [],
@@ -15501,6 +15575,13 @@
                         ]
                     },
                     "id": "9d3b03be-576b-429d-8775-17e4d0b73b1d"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "161f6035-29c7-43e2-8215-4273dfc3683b"
+                    },
+                    "id": "99aeffed-5a50-44c9-a3da-344f3113770d"
                 }
             ],
             "playerHit1Script": [],
@@ -15935,6 +16016,19 @@
                                 "avatarId": ""
                             },
                             "id": "65749be8-e3e5-463e-9056-777185e7ad64"
+                        },
+                        {
+                            "command": "EVENT_SOUND_PLAY_EFFECT",
+                            "args": {
+                                "type": "beep",
+                                "priority": "medium",
+                                "pitch": 4,
+                                "frequency": 200,
+                                "duration": 0.5,
+                                "wait": true,
+                                "effect": 0
+                            },
+                            "id": "783a9123-c65c-4ab1-ad8d-b28e4861f83a"
                         }
                     ],
                     "startScript": [],
@@ -16128,6 +16222,13 @@
                         ]
                     },
                     "id": "7d054f78-c48b-408a-ad28-8225e99ac75c"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "161f6035-29c7-43e2-8215-4273dfc3683b"
+                    },
+                    "id": "8ebe7dcb-cac3-450b-84e5-7212f687e456"
                 }
             ],
             "playerHit1Script": [],
@@ -16743,6 +16844,13 @@
                         ]
                     },
                     "id": "257a0df5-411b-4f8a-95fe-57629fb55b8b"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "161f6035-29c7-43e2-8215-4273dfc3683b"
+                    },
+                    "id": "3328a0b2-acb7-4f7e-b014-2c74eca726cc"
                 }
             ],
             "playerHit1Script": [],
@@ -17505,6 +17613,13 @@
                         ]
                     },
                     "id": "fe2314ab-67e6-4ce1-bff8-d72f04af263d"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "161f6035-29c7-43e2-8215-4273dfc3683b"
+                    },
+                    "id": "1ace96c9-8f29-472f-b583-837fe85ef72b"
                 }
             ],
             "playerHit1Script": [],
@@ -18116,6 +18231,13 @@
                         ]
                     },
                     "id": "ad64bb03-3aa9-4ee8-b4bf-17e61c99d0c7"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "161f6035-29c7-43e2-8215-4273dfc3683b"
+                    },
+                    "id": "0fa40e1c-2888-489b-b8ed-cb33c904e73a"
                 }
             ],
             "playerHit1Script": [],
@@ -23211,6 +23333,29 @@
                     "id": "c70b6e43-1a68-407a-ad37-861366a8b07b",
                     "x": 40,
                     "y": 25
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "ac62b5f1-6469-4948-88e1-39cfbd64bd3b",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_1",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "001d6b0a-fe5a-43d6-80a3-c40cfa4e9383",
+                    "x": 44,
+                    "y": 0
                 }
             ],
             "triggers": [
@@ -26202,7 +26347,9 @@
             "paletteIds": [
                 "default-bg-2",
                 "33678536-d7e1-410f-98d1-8b9ab5fe6c63",
-                "95dca5fc-e1b7-4a0c-bf46-d368881c40fc"
+                "95dca5fc-e1b7-4a0c-bf46-d368881c40fc",
+                "e11a6430-5d9a-4a78-b45f-40da78b743a8",
+                "0e73ffd5-66a2-4f14-aecd-3c0dabb1c32b"
             ],
             "spritePaletteIds": [],
             "collisions": [
@@ -26882,6 +27029,104 @@
                         ]
                     },
                     "id": "7ef8083f-0adc-4f4a-a584-3a30baa98fca"
+                },
+                {
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "161f6035-29c7-43e2-8215-4273dfc3683b"
+                    },
+                    "id": "7ff8f077-3d81-4b34-9288-f9a25fedcd64"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
+        },
+        {
+            "name": "Scene 22",
+            "backgroundId": "323c047c-a180-47dc-9657-c16d4237bdbe",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [
+                "36134259-c363-49cd-b909-6faf07843841"
+            ],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "f05316f2-016b-48d2-907e-224564b62a63",
+            "symbol": "scene_2",
+            "x": 2478.4,
+            "y": 792,
+            "actors": [],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Ciao Miriel, come stai? \nMi prenderesti le erbe\nmedicinali per i miei mali."
+                        ],
+                        "avatarId": ""
+                    },
+                    "id": "ef794d01-3a35-40e1-8f4f-7fbea9b79264"
+                }
+            ],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
+        },
+        {
+            "name": "Scene 23",
+            "backgroundId": "70df61bd-1576-4cec-a5f8-aead2bdaf57d",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [
+                "36134259-c363-49cd-b909-6faf07843841"
+            ],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "87b6583b-13a9-4871-a537-d5bcfab5e40f",
+            "symbol": "scene_23",
+            "x": 1902.4,
+            "y": 1161.6000000000001,
+            "actors": [],
+            "triggers": [],
+            "script": [],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": []
+        },
+        {
+            "name": "Scene 24",
+            "backgroundId": "51337b2f-9da7-493c-a39f-d41178f71721",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [
+                "36134259-c363-49cd-b909-6faf07843841"
+            ],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "87361ef4-c0c2-4b8b-b395-1271699c260a",
+            "symbol": "scene_24",
+            "x": 1909.6,
+            "y": 860.8,
+            "actors": [],
+            "triggers": [],
+            "script": [
+                {
+                    "command": "EVENT_TEXT",
+                    "args": {
+                        "text": [
+                            "Ciao come stai\nio tutto bene\ntu? come stai"
+                        ],
+                        "avatarId": ""
+                    },
+                    "id": "777cbdcf-9c39-4bbf-abde-ef3701308b4c"
                 }
             ],
             "playerHit1Script": [],
@@ -30167,6 +30412,400 @@
             ]
         },
         {
+            "id": "323c047c-a180-47dc-9657-c16d4237bdbe",
+            "name": "Cine1",
+            "symbol": "bg_cine1",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Cine1.png",
+            "tileColors": []
+        },
+        {
+            "id": "70df61bd-1576-4cec-a5f8-aead2bdaf57d",
+            "name": "Cine2",
+            "symbol": "bg_cine2",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Cine2.png",
+            "tileColors": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "id": "51337b2f-9da7-493c-a39f-d41178f71721",
+            "name": "Cine3",
+            "symbol": "bg_cine3",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Cine3.png",
+            "tileColors": []
+        },
+        {
             "id": "f6048743-d81c-453d-8517-7c4f8df7be48",
             "name": "GuardianoVillaggio1",
             "symbol": "bg_guardianovillaggio1",
@@ -30496,8 +31135,8 @@
                 0,
                 0,
                 0,
-                3,
-                5,
+                0,
+                0,
                 5,
                 5,
                 5,
@@ -50082,6 +50721,16 @@
                 "403808",
                 "000000"
             ]
+        },
+        {
+            "id": "36134259-c363-49cd-b909-6faf07843841",
+            "name": "CineMiriel",
+            "colors": [
+                "F8F8F8",
+                "787888",
+                "484858",
+                "000000"
+            ]
         }
     ],
     "customEvents": [
@@ -54327,10 +54976,82 @@
             "type": "mod"
         },
         {
+            "id": "422b227b-1e74-4d33-b9fb-daf5832813fa",
+            "name": "Another Time Perhaps Slow",
+            "symbol": "song_another_time_perhaps_s",
+            "filename": "Another Time Perhaps Slow.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "a6027d8a-4b55-48eb-8ddd-98fcbbcbb3e6",
+            "name": "Another Time Perhaps",
+            "symbol": "song_another_time_perhaps",
+            "filename": "Another Time Perhaps.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "ee0d13d1-59fe-4664-b6db-8e15c241f9c5",
+            "name": "Caustic Slow",
+            "symbol": "song_caustic_slow",
+            "filename": "Caustic Slow.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "3f1bc231-ad06-47a3-89dc-bb2092c24ca5",
+            "name": "Caustic Slower",
+            "symbol": "song_caustic_slower",
+            "filename": "Caustic Slower.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "00348491-783c-45fe-8c42-0ff868f75518",
+            "name": "Caustic",
+            "symbol": "song_caustic",
+            "filename": "Caustic.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
             "id": "e00437ab-d9ec-46a0-bb00-18658081ee9b",
             "name": "Claimed",
             "symbol": "song_claimed",
             "filename": "Claimed.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "dbe9ac1c-f7fe-49d3-892b-95a1b06838aa",
+            "name": "Countersunk - No Drums",
+            "symbol": "song_countersunk_no_drums",
+            "filename": "Countersunk - No Drums.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "0c48a219-6c04-4cda-8e14-ae713186fe1c",
+            "name": "Countersunk Fast - No Drums",
+            "symbol": "song_countersunk_fast_no_dr",
+            "filename": "Countersunk Fast - No Drums.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "9894171b-d36e-4342-8b1a-43ecc47b3b84",
+            "name": "Countersunk Fast",
+            "symbol": "song_countersunk_fast",
+            "filename": "Countersunk Fast.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "b8f44557-6b53-414b-b9cc-0876307342a3",
+            "name": "Countersunk",
+            "symbol": "song_countersunk",
+            "filename": "Countersunk.mod",
             "settings": {},
             "type": "mod"
         },
@@ -54393,10 +55114,122 @@
             "type": "mod"
         },
         {
+            "id": "69a0662f-353f-45ce-a8e3-983fa8bb1730",
+            "name": "Falling to Earth (Loop) - No Drums",
+            "symbol": "song_falling_to_earth_loop_",
+            "filename": "Falling to Earth (Loop) - No Drums.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "a3c84009-7f03-4090-84a6-ee12b547b260",
+            "name": "Falling to Earth (Loop) Slow - No Drums",
+            "symbol": "song_falling_to_earth_loop__0",
+            "filename": "Falling to Earth (Loop) Slow - No Drums.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "f44cf645-f192-43b1-b978-8d37473efec4",
+            "name": "Falling to Earth (Loop) Slow",
+            "symbol": "song_falling_to_earth_loop__1",
+            "filename": "Falling to Earth (Loop) Slow.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "351cadeb-b2c7-44a8-83da-d5208ce6ed9b",
+            "name": "Falling to Earth (Loop)",
+            "symbol": "song_falling_to_earth_loop__2",
+            "filename": "Falling to Earth (Loop).mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "c2ea6819-693d-456a-8cbb-daf1f8a12cee",
+            "name": "Falling to Earth (No Loop) - No Drums",
+            "symbol": "song_falling_to_earth_no_lo",
+            "filename": "Falling to Earth (No Loop) - No Drums.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "00f8c36b-fd49-4237-9242-cbf24f82dd18",
+            "name": "Falling to Earth (No Loop) Slow - No Drums",
+            "symbol": "song_falling_to_earth_no_lo_0",
+            "filename": "Falling to Earth (No Loop) Slow - No Drums.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "8cfa999f-e312-4c91-a647-4a5b5f4cce0b",
+            "name": "Falling to Earth (No Loop) Slow",
+            "symbol": "song_falling_to_earth_no_lo_1",
+            "filename": "Falling to Earth (No Loop) Slow.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "b22f20d5-709a-4c3d-a261-c04752ea202f",
+            "name": "Falling to Earth (No Loop)",
+            "symbol": "song_falling_to_earth_no_lo_2",
+            "filename": "Falling to Earth (No Loop).mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
             "id": "bd3cba85-ad6a-4c05-a3fb-d6eabdf1e8ed",
             "name": "Grind",
             "symbol": "song_grind",
             "filename": "Grind.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "6d94e26a-3339-4928-9bd9-8a3a854f020b",
+            "name": "Herding Cats - No Drums",
+            "symbol": "song_herding_cats_no_drums",
+            "filename": "Herding Cats - No Drums.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "c249dedc-5d7f-4a69-afe9-707443343038",
+            "name": "Herding Cats Slow - No Drums",
+            "symbol": "song_herding_cats_slow_no_d",
+            "filename": "Herding Cats Slow - No Drums.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "dcf1363a-dd1e-4926-8c09-05957b651b2a",
+            "name": "Herding Cats Slow",
+            "symbol": "song_herding_cats_slow",
+            "filename": "Herding Cats Slow.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "a48e639f-5233-462c-a1fc-9aae562b5e52",
+            "name": "Herding Cats",
+            "symbol": "song_herding_cats",
+            "filename": "Herding Cats.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "dae1d745-9400-4bcf-971d-7d246f3222f2",
+            "name": "Herding Pidgeons Slow",
+            "symbol": "song_herding_pidgeons_slow",
+            "filename": "Herding Pidgeons Slow.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "c4bb4707-f927-4b60-9715-d8a8c864de12",
+            "name": "Herding Pidgeons",
+            "symbol": "song_herding_pidgeons",
+            "filename": "Herding Pidgeons.mod",
             "settings": {},
             "type": "mod"
         },
@@ -54417,6 +55250,38 @@
             "type": "mod"
         },
         {
+            "id": "28652de1-574b-4758-9ffb-5accae4aabc4",
+            "name": "Just Breathe - No Drums",
+            "symbol": "song_just_breathe_no_drums",
+            "filename": "Just Breathe - No Drums.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "085c306b-d84b-472d-8fea-5fe4a4b4c8e6",
+            "name": "Just Breathe Slow - No Drums",
+            "symbol": "song_just_breathe_slow_no_d",
+            "filename": "Just Breathe Slow - No Drums.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "df228852-2714-4044-b196-bd8ab3437560",
+            "name": "Just Breathe Slow",
+            "symbol": "song_just_breathe_slow",
+            "filename": "Just Breathe Slow.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "161f6035-29c7-43e2-8215-4273dfc3683b",
+            "name": "Just Breathe",
+            "symbol": "song_just_breathe",
+            "filename": "Just Breathe.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
             "id": "d13a24eb-ad12-4b35-81bb-876e7ca28ee1",
             "name": "Land with No Dragons Slow",
             "symbol": "song_land_with_no_dragons_s",
@@ -54429,6 +55294,86 @@
             "name": "Land with No Dragons",
             "symbol": "song_land_with_no_dragons",
             "filename": "Land with No Dragons.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "80622fea-f5d0-4dc7-b46d-23d4030af146",
+            "name": "Mushroom Tunnels - No Drums",
+            "symbol": "song_mushroom_tunnels_no_dr",
+            "filename": "Mushroom Tunnels - No Drums.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "de849ba3-c03f-48da-ae88-6ac30328391c",
+            "name": "Mushroom Tunnels Slow - No Drums",
+            "symbol": "song_mushroom_tunnels_slow_",
+            "filename": "Mushroom Tunnels Slow - No Drums.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "2edb198f-4b32-4348-b4ac-0063d2064fe6",
+            "name": "Mushroom Tunnels Slow",
+            "symbol": "song_mushroom_tunnels_slow",
+            "filename": "Mushroom Tunnels Slow.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "e42e8675-e14d-4567-85bf-505086a115b3",
+            "name": "Mushroom Tunnels",
+            "symbol": "song_mushroom_tunnels",
+            "filename": "Mushroom Tunnels.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "5d4d6e02-cec7-4ce6-940b-b0c2a271da4b",
+            "name": "My Heart My Soul V1",
+            "symbol": "song_my_heart_my_soul_v1",
+            "filename": "My Heart My Soul V1.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "3903e383-1f67-4ed3-92ee-2fc076344c2b",
+            "name": "My Heart My Soul V2",
+            "symbol": "song_my_heart_my_soul_v2",
+            "filename": "My Heart My Soul V2.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "cf68227e-c19c-4188-8d02-b984ef70f0e5",
+            "name": "My Walk - No Drums",
+            "symbol": "song_my_walk_no_drums",
+            "filename": "My Walk - No Drums.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "3502c642-6799-4103-8de7-713888d68e56",
+            "name": "My Walk Slow - No Drums",
+            "symbol": "song_my_walk_slow_no_drums",
+            "filename": "My Walk Slow - No Drums.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "cf1d0c30-6910-482f-8e1b-a111afc1d408",
+            "name": "My Walk Slow",
+            "symbol": "song_my_walk_slow",
+            "filename": "My Walk Slow.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "fa834e3e-a77c-4ec2-9b36-63003998c42e",
+            "name": "My Walk",
+            "symbol": "song_my_walk",
+            "filename": "My Walk.mod",
             "settings": {},
             "type": "mod"
         },
@@ -54449,6 +55394,38 @@
             "type": "mod"
         },
         {
+            "id": "2feea079-6419-48c1-95d9-a01a491c55f5",
+            "name": "Paddle Through the Cosmos - No Drums",
+            "symbol": "song_paddle_through_the_cos",
+            "filename": "Paddle Through the Cosmos - No Drums.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "8709ba1a-d5ab-449f-8805-e912c205d2ef",
+            "name": "Paddle Through the Cosmos Slow - No Drums",
+            "symbol": "song_paddle_through_the_cos_0",
+            "filename": "Paddle Through the Cosmos Slow - No Drums.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "2b403190-fcbe-40e3-be13-e604c3c0ef33",
+            "name": "Paddle Through the Cosmos Slow",
+            "symbol": "song_paddle_through_the_cos_1",
+            "filename": "Paddle Through the Cosmos Slow.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "4265a25d-cefc-424f-a223-aaed1edd394d",
+            "name": "Paddle Through the Cosmos",
+            "symbol": "song_paddle_through_the_cos_2",
+            "filename": "Paddle Through the Cosmos.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
             "id": "96346338-8872-4e81-aebd-2fef89c6278a",
             "name": "ReClaimed",
             "symbol": "song_reclaimed",
@@ -54465,10 +55442,122 @@
             "type": "mod"
         },
         {
+            "id": "f03f5960-e6dd-478d-a986-1b8ac2e6e159",
+            "name": "SFX Bonk",
+            "symbol": "song_sfx_bonk",
+            "filename": "SFX Bonk.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "c786c7f2-6ec7-4735-99a0-027b7e0c4115",
+            "name": "SFX Collect",
+            "symbol": "song_sfx_collect",
+            "filename": "SFX Collect.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "929f2593-e8a3-49a7-9b12-ab1ffa858427",
+            "name": "SFX Error",
+            "symbol": "song_sfx_error",
+            "filename": "SFX Error.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "13e8975f-9a85-4290-8fb4-9bc56bb44dd1",
+            "name": "SFX Horse Jump",
+            "symbol": "song_sfx_horse_jump",
+            "filename": "SFX Horse Jump.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "6a18c6e7-a848-4de1-8eea-dc19fd4b8e8c",
+            "name": "SFX Jump Short",
+            "symbol": "song_sfx_jump_short",
+            "filename": "SFX Jump Short.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "510f49c1-f6b5-46fc-b2a5-03026e9cc70a",
+            "name": "SFX Ouch",
+            "symbol": "song_sfx_ouch",
+            "filename": "SFX Ouch.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "2a895029-a28c-48f2-a241-69a2dd67ebe3",
+            "name": "SFX Shoot",
+            "symbol": "song_sfx_shoot",
+            "filename": "SFX Shoot.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "e7100513-589b-45f2-9314-a944213e6137",
+            "name": "SFX Unlocked",
+            "symbol": "song_sfx_unlocked",
+            "filename": "SFX Unlocked.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "d541b4b6-98a2-4296-8349-0f5c059028e4",
+            "name": "Sea of Life Fast",
+            "symbol": "song_sea_of_life_fast",
+            "filename": "Sea of Life Fast.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "6ae2f08a-082e-426a-9150-fb9f13ad9c33",
+            "name": "Sea of Life",
+            "symbol": "song_sea_of_life",
+            "filename": "Sea of Life.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
             "id": "89ea4d8d-ce8a-4c9c-be33-2d4c822843b3",
             "name": "Sealed",
             "symbol": "song_sealed",
             "filename": "Sealed.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "5340441c-d3ae-4fb1-a3d5-2d1d27ec07a2",
+            "name": "Take it Back (Slow) - No Drums",
+            "symbol": "song_take_it_back_slow_no_d",
+            "filename": "Take it Back (Slow) - No Drums.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "b0eae75a-36f5-4dbc-831e-d7062ef640fc",
+            "name": "Take it Back - No Drums",
+            "symbol": "song_take_it_back_no_drums",
+            "filename": "Take it Back - No Drums.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "5e7c626d-73b1-4fc8-bfdc-6e1a75ec8ab0",
+            "name": "Take it Back Slow",
+            "symbol": "song_take_it_back_slow",
+            "filename": "Take it Back Slow.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "e50d174f-e2ea-428a-a8d9-18f61fff9f1d",
+            "name": "Take it Back",
+            "symbol": "song_take_it_back",
+            "filename": "Take it Back.mod",
             "settings": {},
             "type": "mod"
         },
@@ -54505,6 +55594,46 @@
             "type": "mod"
         },
         {
+            "id": "9b40b468-73a8-468a-a688-b53967666f0a",
+            "name": "Where Have the Flowers Gone - No Drums",
+            "symbol": "song_where_have_the_flowers",
+            "filename": "Where Have the Flowers Gone - No Drums.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "f2d0538e-2716-4f2f-bb6a-8e3786e19610",
+            "name": "Where Have the Flowers Gone Slow - No Drums",
+            "symbol": "song_where_have_the_flowers_0",
+            "filename": "Where Have the Flowers Gone Slow - No Drums.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "252572b6-f9bf-45bc-97dd-814df5d4e420",
+            "name": "Where Have the Flowers Gone Slow",
+            "symbol": "song_where_have_the_flowers_1",
+            "filename": "Where Have the Flowers Gone Slow.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "de527416-dced-4d05-bcd8-85462f12cb7c",
+            "name": "Where Have the Flowers Gone",
+            "symbol": "song_where_have_the_flowers_2",
+            "filename": "Where Have the Flowers Gone.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
+            "id": "e78ed97e-7486-45a3-b1cd-1bb28bb2d345",
+            "name": "Wild Wind, Take Me Home",
+            "symbol": "song_wild_wind_take_me_home",
+            "filename": "Wild Wind, Take Me Home.mod",
+            "settings": {},
+            "type": "mod"
+        },
+        {
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "symbol": "song_template",
@@ -54514,6 +55643,150 @@
         }
     ],
     "sounds": [
+        {
+            "id": "f3b6bc92-b434-43ac-8482-90b5e384b203",
+            "name": "01_chest_open_1.wav",
+            "symbol": "sound_01_chest_open_1_wav",
+            "filename": "01_chest_open_1.wav",
+            "type": "wav",
+            "inode": "407294291300323096",
+            "_v": 1718357705389
+        },
+        {
+            "id": "6cbb8a72-7d29-4959-97af-dd6d26467bb3",
+            "name": "01_chest_open_2.wav",
+            "symbol": "sound_01_chest_open_2_wav",
+            "filename": "01_chest_open_2.wav",
+            "type": "wav",
+            "inode": "106679016173343501",
+            "_v": 1718357705443
+        },
+        {
+            "id": "5b4acac6-891d-460f-9d4e-3b2db27495df",
+            "name": "01_chest_open_3.wav",
+            "symbol": "sound_01_chest_open_3_wav",
+            "filename": "01_chest_open_3.wav",
+            "type": "wav",
+            "inode": "62205969853060001",
+            "_v": 1718357705470
+        },
+        {
+            "id": "3da68573-766e-4bbb-90a4-284cfa336ff9",
+            "name": "01_chest_open_4.wav",
+            "symbol": "sound_01_chest_open_4_wav",
+            "filename": "01_chest_open_4.wav",
+            "type": "wav",
+            "inode": "159877786771659299",
+            "_v": 1718357705470
+        },
+        {
+            "id": "32d636d2-8e44-49cb-bf9f-155463d09d12",
+            "name": "02_chest_close_1.wav",
+            "symbol": "sound_02_chest_close_1_wav",
+            "filename": "02_chest_close_1.wav",
+            "type": "wav",
+            "inode": "6755399441063109",
+            "_v": 1718357705470
+        },
+        {
+            "id": "3c998493-e845-44a3-aac1-64f51b762362",
+            "name": "02_chest_close_2.wav",
+            "symbol": "sound_02_chest_close_2_wav",
+            "filename": "02_chest_close_2.wav",
+            "type": "wav",
+            "inode": "206321157928921280",
+            "_v": 1718357705470
+        },
+        {
+            "id": "073d80c3-8b0d-45b6-96a1-db39ee660889",
+            "name": "02_chest_close_3.wav",
+            "symbol": "sound_02_chest_close_3_wav",
+            "filename": "02_chest_close_3.wav",
+            "type": "wav",
+            "inode": "237283405367100676",
+            "_v": 1718357705470
+        },
+        {
+            "id": "e385c6d5-e3a7-4ab4-ad44-f66d8641fcb3",
+            "name": "04_sack_open_1.wav",
+            "symbol": "sound_04_sack_open_1_wav",
+            "filename": "04_sack_open_1.wav",
+            "type": "wav",
+            "inode": "391813167581258610",
+            "_v": 1718357723136
+        },
+        {
+            "id": "b1e52ade-a0ac-4806-9bca-142a748d9ae7",
+            "name": "04_sack_open_2.wav",
+            "symbol": "sound_04_sack_open_2_wav",
+            "filename": "04_sack_open_2.wav",
+            "type": "wav",
+            "inode": "92605267337832344",
+            "_v": 1718357723136
+        },
+        {
+            "id": "6d9e8756-6232-4398-a761-40f611783ebf",
+            "name": "04_sack_open_3.wav",
+            "symbol": "sound_04_sack_open_3_wav",
+            "filename": "04_sack_open_3.wav",
+            "type": "wav",
+            "inode": "202380508254988454",
+            "_v": 1718357723119
+        },
+        {
+            "id": "2eacfb07-cd99-4459-914a-309401e2e288",
+            "name": "26_sword_hit_1.wav",
+            "symbol": "sound_26_sword_hit_1_wav",
+            "filename": "26_sword_hit_1.wav",
+            "type": "wav",
+            "inode": "2814749767941486",
+            "_v": 1718357764316
+        },
+        {
+            "id": "85a6e5e6-ef81-48da-a46a-d69674dd13cf",
+            "name": "26_sword_hit_2.wav",
+            "symbol": "sound_26_sword_hit_2_wav",
+            "filename": "26_sword_hit_2.wav",
+            "type": "wav",
+            "inode": "2251799814520177",
+            "_v": 1718357764349
+        },
+        {
+            "id": "e6ab04c9-20e0-4ca8-968f-6a5538419a56",
+            "name": "26_sword_hit_3.wav",
+            "symbol": "sound_26_sword_hit_3_wav",
+            "filename": "26_sword_hit_3.wav",
+            "type": "wav",
+            "inode": "1970324837809522",
+            "_v": 1718357764349
+        },
+        {
+            "id": "395e3be3-9d84-402e-8a4b-da8386cd946e",
+            "name": "27_sword_miss_1.wav",
+            "symbol": "sound_27_sword_miss_1_wav",
+            "filename": "27_sword_miss_1.wav",
+            "type": "wav",
+            "inode": "2251799814520179",
+            "_v": 1718357764349
+        },
+        {
+            "id": "e259048e-ce8c-4989-a6cb-9da0b7d62ca8",
+            "name": "27_sword_miss_2.wav",
+            "symbol": "sound_27_sword_miss_2_wav",
+            "filename": "27_sword_miss_2.wav",
+            "type": "wav",
+            "inode": "1970324837809525",
+            "_v": 1718357764294
+        },
+        {
+            "id": "c6af04ad-e05d-46da-a043-d5f55fee2504",
+            "name": "27_sword_miss_3.wav",
+            "symbol": "sound_27_sword_miss_3_wav",
+            "filename": "27_sword_miss_3.wav",
+            "type": "wav",
+            "inode": "2533274791230838",
+            "_v": 1718357764316
+        },
         {
             "id": "4c01b947-4642-4eb7-8d3d-3a9747e8a8c8",
             "name": "Taverna.wav",
@@ -55135,9 +56408,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 2886,
-        "worldScrollY": 1418,
-        "zoom": 125,
+        "worldScrollX": 9049,
+        "worldScrollY": 4274,
+        "zoom": 425,
         "customColorsEnabled": true,
         "sgbEnabled": true,
         "customHead": "",
