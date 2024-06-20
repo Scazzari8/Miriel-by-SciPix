@@ -2838,6 +2838,37 @@
                     "id": "602ec09c-de12-4744-be84-79c61e3093a0",
                     "x": 20,
                     "y": 4
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "5c438a89-d19a-43a5-819b-0868ba206b7a",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_135",
+                    "script": [],
+                    "startScript": [
+                        {
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "3df8348a-c180-47df-bcbd-c1e970a63c6f"
+                            },
+                            "id": "f62bc394-7cb4-4199-a8a1-8693cc507329"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "9882a260-8ff2-4e5d-8d0f-ce7cc153115b",
+                    "x": 17,
+                    "y": 16
                 }
             ],
             "triggers": [
@@ -26683,7 +26714,7 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "Meccaniche",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -29023,7 +29054,7 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "Meccaniche",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -29045,7 +29076,7 @@
                                     "override": true,
                                     "__scriptTabs": "press",
                                     "__comment": false,
-                                    "__collapse": true,
+                                    "__collapse": false,
                                     "__label": "Menù"
                                 },
                                 "children": {
@@ -32080,6 +32111,52 @@
                     "id": "dda18609-d340-4a96-b467-abeb50de1b0a",
                     "x": 21,
                     "y": 10
+                },
+                {
+                    "name": "CuoreMiriel",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "68f99ecb-76c7-4560-b114-cae769355af2",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_123",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "6215e147-2f54-4236-8552-992329bc35d6",
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "5c438a89-d19a-43a5-819b-0868ba206b7a",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_130",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "a8c3405b-730f-41cf-87e7-f5edf0a49ff9",
+                    "x": 17,
+                    "y": 16
                 }
             ],
             "triggers": [
@@ -33151,6 +33228,52 @@
                     "id": "a059930e-7e81-40d9-83de-b49ad56a489e",
                     "x": 5,
                     "y": 2
+                },
+                {
+                    "name": "CuoreMiriel",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "68f99ecb-76c7-4560-b114-cae769355af2",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_124",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "1a084c00-edc7-4a23-b2f2-bf317f0df6e7",
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "5c438a89-d19a-43a5-819b-0868ba206b7a",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_131",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "1310d09f-bece-48f2-9f2b-cdb48667423a",
+                    "x": 17,
+                    "y": 16
                 }
             ],
             "triggers": [
@@ -34064,7 +34187,54 @@
             "symbol": "scene_30",
             "x": 1010.7428571428567,
             "y": 884.5714285714288,
-            "actors": [],
+            "actors": [
+                {
+                    "name": "CuoreMiriel",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "68f99ecb-76c7-4560-b114-cae769355af2",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_126",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "b80a870b-afeb-4afb-afde-09c31818b24a",
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "5c438a89-d19a-43a5-819b-0868ba206b7a",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_133",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "0cafb7e1-76d7-459b-8e96-61296495251e",
+                    "x": 17,
+                    "y": 16
+                }
+            ],
             "triggers": [
                 {
                     "name": "",
@@ -34537,6 +34707,29 @@
                     "id": "043edee5-4ee4-43c8-81b9-e4ba5f14fe6f",
                     "x": 15,
                     "y": 6
+                },
+                {
+                    "name": "CuoreMiriel",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "68f99ecb-76c7-4560-b114-cae769355af2",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_127",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "e62a980e-8f1f-43de-b729-bceaa2b9ca13",
+                    "x": 2,
+                    "y": 1
                 }
             ],
             "triggers": [
@@ -35487,6 +35680,52 @@
                     "id": "b50a3da7-325a-4953-824a-ab66e66fb157",
                     "x": 8,
                     "y": 23
+                },
+                {
+                    "name": "CuoreMiriel",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "68f99ecb-76c7-4560-b114-cae769355af2",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_122",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "aa7445ee-e38b-41dc-99a4-42d8d8799094",
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "5c438a89-d19a-43a5-819b-0868ba206b7a",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_137",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "b8648480-b54a-451d-9b05-52a504b5db6a",
+                    "x": 17,
+                    "y": 16
                 }
             ],
             "triggers": [
@@ -36441,6 +36680,52 @@
                     "id": "c38f60ae-a26b-4dd4-8de5-0467e70eb054",
                     "x": 20,
                     "y": 14
+                },
+                {
+                    "name": "CuoreMiriel",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "68f99ecb-76c7-4560-b114-cae769355af2",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_128",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "b93c61d2-6a2f-41a0-97d5-7064f4eb36e5",
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "5c438a89-d19a-43a5-819b-0868ba206b7a",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_134",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "c65ae15d-0394-466a-a456-b4919cdd39f9",
+                    "x": 17,
+                    "y": 16
                 }
             ],
             "triggers": [],
@@ -37454,6 +37739,52 @@
                     "id": "44b4194a-e026-4ac0-b0f4-b8ddcb117e62",
                     "x": 14,
                     "y": 23
+                },
+                {
+                    "name": "CuoreMiriel",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "68f99ecb-76c7-4560-b114-cae769355af2",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_125",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "160e59b5-2cf9-43e2-b543-d3aea8d87ed4",
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "5c438a89-d19a-43a5-819b-0868ba206b7a",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_132",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "5a7aae74-202f-4660-8e38-f68a44bd6aff",
+                    "x": 17,
+                    "y": 16
                 }
             ],
             "triggers": [
@@ -38855,6 +39186,29 @@
                     "id": "7ee83fd9-06d3-42a0-8a6a-cc72ada52e56",
                     "x": 9,
                     "y": 14
+                },
+                {
+                    "name": "CuoreMiriel",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "68f99ecb-76c7-4560-b114-cae769355af2",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_129",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "f434f5d9-93e7-49f3-9172-0ddbc51261e3",
+                    "x": 2,
+                    "y": 1
                 }
             ],
             "triggers": [
@@ -39845,7 +40199,15 @@
                     "collisionGroup": "",
                     "symbol": "actor_116",
                     "script": [],
-                    "startScript": [],
+                    "startScript": [
+                        {
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "3df8348a-c180-47df-bcbd-c1e970a63c6f"
+                            },
+                            "id": "7a201840-242c-4683-817f-f3f9dc6cd2bb"
+                        }
+                    ],
                     "updateScript": [],
                     "hit1Script": [],
                     "hit2Script": [],
@@ -42919,7 +43281,15 @@
                     "collisionGroup": "",
                     "symbol": "actor_114",
                     "script": [],
-                    "startScript": [],
+                    "startScript": [
+                        {
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "3df8348a-c180-47df-bcbd-c1e970a63c6f"
+                            },
+                            "id": "af7c5fee-9bf2-4dd3-8468-e5d0db2f381f"
+                        }
+                    ],
                     "updateScript": [],
                     "hit1Script": [],
                     "hit2Script": [],
@@ -42943,11 +43313,11 @@
                     "symbol": "actor_93",
                     "script": [
                         {
-                            "command": "EVENT_ACTOR_PUSH",
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
                             "args": {
-                                "continue": false
+                                "customEventId": "e2c603b8-a194-4f72-b0aa-d74be5271a38"
                             },
-                            "id": "b3f2a655-02be-4373-b80e-1f89aa87f562"
+                            "id": "65648b34-270c-48ee-a90c-4301c5198894"
                         }
                     ],
                     "startScript": [],
@@ -42955,7 +43325,7 @@
                     "hit1Script": [],
                     "hit2Script": [],
                     "hit3Script": [],
-                    "id": "81f25921-d00a-44d4-8b39-9910d22db21d",
+                    "id": "df6e048b-fb95-43ff-a7ba-52ac1e46c7ba",
                     "x": 26,
                     "y": 4
                 },
@@ -42974,11 +43344,11 @@
                     "symbol": "actor_94",
                     "script": [
                         {
-                            "command": "EVENT_ACTOR_PUSH",
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
                             "args": {
-                                "continue": false
+                                "customEventId": "e2c603b8-a194-4f72-b0aa-d74be5271a38"
                             },
-                            "id": "0562f2a5-b2b9-4e33-aa98-7fceec7d9915"
+                            "id": "93bbbb6b-8678-43e9-91df-10c9b64bd27f"
                         }
                     ],
                     "startScript": [],
@@ -42986,7 +43356,7 @@
                     "hit1Script": [],
                     "hit2Script": [],
                     "hit3Script": [],
-                    "id": "51d66895-47a4-45e5-b9f1-46d6dc7c8d81",
+                    "id": "ee735bc8-fc23-4f93-a272-b5946590e2c9",
                     "x": 32,
                     "y": 8
                 },
@@ -43005,11 +43375,11 @@
                     "symbol": "actor_95",
                     "script": [
                         {
-                            "command": "EVENT_ACTOR_PUSH",
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
                             "args": {
-                                "continue": false
+                                "customEventId": "e2c603b8-a194-4f72-b0aa-d74be5271a38"
                             },
-                            "id": "e2efde0a-8b01-4feb-b68b-c65e05ff2130"
+                            "id": "6fce27c9-a3fb-4fa7-bde5-274bec757082"
                         }
                     ],
                     "startScript": [],
@@ -43017,7 +43387,7 @@
                     "hit1Script": [],
                     "hit2Script": [],
                     "hit3Script": [],
-                    "id": "7a71c2ca-debb-4067-b8f6-5444544462a5",
+                    "id": "1274c10e-de2c-41be-814b-6ecd1fcb869d",
                     "x": 30,
                     "y": 15
                 },
@@ -43036,11 +43406,11 @@
                     "symbol": "actor_96",
                     "script": [
                         {
-                            "command": "EVENT_ACTOR_PUSH",
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
                             "args": {
-                                "continue": false
+                                "customEventId": "e2c603b8-a194-4f72-b0aa-d74be5271a38"
                             },
-                            "id": "6b36b39e-24eb-44f6-b88b-cc37101475d7"
+                            "id": "ed429b96-98a5-4ff6-b456-8761314a39f0"
                         }
                     ],
                     "startScript": [],
@@ -43048,7 +43418,7 @@
                     "hit1Script": [],
                     "hit2Script": [],
                     "hit3Script": [],
-                    "id": "5e233a25-71e2-4b1a-b512-8933f345a33f",
+                    "id": "631343da-1ada-4464-9049-c5ddaaeac1ee",
                     "x": 32,
                     "y": 21
                 },
@@ -43067,11 +43437,11 @@
                     "symbol": "actor_98",
                     "script": [
                         {
-                            "command": "EVENT_ACTOR_PUSH",
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
                             "args": {
-                                "continue": false
+                                "customEventId": "e2c603b8-a194-4f72-b0aa-d74be5271a38"
                             },
-                            "id": "151b39a1-7a88-4818-bd20-59fc0d501237"
+                            "id": "4400d820-ccd3-470b-8ffc-e4064a463bba"
                         }
                     ],
                     "startScript": [],
@@ -43079,7 +43449,7 @@
                     "hit1Script": [],
                     "hit2Script": [],
                     "hit3Script": [],
-                    "id": "ef579ff3-cf26-4488-b012-c880fb731e30",
+                    "id": "310b0faf-e369-48e1-9204-427e30a6255e",
                     "x": 27,
                     "y": 30
                 },
@@ -43098,11 +43468,11 @@
                     "symbol": "actor_97",
                     "script": [
                         {
-                            "command": "EVENT_ACTOR_PUSH",
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
                             "args": {
-                                "continue": false
+                                "customEventId": "e2c603b8-a194-4f72-b0aa-d74be5271a38"
                             },
-                            "id": "1df18b73-36fe-4a97-bb81-6f1f5590579e"
+                            "id": "12bfacde-acb6-41a7-8cb2-36fb310cb7b3"
                         }
                     ],
                     "startScript": [],
@@ -43110,7 +43480,7 @@
                     "hit1Script": [],
                     "hit2Script": [],
                     "hit3Script": [],
-                    "id": "ded80287-440d-44dc-87ab-3eda06a75a32",
+                    "id": "c9ff0b20-a564-4463-8c15-2a0c2a91d797",
                     "x": 11,
                     "y": 32
                 }
@@ -43638,8 +44008,8 @@
             "autoFadeSpeed": 1,
             "id": "32204a48-52c7-4617-a903-0f01c9a22dd0",
             "symbol": "scene_40",
-            "x": 1520.8888888888887,
-            "y": 2014.222222222222,
+            "x": 1528,
+            "y": 2040,
             "actors": [
                 {
                     "name": "",
@@ -43731,6 +44101,60 @@
                     "hit3Script": [],
                     "id": "2011f66b-e67d-4b2d-b2db-74b91711191f",
                     "x": 1,
+                    "y": 16
+                },
+                {
+                    "name": "CuoreMiriel",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "68f99ecb-76c7-4560-b114-cae769355af2",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_118",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "300fa14e-a767-42a1-899f-5c72e1da35b6",
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "5c438a89-d19a-43a5-819b-0868ba206b7a",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 255,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_119",
+                    "script": [],
+                    "startScript": [
+                        {
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "3df8348a-c180-47df-bcbd-c1e970a63c6f"
+                            },
+                            "id": "8e801f83-4fe9-49c0-bfaa-dbce9e5d9ca8"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "11bdc323-074f-445c-95d5-8f7325ff68b9",
+                    "x": 17,
                     "y": 16
                 }
             ],
@@ -44599,6 +45023,60 @@
                     "id": "b093356e-36f0-4a16-b46f-b1c39dd97127",
                     "x": 1,
                     "y": 23
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "5c438a89-d19a-43a5-819b-0868ba206b7a",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 255,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_120",
+                    "script": [],
+                    "startScript": [
+                        {
+                            "command": "EVENT_CALL_CUSTOM_EVENT",
+                            "args": {
+                                "customEventId": "3df8348a-c180-47df-bcbd-c1e970a63c6f"
+                            },
+                            "id": "76750e1c-ed25-4fdf-8b1f-c634e9f498c6"
+                        }
+                    ],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "9785461a-0d1f-49d1-b270-5160454f149d",
+                    "x": 17,
+                    "y": 16
+                },
+                {
+                    "name": "CuoreMiriel",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "68f99ecb-76c7-4560-b114-cae769355af2",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": true,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_121",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "56365b8a-1ba8-41bf-8738-0033a8f89e7f",
+                    "x": 2,
+                    "y": 1
                 }
             ],
             "triggers": [
@@ -90471,9 +90949,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": true,
         "showCollisionExtraTiles": true,
-        "worldScrollX": 3286,
-        "worldScrollY": 4449,
-        "zoom": 211.90252680114918,
+        "worldScrollX": 1346.6666259765625,
+        "worldScrollY": 1395.3333740234375,
+        "zoom": 97.72840267419815,
         "sgbEnabled": true,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
@@ -90558,7 +91036,7 @@
         "customControlsSelect": [
             "Shift"
         ],
-        "debuggerEnabled": true,
+        "debuggerEnabled": false,
         "debuggerScriptType": "editor",
         "debuggerVariablesFilter": "all",
         "debuggerCollapsedPanes": [],
