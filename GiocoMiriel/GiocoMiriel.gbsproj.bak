@@ -2660,8 +2660,8 @@
             "autoFadeSpeed": 1,
             "id": "278e0c43-f287-4bf6-bbbb-69f92a56b3e2",
             "symbol": "scene_0",
-            "x": 2093.8467459502835,
-            "y": 1481.6860901626499,
+            "x": 2096,
+            "y": 1488,
             "actors": [
                 {
                     "name": "CuoreMiriel",
@@ -3133,16 +3133,6 @@
                     },
                     "children": {
                         "true": [
-                            {
-                                "command": "EVENT_SET_VALUE",
-                                "args": {
-                                    "variable": "32",
-                                    "value": {
-                                        "type": "true"
-                                    }
-                                },
-                                "id": "4df06b01-edb3-4f5a-8598-b55ccead475b"
-                            },
                             {
                                 "command": "EVENT_CALL_CUSTOM_EVENT",
                                 "args": {
@@ -26624,16 +26614,6 @@
             ],
             "script": [
                 {
-                    "command": "EVENT_SET_VALUE",
-                    "args": {
-                        "variable": "22",
-                        "value": {
-                            "type": "true"
-                        }
-                    },
-                    "id": "797fc835-c880-4a40-b517-38b97fb5ea9b"
-                },
-                {
                     "command": "EVENT_MUSIC_PLAY",
                     "args": {
                         "musicId": "fa898efb-eb4c-407f-b996-91e4907e8bc8"
@@ -38849,92 +38829,6 @@
                     "leaveScript": []
                 }
             ],
-            "script": [],
-            "playerHit1Script": [],
-            "playerHit2Script": [],
-            "playerHit3Script": []
-        },
-        {
-            "name": "Scene 37",
-            "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
-            "width": 20,
-            "height": 18,
-            "type": "TOPDOWN",
-            "paletteIds": [],
-            "spritePaletteIds": [],
-            "collisions": [],
-            "autoFadeSpeed": 1,
-            "id": "4785d2c0-7171-4394-ad4b-1c547d99c82d",
-            "symbol": "scene_37",
-            "x": 1566.5280162308222,
-            "y": 1187.7746242207863,
-            "actors": [
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "817b3ea9-77ae-475d-be36-ad75221fba4e",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_87",
-                    "script": [
-                        {
-                            "command": "EVENT_ACTOR_MOVE_RELATIVE",
-                            "args": {
-                                "actorId": "$self$",
-                                "x": {
-                                    "type": "number",
-                                    "value": 5
-                                },
-                                "y": {
-                                    "type": "number",
-                                    "value": 0
-                                },
-                                "moveType": "horizontal",
-                                "useCollisions": true
-                            },
-                            "id": "53aefece-c98a-4ce2-91be-6b97b6a242d9"
-                        }
-                    ],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "8fd868f4-5941-497f-822b-3a220e2d0760",
-                    "x": 9,
-                    "y": 6
-                },
-                {
-                    "name": "",
-                    "frame": 0,
-                    "animate": false,
-                    "spriteSheetId": "8501d59f-2293-4b7e-bda2-0b1b7ef2bb3d",
-                    "direction": "down",
-                    "moveSpeed": 1,
-                    "animSpeed": 15,
-                    "paletteId": "",
-                    "isPinned": false,
-                    "persistent": false,
-                    "collisionGroup": "",
-                    "symbol": "actor_88",
-                    "script": [],
-                    "startScript": [],
-                    "updateScript": [],
-                    "hit1Script": [],
-                    "hit2Script": [],
-                    "hit3Script": [],
-                    "id": "b1d11316-4c02-4aef-adb7-533d8f67faa1",
-                    "x": 11,
-                    "y": 6
-                }
-            ],
-            "triggers": [],
             "script": [],
             "playerHit1Script": [],
             "playerHit2Script": [],
@@ -88209,9 +88103,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": true,
         "showCollisionExtraTiles": true,
-        "worldScrollX": 4587,
-        "worldScrollY": 5477,
-        "zoom": 275,
+        "worldScrollX": 2608,
+        "worldScrollY": 1471,
+        "zoom": 125,
         "sgbEnabled": true,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
