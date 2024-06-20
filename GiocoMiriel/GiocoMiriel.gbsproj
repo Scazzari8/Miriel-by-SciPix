@@ -39920,12 +39920,12 @@
             ],
             "spritePaletteIds": [
                 null,
-                "1b0f72a1-cc57-49f9-86de-127dc4676861",
+                "8abc5276-c2b7-4527-9bb7-e986134e9b55",
                 "198d91f6-6db5-4941-b9d4-e0c4dacb6b57",
-                "a194f66d-64d6-4207-800e-aeeceeb4cf32",
-                "95dca5fc-e1b7-4a0c-bf46-d368881c40fc",
-                "ab963cf4-5190-4192-bb28-80ebb8f579f7",
-                "bb52c6da-c4e6-4bc4-a873-900783c8193c",
+                "36c383c1-ddaf-4b7e-8845-105828357653",
+                "2b7e80d1-c7c5-4472-9e25-61961db34a71",
+                "",
+                "",
                 "e0212134-b977-403c-92bd-90e7ae4be178"
             ],
             "collisions": [
@@ -41695,6 +41695,29 @@
                     "id": "477102af-f6da-48dd-bf4a-aac79ed3e9d4",
                     "x": 18,
                     "y": 2
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "13866511-4202-4532-b11c-3b34d293e5eb",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_87",
+                    "script": [],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "d191c922-8ab7-49fb-8c22-2a171af0fd54",
+                    "x": 1,
+                    "y": 38
                 }
             ],
             "triggers": [
@@ -88295,8 +88318,8 @@
         "showConnections": true,
         "showCollisionSlopeTiles": true,
         "showCollisionExtraTiles": true,
-        "worldScrollX": 3890,
-        "worldScrollY": 4337.33349609375,
+        "worldScrollX": 3652,
+        "worldScrollY": 4655,
         "zoom": 235.346208289262,
         "sgbEnabled": true,
         "customHead": "",
