@@ -24,8 +24,8 @@
             "autoFadeSpeed": 1,
             "id": "8c9ed817-445b-4b7c-b768-d71b5928814b",
             "symbol": "scene_1",
-            "x": 1285.778927676249,
-            "y": 1484.0226375510429,
+            "x": 1664,
+            "y": 1920,
             "actors": [],
             "triggers": [],
             "script": [
@@ -2725,8 +2725,8 @@
             "autoFadeSpeed": 1,
             "id": "278e0c43-f287-4bf6-bbbb-69f92a56b3e2",
             "symbol": "scene_0",
-            "x": 2096,
-            "y": 1488,
+            "x": 1808,
+            "y": 1512,
             "actors": [
                 {
                     "name": "CuoreMiriel",
@@ -12616,8 +12616,8 @@
             "autoFadeSpeed": 1,
             "id": "0441f7d9-755f-47fb-9ef1-e4e6f60f7594",
             "symbol": "scene_10",
-            "x": 2790.845825819895,
-            "y": 961.5732573616713,
+            "x": 2832,
+            "y": 968,
             "actors": [
                 {
                     "name": "CuoreMiriel",
@@ -14368,8 +14368,8 @@
             "autoFadeSpeed": 1,
             "id": "6a1e5c3c-3997-4d68-9d5a-6e007b02fce8",
             "symbol": "scene_12",
-            "x": 3106.3352427302893,
-            "y": 965.0002838338106,
+            "x": 3064,
+            "y": 968,
             "actors": [
                 {
                     "name": "CuoreMiriel",
@@ -19934,8 +19934,8 @@
             "autoFadeSpeed": 1,
             "id": "6c94c5b5-3f6e-498a-b26e-5e2c69fa0f69",
             "symbol": "scene_19",
-            "x": 2178.2488351693432,
-            "y": 1836.3667277242064,
+            "x": 2344,
+            "y": 2152,
             "actors": [
                 {
                     "name": "",
@@ -28378,7 +28378,7 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "Meccaniche",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [
@@ -28555,7 +28555,7 @@
                     "args": {
                         "variable": "22",
                         "__collapseElse": false,
-                        "__collapse": false,
+                        "__collapse": true,
                         "condition": {
                             "type": "eq",
                             "valueA": {
@@ -28608,7 +28608,7 @@
                     "args": {
                         "variable": "22",
                         "__collapseElse": false,
-                        "__collapse": false,
+                        "__collapse": true,
                         "condition": {
                             "type": "eq",
                             "valueA": {
@@ -29613,8 +29613,8 @@
             "autoFadeSpeed": 1,
             "id": "87b6583b-13a9-4871-a537-d5bcfab5e40f",
             "symbol": "scene_23",
-            "x": 1498.088484773852,
-            "y": 1484.3625286210445,
+            "x": 1856,
+            "y": 1912,
             "actors": [],
             "triggers": [],
             "script": [
@@ -29689,8 +29689,8 @@
             "autoFadeSpeed": 1,
             "id": "87361ef4-c0c2-4b8b-b395-1271699c260a",
             "symbol": "scene_24",
-            "x": 1702.123025230738,
-            "y": 1484.188570387213,
+            "x": 2048,
+            "y": 1912,
             "actors": [],
             "triggers": [],
             "script": [
@@ -29754,8 +29754,8 @@
             "autoFadeSpeed": 1,
             "id": "af5bb41e-c78c-42c8-bcc5-1b8f7512ff07",
             "symbol": "scene_25",
-            "x": 1888.3178407101593,
-            "y": 1485.6447274561692,
+            "x": 2232,
+            "y": 1912,
             "actors": [],
             "triggers": [],
             "script": [
@@ -31410,8 +31410,8 @@
             "autoFadeSpeed": 1,
             "id": "7366a345-b72d-48ad-8d32-7ef80d18458f",
             "symbol": "scene_28",
-            "x": 1829.0666666666668,
-            "y": 793.5999999999998,
+            "x": 1272,
+            "y": 1424,
             "actors": [
                 {
                     "name": "",
@@ -32606,8 +32606,8 @@
             "autoFadeSpeed": 1,
             "id": "cada472e-ec5e-4aba-88d8-dc2af0c8608f",
             "symbol": "scene_29",
-            "x": 1567.1201079622128,
-            "y": 674.7170490328384,
+            "x": 976,
+            "y": 1264,
             "actors": [
                 {
                     "name": "",
@@ -33634,8 +33634,8 @@
             "autoFadeSpeed": 1,
             "id": "0fcca4f2-94f9-43a7-8704-4a6b9d394e1f",
             "symbol": "scene_30",
-            "x": 1010.7428571428567,
-            "y": 884.5714285714288,
+            "x": 688,
+            "y": 1528,
             "actors": [
                 {
                     "name": "CuoreMiriel",
@@ -34131,8 +34131,8 @@
             "autoFadeSpeed": 1,
             "id": "848bc07d-9b21-4379-9493-de20399255db",
             "symbol": "scene_31",
-            "x": 1052.5714285714287,
-            "y": 680.5714285714287,
+            "x": 728,
+            "y": 1336,
             "actors": [
                 {
                     "name": "",
@@ -35081,8 +35081,8 @@
             "autoFadeSpeed": 1,
             "id": "eddad24c-751f-4975-acba-9b594fd109a7",
             "symbol": "scene_32",
-            "x": 1892,
-            "y": 1150.3999999999999,
+            "x": 1320,
+            "y": 1776,
             "actors": [
                 {
                     "name": "",
@@ -36357,8 +36357,8 @@
             "autoFadeSpeed": 1,
             "id": "e5e0751d-08a6-49da-89b6-5219667ecabb",
             "symbol": "scene_33",
-            "x": 1010.6666666666665,
-            "y": 1185.3333333333335,
+            "x": 688,
+            "y": 1792,
             "actors": [
                 {
                     "name": "",
@@ -37324,8 +37324,8 @@
             "autoFadeSpeed": 1,
             "id": "b4f56841-fa64-4b0a-9c3e-9004d93f360d",
             "symbol": "scene_34",
-            "x": 1288.8000000000002,
-            "y": 891.2,
+            "x": 984,
+            "y": 1536,
             "actors": [
                 {
                     "name": "",
@@ -38466,8 +38466,8 @@
             "autoFadeSpeed": 1,
             "id": "1ca406e5-6d98-4399-963d-837f086650fd",
             "symbol": "scene_35",
-            "x": 1287.1999999999998,
-            "y": 606.3999999999997,
+            "x": 976,
+            "y": 936,
             "actors": [],
             "triggers": [],
             "script": [],
@@ -38863,8 +38863,8 @@
             "autoFadeSpeed": 1,
             "id": "ad71a586-6f4b-4d49-8e96-cd54db77da68",
             "symbol": "scene_36",
-            "x": 1327.4285714285713,
-            "y": 1146.2857142857144,
+            "x": 1040,
+            "y": 1792,
             "actors": [
                 {
                     "name": "",
@@ -39838,8 +39838,8 @@
             "autoFadeSpeed": 1,
             "id": "ce7ef65e-5c8e-4c57-8f8c-3d98b3c8e412",
             "symbol": "scene_38",
-            "x": 1768,
-            "y": 1728,
+            "x": 1832,
+            "y": 1224,
             "actors": [
                 {
                     "name": "",
@@ -44833,8 +44833,8 @@
             "autoFadeSpeed": 1,
             "id": "b0bb448c-ae18-46e0-bd73-00cff1428b89",
             "symbol": "scene_39",
-            "x": 1752,
-            "y": 2032,
+            "x": 1808,
+            "y": 848,
             "actors": [
                 {
                     "name": "TotemFuoco",
@@ -48644,8 +48644,8 @@
             "autoFadeSpeed": 1,
             "id": "32204a48-52c7-4617-a903-0f01c9a22dd0",
             "symbol": "scene_40",
-            "x": 1528,
-            "y": 2040,
+            "x": 1616,
+            "y": 1264,
             "actors": [
                 {
                     "name": "",
@@ -50906,8 +50906,8 @@
             "autoFadeSpeed": 1,
             "id": "92965a15-99ad-4163-8615-532177fe851f",
             "symbol": "scene_41",
-            "x": 1497.3333333333337,
-            "y": 1748.0000000000007,
+            "x": 1560,
+            "y": 944,
             "actors": [
                 {
                     "name": "",
@@ -100848,9 +100848,9 @@
         "showConnections": true,
         "showCollisionSlopeTiles": true,
         "showCollisionExtraTiles": true,
-        "worldScrollX": 1668,
-        "worldScrollY": 1323.3333740234375,
-        "zoom": 109.69898414611362,
+        "worldScrollX": 870,
+        "worldScrollY": 933.3333129882812,
+        "zoom": 80.91507038474083,
         "sgbEnabled": true,
         "customHead": "",
         "defaultBackgroundPaletteIds": [
