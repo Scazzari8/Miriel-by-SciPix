@@ -1483,11 +1483,11 @@
 00:0025 ___bank_actor_177_interact
 00:0025 ___bank_actor_181_interact
 00:0025 ___bank_actor_188_interact
+00:0025 ___bank_actor_190_interact
 00:0025 ___bank_actor_194_interact
 00:0025 ___bank_actor_195_interact
 00:0025 ___bank_actor_198_interact
 00:0025 ___bank_actor_203_interact
-00:0025 ___bank_actor_224_interact
 00:0025 ___bank_actor_226_interact
 00:0025 ___bank_actor_255_interact
 00:0025 ___bank_actor_261_interact
@@ -1572,7 +1572,6 @@
 00:0025 ___bank_scene_9_actors
 00:0025 ___bank_script_engine_init
 00:0025 ___bank_script_input_194
-00:0025 ___bank_script_input_251
 00:0025 ___bank_sprite_cassagirata
 00:0025 ___bank_sprite_cuoremiriel_tile
 00:0025 ___bank_sprite_fabbrostatic_ban
@@ -1623,7 +1622,7 @@
 00:0026 ___bank_actor_171_interact
 00:0026 ___bank_actor_174_interact
 00:0026 ___bank_actor_178_interact
-00:0026 ___bank_actor_190_interact
+00:0026 ___bank_actor_224_interact
 00:0026 ___bank_bg_placeholder_tileset
 00:0026 ___bank_bg_water_tileset
 00:0026 ___bank_emote_anger
@@ -1750,11 +1749,11 @@
 00:0026 ___bank_palette_99
 00:0026 ___bank_scene_0
 00:0026 ___bank_scene_0_projectiles
+00:0026 ___bank_scene_0_triggers
 00:0026 ___bank_scene_1
 00:0026 ___bank_scene_10
 00:0026 ___bank_scene_11
 00:0026 ___bank_scene_12
-00:0026 ___bank_scene_13
 00:0026 ___bank_scene_20_projectiles
 00:0026 ___bank_scene_20_triggers
 00:0026 ___bank_scene_21_projectiles
@@ -1809,6 +1808,7 @@
 00:0026 ___bank_script_input_7
 00:0026 ___bank_script_input_74
 00:0026 ___bank_script_input_83
+00:0026 ___bank_script_input_90
 00:0026 ___bank_script_input_98
 00:0026 ___bank_script_timer_1
 00:0026 ___bank_script_timer_10
@@ -1827,7 +1827,6 @@
 00:0026 ___bank_script_timer_3
 00:0026 ___bank_script_timer_5
 00:0026 ___bank_script_timer_6
-00:0026 ___bank_sprite_blanktile
 00:0026 ___bank_sprite_cassa
 00:0026 ___bank_sprite_cassa_bank2_tile
 00:0026 ___bank_sprite_cassa_tileset
@@ -1856,12 +1855,13 @@
 00:0027 ___bank_actor_140_interact
 00:0027 ___bank_actor_146_interact
 00:0027 ___bank_actor_193_interact
+00:0027 ___bank_bg_abitazionekasigan
 00:0027 ___bank_cursor_image
 00:0027 ___bank_scene_0_sprites
-00:0027 ___bank_scene_0_triggers
 00:0027 ___bank_scene_10_init
 00:0027 ___bank_scene_11_init
 00:0027 ___bank_scene_12_init
+00:0027 ___bank_scene_13
 00:0027 ___bank_scene_14
 00:0027 ___bank_scene_15
 00:0027 ___bank_scene_15_init
@@ -1933,13 +1933,11 @@
 00:0027 ___bank_scene_43_triggers
 00:0027 ___bank_scene_44
 00:0027 ___bank_scene_44_sprites
-00:0027 ___bank_scene_44_triggers
 00:0027 ___bank_scene_45
 00:0027 ___bank_scene_45_sprites
 00:0027 ___bank_scene_45_triggers
 00:0027 ___bank_scene_46
 00:0027 ___bank_scene_46_sprites
-00:0027 ___bank_scene_46_triggers
 00:0027 ___bank_scene_47
 00:0027 ___bank_scene_47_init
 00:0027 ___bank_scene_48
@@ -2019,12 +2017,12 @@
 00:0027 ___bank_script_22
 00:0027 ___bank_script_input_181
 00:0027 ___bank_script_input_182
-00:0027 ___bank_script_input_90
 00:0027 ___bank_sprite_artiglio
 00:0027 ___bank_sprite_artiglio_bank2_t
 00:0027 ___bank_sprite_artiglio_tileset
 00:0027 ___bank_sprite_bersaglio
 00:0027 ___bank_sprite_bersaglio_tilese
+00:0027 ___bank_sprite_blanktile
 00:0027 ___bank_sprite_dardo
 00:0027 ___bank_sprite_dardo_tileset
 00:0027 ___bank_sprite_diamante
@@ -2194,7 +2192,6 @@
 00:0027 b_camera_init
 00:0027 b_input_init
 00:0027 b_parallax_init
-00:0028 ___bank_bg_abitazionekasigan
 00:0028 ___bank_bg_animazionecascata
 00:0028 ___bank_bg_arborlucis1
 00:0028 ___bank_bg_arborlucis2
@@ -2294,6 +2291,8 @@
 00:0028 ___bank_scene_36_sprites
 00:0028 ___bank_scene_36_triggers
 00:0028 ___bank_scene_37_triggers
+00:0028 ___bank_scene_44_triggers
+00:0028 ___bank_scene_46_triggers
 00:0028 ___bank_scene_47_sprites
 00:0028 ___bank_scene_47_triggers
 00:0028 ___bank_scene_48_sprites
@@ -2345,6 +2344,7 @@
 00:0028 ___bank_scene_8_triggers
 00:0028 ___bank_scene_9_sprites
 00:0028 ___bank_scene_9_triggers
+00:0028 ___bank_script_input_251
 00:0028 ___bank_script_input_252
 00:002D l__GSINIT
 00:0030 l__HEADER7
@@ -2353,7 +2353,7 @@
 00:00AB l__HEADER11
 00:01CB l__CRASH_SCRATCH2
 00:0200 s__CODE
-00:06BB l__CODE_40
+00:06D2 l__CODE_40
 00:095C l__CODE
 00:0B5C s__HOME
 00:1973 l__DATA
@@ -2368,7 +2368,6 @@
 00:38FC s__GSFINAL
 00:3FF3 l__CODE_1
 00:3FFC l__CODE_31
-00:3FFC l__CODE_39
 00:3FFD l__CODE_17
 00:3FFD l__CODE_30
 00:3FFD l__CODE_35
@@ -2401,6 +2400,7 @@
 00:4000 l__CODE_34
 00:4000 l__CODE_37
 00:4000 l__CODE_38
+00:4000 l__CODE_39
 00:4000 l__CODE_4
 00:4000 l__CODE_5
 00:4000 l__CODE_6
