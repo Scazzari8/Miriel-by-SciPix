@@ -1013,10 +1013,10 @@
 00:0020 ___bank_bg_fine_tileset
 00:0020 ___bank_bg_foresta2_cgb_tileset
 00:0020 ___bank_scene_0_actors
+00:0020 ___bank_scene_0_sprites
 00:0020 ___bank_scene_19_init
 00:0020 ___bank_scene_20_actors
 00:0020 ___bank_scene_21_init
-00:0020 ___bank_scene_23_init
 00:0020 ___bank_scene_28_actors
 00:0020 ___bank_scene_38_actors
 00:0020 ___bank_scene_39_init
@@ -1042,6 +1042,7 @@
 00:0020 ___bank_script_timer_8
 00:0020 ___bank_song_caustic_slow_Data
 00:0020 ___bank_sprite_cuoremiriel
+00:0020 ___bank_sprite_mirielanimatedsw
 00:0020 ___bank_sprite_mirielcompletean
 00:0020 ___bank_trigger_0_interact
 00:0020 ___bank_trigger_148_interact
@@ -1062,6 +1063,7 @@
 00:0020 b_vm_sound_mastervol
 00:0021 ___bank_VM_PROJECTILE
 00:0021 ___bank_VM_RTC
+00:0021 ___bank_actor_104_interact
 00:0021 ___bank_actor_153_interact
 00:0021 ___bank_actor_156_interact
 00:0021 ___bank_actor_169_interact
@@ -1087,7 +1089,7 @@
 00:0021 ___bank_bg_tiroasegno_tileset
 00:0021 ___bank_scene_1_actors
 00:0021 ___bank_scene_21_actors
-00:0021 ___bank_scene_26_init
+00:0021 ___bank_scene_23_init
 00:0021 ___bank_scene_29_actors
 00:0021 ___bank_scene_32_actors
 00:0021 ___bank_scene_38_init
@@ -1110,7 +1112,6 @@
 00:0021 ___bank_sprite_luponpc
 00:0021 ___bank_sprite_luponpc_bank2_ti
 00:0021 ___bank_sprite_luponpc_tileset
-00:0021 ___bank_sprite_mirielanimatedsw
 00:0021 ___bank_sprite_mirielanimatedsw
 00:0021 ___bank_sprite_mirielanimatedsw
 00:0021 ___bank_sprite_npc10
@@ -1248,7 +1249,7 @@
 00:0022 b_vm_save_clear
 00:0022 b_vm_save_peek
 00:0023 ___bank_VM_SCENE
-00:0023 ___bank_actor_104_interact
+00:0023 ___bank_actor_106_interact
 00:0023 ___bank_actor_113_interact
 00:0023 ___bank_actor_170_interact
 00:0023 ___bank_actor_183_interact
@@ -1469,7 +1470,6 @@
 00:0024 ___bank_script_timer_27
 00:0024 ___bank_trigger_105_interact
 00:0024 ___bank_trigger_69_interact
-00:0025 ___bank_actor_106_interact
 00:0025 ___bank_actor_110_interact
 00:0025 ___bank_actor_137_interact
 00:0025 ___bank_actor_142_interact
@@ -1513,6 +1513,7 @@
 00:0025 ___bank_scene_18_actors
 00:0025 ___bank_scene_22_actors
 00:0025 ___bank_scene_22_init
+00:0025 ___bank_scene_26_init
 00:0025 ___bank_scene_28_init
 00:0025 ___bank_scene_28_p_hit1
 00:0025 ___bank_scene_28_projectiles
@@ -1534,7 +1535,6 @@
 00:0025 ___bank_scene_39_p_hit1
 00:0025 ___bank_scene_40_p_hit1
 00:0025 ___bank_scene_40_projectiles
-00:0025 ___bank_scene_40_sprites
 00:0025 ___bank_scene_41_p_hit1
 00:0025 ___bank_scene_41_projectiles
 00:0025 ___bank_scene_44_init
@@ -1573,6 +1573,7 @@
 00:0025 ___bank_scene_9_actors
 00:0025 ___bank_script_engine_init
 00:0025 ___bank_script_input_192
+00:0025 ___bank_sprite_artiglio_bank2_t
 00:0025 ___bank_sprite_cassagirata
 00:0025 ___bank_sprite_cuoremiriel_tile
 00:0025 ___bank_sprite_fabbrostatic
@@ -1862,8 +1863,9 @@
 00:0027 ___bank_bg_arborlucis2
 00:0027 ___bank_bg_arborlucis3cimitero
 00:0027 ___bank_bg_arborlucis4
+00:0027 ___bank_bg_bucotesoro
+00:0027 ___bank_bg_campana
 00:0027 ___bank_cursor_image
-00:0027 ___bank_scene_0_sprites
 00:0027 ___bank_scene_0_triggers
 00:0027 ___bank_scene_10_init
 00:0027 ___bank_scene_11_init
@@ -1926,6 +1928,7 @@
 00:0027 ___bank_scene_3_triggers
 00:0027 ___bank_scene_4
 00:0027 ___bank_scene_40
+00:0027 ___bank_scene_40_sprites
 00:0027 ___bank_scene_40_triggers
 00:0027 ___bank_scene_41
 00:0027 ___bank_scene_41_sprites
@@ -2030,7 +2033,6 @@
 00:0027 ___bank_script_input_180
 00:0027 ___bank_script_input_88
 00:0027 ___bank_sprite_artiglio
-00:0027 ___bank_sprite_artiglio_bank2_t
 00:0027 ___bank_sprite_artiglio_tileset
 00:0027 ___bank_sprite_bersaglio
 00:0027 ___bank_sprite_bersaglio_tilese
@@ -2203,8 +2205,6 @@
 00:0027 b_SIO_init
 00:0027 b_input_init
 00:0027 b_parallax_init
-00:0028 ___bank_bg_bucotesoro
-00:0028 ___bank_bg_campana
 00:0028 ___bank_bg_campanilescala
 00:0028 ___bank_bg_casaarborlucis1
 00:0028 ___bank_bg_casaarborlucis10
@@ -2351,7 +2351,7 @@
 00:00AB l__HEADER11
 00:01CB l__CRASH_SCRATCH2
 00:0200 s__CODE
-00:0611 l__CODE_40
+00:05F5 l__CODE_40
 00:095C l__CODE
 00:0B5C s__HOME
 00:1973 l__DATA
@@ -2379,7 +2379,7 @@
 00:3FFF l__CODE_23
 00:3FFF l__CODE_26
 00:3FFF l__CODE_29
-00:3FFF l__CODE_32
+00:3FFF l__CODE_33
 00:3FFF l__CODE_35
 00:3FFF l__CODE_36
 00:3FFF l__CODE_39
@@ -2395,7 +2395,7 @@
 00:4000 l__CODE_28
 00:4000 l__CODE_3
 00:4000 l__CODE_31
-00:4000 l__CODE_33
+00:4000 l__CODE_32
 00:4000 l__CODE_34
 00:4000 l__CODE_37
 00:4000 l__CODE_38
