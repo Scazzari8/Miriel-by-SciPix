@@ -914,6 +914,7 @@
 00:001D ___bank_sprite_lupomannaro
 00:001D ___bank_sprite_mirielcompletean
 00:001D ___bank_trigger_1_interact
+00:001E ___bank_actor_258_interact
 00:001E ___bank_bg_cavernapiano3_tilema
 00:001E ___bank_bg_cine1_tilemap
 00:001E ___bank_bg_cine1_tilemap_attr
@@ -959,8 +960,7 @@
 00:001E ___bank_bg_stanzalocandaribalta
 00:001E ___bank_bg_stanzalocandaribalta
 00:001E ___bank_bg_stanzalocandaribalta
-00:001E ___bank_sprite_npc12
-00:001F ___bank_actor_258_interact
+00:001F ___bank_bg_cavernapiano2_cgb_ti
 00:001F ___bank_bg_viaggiorapidodistopi
 00:001F ___bank_bg_viaggiorapidodistopi
 00:001F ___bank_bg_water_tilemap
@@ -968,6 +968,7 @@
 00:001F ___bank_scene_10_collisions
 00:001F ___bank_scene_11_collisions
 00:001F ___bank_scene_12_collisions
+00:001F ___bank_scene_12_sprites
 00:001F ___bank_scene_13_collisions
 00:001F ___bank_scene_15_collisions
 00:001F ___bank_scene_16_collisions
@@ -1153,7 +1154,6 @@
 00:0021 b_vm_rtc_set
 00:0021 b_vm_rtc_start
 00:0022 ___bank_VM_GBPRINTER
-00:0022 ___bank_VM_LOAD_SAVE
 00:0022 ___bank_actor_154_interact
 00:0022 ___bank_actor_156_interact
 00:0022 ___bank_actor_165_interact
@@ -1172,7 +1172,7 @@
 00:0022 ___bank_actor_76_interact
 00:0022 ___bank_actor_78_interact
 00:0022 ___bank_actor_81_interact
-00:0022 ___bank_bg_cavernapiano2_cgb_ti
+00:0022 ___bank_scene_0_p_hit1
 00:0022 ___bank_scene_1_actors
 00:0022 ___bank_scene_21_actors
 00:0022 ___bank_scene_29_actors
@@ -1210,6 +1210,7 @@
 00:0022 ___bank_script_input_92
 00:0022 ___bank_script_input_99
 00:0022 ___bank_sprite_cultistaanimated
+00:0022 ___bank_sprite_cultistaanimated
 00:0022 ___bank_sprite_luponpc
 00:0022 ___bank_sprite_luponpc_bank2_ti
 00:0022 ___bank_sprite_luponpc_tileset
@@ -1239,8 +1240,6 @@
 00:0022 ___bank_trigger_99_interact
 00:0022 b_vm_print_detect
 00:0022 b_vm_print_overlay
-00:0022 b_vm_save_clear
-00:0022 b_vm_save_peek
 00:0023 ___bank_VM_SCENE
 00:0023 ___bank_actor_113_interact
 00:0023 ___bank_actor_170_interact
@@ -1255,12 +1254,12 @@
 00:0023 ___bank_actor_96_interact
 00:0023 ___bank_actor_97_interact
 00:0023 ___bank_actor_98_interact
-00:0023 ___bank_scene_0_p_hit1
 00:0023 ___bank_scene_17_actors
 00:0023 ___bank_scene_25_init
 00:0023 ___bank_scene_29_init
 00:0023 ___bank_scene_33_actors
 00:0023 ___bank_scene_36_actors
+00:0023 ___bank_scene_39_triggers
 00:0023 ___bank_scene_3_actors
 00:0023 ___bank_scene_43_init
 00:0023 ___bank_scene_46_actors
@@ -1274,7 +1273,7 @@
 00:0023 ___bank_script_input_101
 00:0023 ___bank_script_input_102
 00:0023 ___bank_script_input_103
-00:0023 ___bank_sprite_cultistaanimated
+00:0023 ___bank_script_input_104
 00:0023 ___bank_sprite_cultistaanimated
 00:0023 ___bank_sprite_lorenzo
 00:0023 ___bank_sprite_lorenzo_bank2_ti
@@ -1287,6 +1286,7 @@
 00:0023 ___bank_sprite_npc11
 00:0023 ___bank_sprite_npc11_bank2_tile
 00:0023 ___bank_sprite_npc11_tileset
+00:0023 ___bank_sprite_npc12
 00:0023 ___bank_sprite_npc12_bank2_tile
 00:0023 ___bank_sprite_npc12_tileset
 00:0023 ___bank_sprite_npc13
@@ -1345,13 +1345,11 @@
 00:0023 ___bank_trigger_79_interact
 00:0023 ___bank_trigger_83_interact
 00:0023 ___bank_trigger_86_interact
-00:0023 b_camera_init
 00:0023 b_vm_scene_pop
 00:0023 b_vm_scene_pop_all
 00:0023 b_vm_scene_push
 00:0023 b_vm_scene_stack_reset
 00:0024 ___bank_actor_104_interact
-00:0024 ___bank_script_input_104
 00:0024 ___bank_script_input_11
 00:0024 ___bank_script_input_116
 00:0024 ___bank_script_input_117
@@ -1461,6 +1459,8 @@
 00:0024 ___bank_script_input_89
 00:0024 ___bank_script_input_94
 00:0024 ___bank_script_input_95
+00:0024 ___bank_script_input_96
+00:0025 ___bank_VM_LOAD_SAVE
 00:0025 ___bank_actor_106_interact
 00:0025 ___bank_actor_110_interact
 00:0025 ___bank_actor_137_interact
@@ -1558,7 +1558,6 @@
 00:0025 ___bank_scene_8_actors
 00:0025 ___bank_scene_9_actors
 00:0025 ___bank_script_engine_init
-00:0025 ___bank_script_input_96
 00:0025 ___bank_script_input_97
 00:0025 ___bank_script_timer_0
 00:0025 ___bank_script_timer_26
@@ -1600,6 +1599,8 @@
 00:0025 b_restore_sram_bank
 00:0025 b_save_sram
 00:0025 b_timers_init
+00:0025 b_vm_save_clear
+00:0025 b_vm_save_peek
 00:0026 ___bank_actor_117_interact
 00:0026 ___bank_actor_138_interact
 00:0026 ___bank_actor_157_interact
@@ -1827,7 +1828,6 @@
 00:0027 ___bank_emote_question
 00:0027 ___bank_emote_shock
 00:0027 ___bank_emote_sleep
-00:0027 ___bank_scene_0_sprites
 00:0027 ___bank_scene_0_triggers
 00:0027 ___bank_scene_1
 00:0027 ___bank_scene_10
@@ -1876,7 +1876,7 @@
 00:0027 ___bank_scene_37_init
 00:0027 ___bank_scene_38
 00:0027 ___bank_scene_39
-00:0027 ___bank_scene_39_triggers
+00:0027 ___bank_scene_39_sprites
 00:0027 ___bank_scene_4
 00:0027 ___bank_scene_40
 00:0027 ___bank_scene_41
@@ -1960,6 +1960,7 @@
 00:0027 ___bank_script_input_162
 00:0027 ___bank_script_input_169
 00:0027 ___bank_script_input_179
+00:0027 ___bank_script_input_189
 00:0027 ___bank_script_input_190
 00:0027 ___bank_script_input_210
 00:0027 ___bank_script_input_217
@@ -2200,9 +2201,9 @@
 00:0028 ___bank_bg_villaggiomiriel2
 00:0028 ___bank_bg_water
 00:0028 ___bank_cursor_image
+00:0028 ___bank_scene_0_sprites
 00:0028 ___bank_scene_10_triggers
 00:0028 ___bank_scene_11_triggers
-00:0028 ___bank_scene_12_sprites
 00:0028 ___bank_scene_12_triggers
 00:0028 ___bank_scene_13_sprites
 00:0028 ___bank_scene_13_triggers
@@ -2237,7 +2238,6 @@
 00:0028 ___bank_scene_36_triggers
 00:0028 ___bank_scene_37_triggers
 00:0028 ___bank_scene_38_sprites
-00:0028 ___bank_scene_39_sprites
 00:0028 ___bank_scene_3_sprites
 00:0028 ___bank_scene_3_triggers
 00:0028 ___bank_scene_40_sprites
@@ -2317,7 +2317,6 @@
 00:0028 ___bank_scene_9_triggers
 00:0028 ___bank_script_11
 00:0028 ___bank_script_15
-00:0028 ___bank_script_input_189
 00:0028 ___bank_script_input_259
 00:0028 ___bank_script_input_260
 00:0028 ___bank_sprite_artiglio_bank2_t
@@ -2354,6 +2353,7 @@
 00:0028 ___bank_sprite_totemvento_bank2
 00:0028 ___bank_sprite_totemvento_tiles
 00:0028 ___bank_spritesheet_none
+00:0028 b_camera_init
 00:0028 b_input_init
 00:0028 b_parallax_init
 00:002D l__GSINIT
@@ -2365,7 +2365,7 @@
 00:0200 s__CODE
 00:095C l__CODE
 00:0B5C s__HOME
-00:105A l__CODE_40
+00:1046 l__CODE_40
 00:1973 l__DATA
 00:2000 _rROMB0
 00:2D59 l__HOME
@@ -2377,15 +2377,15 @@
 00:38CF s__GSINIT
 00:38FC s__GSFINAL
 00:3FF3 l__CODE_1
-00:3FFC l__CODE_31
-00:3FFD l__CODE_30
+00:3FFC l__CODE_30
+00:3FFC l__CODE_37
+00:3FFC l__CODE_39
 00:3FFE l__CODE_27
 00:3FFF l__CODE_20
 00:3FFF l__CODE_21
 00:3FFF l__CODE_23
 00:3FFF l__CODE_26
 00:3FFF l__CODE_29
-00:3FFF l__CODE_37
 00:4000 _RTC_SELECT_REG
 00:4000 _rRAMB
 00:4000 l__CODE_10
@@ -2404,13 +2404,13 @@
 00:4000 l__CODE_25
 00:4000 l__CODE_28
 00:4000 l__CODE_3
+00:4000 l__CODE_31
 00:4000 l__CODE_32
 00:4000 l__CODE_33
 00:4000 l__CODE_34
 00:4000 l__CODE_35
 00:4000 l__CODE_36
 00:4000 l__CODE_38
-00:4000 l__CODE_39
 00:4000 l__CODE_4
 00:4000 l__CODE_5
 00:4000 l__CODE_6
