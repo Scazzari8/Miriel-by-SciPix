@@ -1,5 +1,3 @@
-<img title="" src="file:///C:/Users/raffa/Download/Opera_senza_titolo.png" alt="" width="293" data-align="center">
-
 # Miriel-by-SciPix
 
 ---
@@ -10,22 +8,14 @@ Il seguente documento descrive i procedimenti per trovare la *rom* del videogioc
 
 I passaggi da seguire per recuperare la *rom* sono i seguenti:
 
-- Aprire la cartella: "GiocoMiriel"
+1. Aprire la cartella: "GiocoMiriel")
 
-<img title="" src="file:///C:/Users/raffa/AppData/Roaming/marktext/images/2024-07-12-19-35-33-image.png" alt="" data-align="center" width="596">
+2. Aprire la cartella: "build/rom"
 
-- Aprire la cartella: "build/rom"
+3. Aprire la cartella: "rom"
 
-<img title="" src="file:///C:/Users/raffa/AppData/Roaming/marktext/images/2024-07-12-19-36-25-image.png" alt="" data-align="center" width="430">
+4. Selezionare la rom: "game.gbc"
 
-- Aprire la cartella: "rom"
-
-<img title="" src="file:///C:/Users/raffa/AppData/Roaming/marktext/images/2024-07-12-19-38-12-image.png" alt="" data-align="center" width="248">
-
-- Selezionare la rom: "game.gbc"
-
-<img title="" src="file:///C:/Users/raffa/AppData/Roaming/marktext/images/2024-07-12-19-39-31-image.png" alt="" data-align="center" width="283">
-
-- Copiare il file "game.gbc" all'interno della cartella relativa alle rom dell'emulatore desiderato, quindi eseguire il core *GAMBATTE* per il GAMEBOY COLOR. 
+5. Copiare il file "game.gbc" all'interno della cartella relativa alle rom dell'emulatore desiderato, quindi eseguire il core *GAMBATTE* per il GAMEBOY COLOR. 
 
 Una volta seguiti tutti i passaggi puoi giocare alla  *demo* di ***Miriel***, BUON DIVERTIMENTO! 
