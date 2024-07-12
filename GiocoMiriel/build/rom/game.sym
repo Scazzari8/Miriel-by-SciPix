@@ -625,10 +625,11 @@
 00:0014 ___bank_bg_casaarborlucis9_tile
 00:0014 ___bank_bg_libreria_tileset
 00:0014 ___bank_bg_scenabossfinale_tile
+00:0014 ___bank_bg_viaggiorapidoarborlu
 00:0014 ___bank_scene_2_init
 00:0014 ___bank_scene_3_init
 00:0014 ___bank_scene_44_collisions
-00:0014 ___bank_script_20
+00:0014 ___bank_script_15
 00:0014 ___bank_script_input_76
 00:0014 ___bank_song_ruin_at_last_Data
 00:0014 ___bank_trigger_145_interact
@@ -710,19 +711,18 @@
 00:0018 ___bank_actor_140_update
 00:0018 ___bank_actor_142_update
 00:0018 ___bank_actor_146_update
+00:0018 ___bank_actor_175_interact
 00:0018 ___bank_actor_239_update
 00:0018 ___bank_actor_69_update
 00:0018 ___bank_actor_72_update
 00:0018 ___bank_actor_90_update
-00:0018 ___bank_bg_casaarborlucis3_tile
 00:0018 ___bank_bg_internotanalupo_tile
 00:0018 ___bank_bg_internotanalupodisto
-00:0018 ___bank_bg_viaggiorapidoarborlu
 00:0018 ___bank_scene_4_init
 00:0018 ___bank_scene_64_collisions
 00:0018 ___bank_scene_68_collisions
-00:0018 ___bank_scene_68_sprites
 00:0018 ___bank_scene_72_init
+00:0018 ___bank_script_20
 00:0018 ___bank_trigger_88_interact
 00:0018 b_atan2
 00:0018 b_vm_sio_exchange
@@ -797,10 +797,11 @@
 00:001B ___bank_actor_102_interact
 00:001B ___bank_actor_103_interact
 00:001B ___bank_actor_159_interact
-00:001B ___bank_actor_175_interact
+00:001B ___bank_actor_172_interact
 00:001B ___bank_actor_182_interact
 00:001B ___bank_actor_246_interact
 00:001B ___bank_actor_99_interact
+00:001B ___bank_bg_casaarborlucis3_tile
 00:001B ___bank_bg_casaarborlucis3_tile
 00:001B ___bank_bg_casaarborlucis4_tile
 00:001B ___bank_bg_casaarborlucis4_tile
@@ -825,7 +826,6 @@
 00:001B ___bank_scene_5_collisions
 00:001B ___bank_scene_63_collisions
 00:001B ___bank_scene_70_collisions
-00:001B ___bank_script_8
 00:001B b_set_sgb_border
 00:001B b_vm_load_palette
 00:001C ___bank_bg_abitazionekasigan_ti
@@ -1074,7 +1074,6 @@
 00:0021 ___bank_VM_RTC
 00:0021 ___bank_actor_153_interact
 00:0021 ___bank_actor_169_interact
-00:0021 ___bank_actor_172_interact
 00:0021 ___bank_actor_254_interact
 00:0021 ___bank_actor_256_interact
 00:0021 ___bank_actor_257_interact
@@ -1086,12 +1085,14 @@
 00:0021 ___bank_bg_locandaarborlucis_cg
 00:0021 ___bank_bg_tiroasegno_tileset
 00:0021 ___bank_scene_23_init
+00:0021 ___bank_scene_36_sprites
 00:0021 ___bank_scene_40_init
 00:0021 ___bank_scene_46_init
 00:0021 ___bank_scene_64_actors
 00:0021 ___bank_scene_82_init
 00:0021 ___bank_script_10
 00:0021 ___bank_script_29
+00:0021 ___bank_script_8
 00:0021 ___bank_script_input_0
 00:0021 ___bank_script_input_114
 00:0021 ___bank_script_input_121
@@ -1138,11 +1139,11 @@
 00:0021 ___bank_script_input_24
 00:0021 ___bank_script_input_242
 00:0021 ___bank_script_input_249
-00:0021 ___bank_script_input_25
 00:0021 ___bank_sprite_mirielanimatedsw
 00:0021 ___bank_sprite_mirielanimatedsw
 00:0021 ___bank_sprite_mirielanimatedsw
 00:0021 ___bank_sprite_npc10
+00:0021 ___bank_trigger_84_interact
 00:0021 b_itoa_fmt
 00:0021 b_music_events_poll
 00:0021 b_music_init_driver
@@ -1159,6 +1160,7 @@
 00:0022 ___bank_actor_165_interact
 00:0022 ___bank_actor_168_interact
 00:0022 ___bank_actor_180_interact
+00:0022 ___bank_actor_181_interact
 00:0022 ___bank_actor_200_interact
 00:0022 ___bank_actor_21_interact
 00:0022 ___bank_actor_22_interact
@@ -1172,7 +1174,6 @@
 00:0022 ___bank_actor_76_interact
 00:0022 ___bank_actor_78_interact
 00:0022 ___bank_actor_81_interact
-00:0022 ___bank_scene_0_p_hit1
 00:0022 ___bank_scene_1_actors
 00:0022 ___bank_scene_21_actors
 00:0022 ___bank_scene_29_actors
@@ -1190,6 +1191,7 @@
 00:0022 ___bank_script_0
 00:0022 ___bank_script_1
 00:0022 ___bank_script_9
+00:0022 ___bank_script_input_25
 00:0022 ___bank_script_input_250
 00:0022 ___bank_script_input_26
 00:0022 ___bank_script_input_27
@@ -1235,7 +1237,6 @@
 00:0022 ___bank_sprite_npcexsoldato_ban
 00:0022 ___bank_sprite_npcexsoldato_til
 00:0022 ___bank_trigger_160_interact
-00:0022 ___bank_trigger_84_interact
 00:0022 ___bank_trigger_87_interact
 00:0022 ___bank_trigger_99_interact
 00:0022 b_vm_print_detect
@@ -1254,12 +1255,12 @@
 00:0023 ___bank_actor_96_interact
 00:0023 ___bank_actor_97_interact
 00:0023 ___bank_actor_98_interact
+00:0023 ___bank_scene_0_p_hit1
 00:0023 ___bank_scene_17_actors
 00:0023 ___bank_scene_25_init
 00:0023 ___bank_scene_29_init
 00:0023 ___bank_scene_33_actors
 00:0023 ___bank_scene_36_actors
-00:0023 ___bank_scene_39_triggers
 00:0023 ___bank_scene_3_actors
 00:0023 ___bank_scene_43_init
 00:0023 ___bank_scene_46_actors
@@ -1273,7 +1274,7 @@
 00:0023 ___bank_script_input_101
 00:0023 ___bank_script_input_102
 00:0023 ___bank_script_input_103
-00:0023 ___bank_script_input_104
+00:0023 ___bank_sprite_blanktile
 00:0023 ___bank_sprite_cultistaanimated
 00:0023 ___bank_sprite_lorenzo
 00:0023 ___bank_sprite_lorenzo_bank2_ti
@@ -1350,6 +1351,7 @@
 00:0023 b_vm_scene_push
 00:0023 b_vm_scene_stack_reset
 00:0024 ___bank_actor_104_interact
+00:0024 ___bank_script_input_104
 00:0024 ___bank_script_input_11
 00:0024 ___bank_script_input_116
 00:0024 ___bank_script_input_117
@@ -1459,7 +1461,6 @@
 00:0024 ___bank_script_input_89
 00:0024 ___bank_script_input_94
 00:0024 ___bank_script_input_95
-00:0024 ___bank_script_input_96
 00:0025 ___bank_VM_LOAD_SAVE
 00:0025 ___bank_actor_106_interact
 00:0025 ___bank_actor_110_interact
@@ -1470,7 +1471,6 @@
 00:0025 ___bank_actor_164_interact
 00:0025 ___bank_actor_173_interact
 00:0025 ___bank_actor_177_interact
-00:0025 ___bank_actor_181_interact
 00:0025 ___bank_actor_188_interact
 00:0025 ___bank_actor_194_interact
 00:0025 ___bank_actor_195_interact
@@ -1504,7 +1504,6 @@
 00:0025 ___bank_scene_18_actors
 00:0025 ___bank_scene_22_actors
 00:0025 ___bank_scene_22_init
-00:0025 ___bank_scene_26_init
 00:0025 ___bank_scene_27_init
 00:0025 ___bank_scene_28_init
 00:0025 ___bank_scene_28_p_hit1
@@ -1542,6 +1541,7 @@
 00:0025 ___bank_scene_59_p_hit1
 00:0025 ___bank_scene_60_actors
 00:0025 ___bank_scene_61_actors
+00:0025 ___bank_scene_61_init
 00:0025 ___bank_scene_64_init
 00:0025 ___bank_scene_65_init
 00:0025 ___bank_scene_66_actors
@@ -1558,6 +1558,7 @@
 00:0025 ___bank_scene_8_actors
 00:0025 ___bank_scene_9_actors
 00:0025 ___bank_script_engine_init
+00:0025 ___bank_script_input_96
 00:0025 ___bank_script_input_97
 00:0025 ___bank_script_timer_0
 00:0025 ___bank_script_timer_26
@@ -1733,11 +1734,12 @@
 00:0026 ___bank_palette_97
 00:0026 ___bank_palette_98
 00:0026 ___bank_palette_99
-00:0026 ___bank_scene_0
 00:0026 ___bank_scene_0_projectiles
 00:0026 ___bank_scene_13_init
+00:0026 ___bank_scene_15_init
 00:0026 ___bank_scene_20_projectiles
 00:0026 ___bank_scene_21_projectiles
+00:0026 ___bank_scene_26_init
 00:0026 ___bank_scene_30_projectiles
 00:0026 ___bank_scene_33_projectiles
 00:0026 ___bank_scene_34_projectiles
@@ -1756,7 +1758,6 @@
 00:0026 ___bank_scene_58_init
 00:0026 ___bank_scene_59_projectiles
 00:0026 ___bank_scene_60_init
-00:0026 ___bank_scene_61_init
 00:0026 ___bank_scene_62_init
 00:0026 ___bank_scene_64_projectiles
 00:0026 ___bank_scene_65_projectiles
@@ -1822,12 +1823,14 @@
 00:0026 b_CGBZeroPalette
 00:0026 b_palette_init
 00:0027 ___bank_actor_193_interact
+00:0027 ___bank_cursor_image
 00:0027 ___bank_emote_anger
 00:0027 ___bank_emote_love
 00:0027 ___bank_emote_pause
 00:0027 ___bank_emote_question
 00:0027 ___bank_emote_shock
 00:0027 ___bank_emote_sleep
+00:0027 ___bank_scene_0
 00:0027 ___bank_scene_0_triggers
 00:0027 ___bank_scene_1
 00:0027 ___bank_scene_10
@@ -1839,7 +1842,6 @@
 00:0027 ___bank_scene_13
 00:0027 ___bank_scene_14
 00:0027 ___bank_scene_15
-00:0027 ___bank_scene_15_init
 00:0027 ___bank_scene_16
 00:0027 ___bank_scene_16_actors
 00:0027 ___bank_scene_16_init
@@ -1876,7 +1878,7 @@
 00:0027 ___bank_scene_37_init
 00:0027 ___bank_scene_38
 00:0027 ___bank_scene_39
-00:0027 ___bank_scene_39_sprites
+00:0027 ___bank_scene_39_triggers
 00:0027 ___bank_scene_4
 00:0027 ___bank_scene_40
 00:0027 ___bank_scene_41
@@ -1981,7 +1983,6 @@
 00:0027 ___bank_script_input_98
 00:0027 ___bank_sprite_artiglio
 00:0027 ___bank_sprite_bersaglio
-00:0027 ___bank_sprite_blanktile
 00:0027 ___bank_sprite_dardo
 00:0027 ___bank_sprite_diamante
 00:0027 ___bank_sprite_floppydisk
@@ -2200,7 +2201,6 @@
 00:0028 ___bank_bg_villaggiomiriel1
 00:0028 ___bank_bg_villaggiomiriel2
 00:0028 ___bank_bg_water
-00:0028 ___bank_cursor_image
 00:0028 ___bank_scene_0_sprites
 00:0028 ___bank_scene_10_triggers
 00:0028 ___bank_scene_11_triggers
@@ -2234,10 +2234,10 @@
 00:0028 ___bank_scene_34_sprites
 00:0028 ___bank_scene_34_triggers
 00:0028 ___bank_scene_35_sprites
-00:0028 ___bank_scene_36_sprites
 00:0028 ___bank_scene_36_triggers
 00:0028 ___bank_scene_37_triggers
 00:0028 ___bank_scene_38_sprites
+00:0028 ___bank_scene_39_sprites
 00:0028 ___bank_scene_3_sprites
 00:0028 ___bank_scene_3_triggers
 00:0028 ___bank_scene_40_sprites
@@ -2293,6 +2293,7 @@
 00:0028 ___bank_scene_66_triggers
 00:0028 ___bank_scene_67_sprites
 00:0028 ___bank_scene_67_triggers
+00:0028 ___bank_scene_68_sprites
 00:0028 ___bank_scene_68_triggers
 00:0028 ___bank_scene_69_sprites
 00:0028 ___bank_scene_69_triggers
@@ -2316,7 +2317,6 @@
 00:0028 ___bank_scene_9_sprites
 00:0028 ___bank_scene_9_triggers
 00:0028 ___bank_script_11
-00:0028 ___bank_script_15
 00:0028 ___bank_script_input_259
 00:0028 ___bank_script_input_260
 00:0028 ___bank_sprite_artiglio_bank2_t
@@ -2365,7 +2365,7 @@
 00:0200 s__CODE
 00:095C l__CODE
 00:0B5C s__HOME
-00:1046 l__CODE_40
+00:105C l__CODE_40
 00:1973 l__DATA
 00:2000 _rROMB0
 00:2D59 l__HOME
@@ -2378,13 +2378,11 @@
 00:38FC s__GSFINAL
 00:3FF3 l__CODE_1
 00:3FFC l__CODE_30
-00:3FFC l__CODE_37
-00:3FFC l__CODE_39
-00:3FFE l__CODE_27
-00:3FFF l__CODE_20
+00:3FFE l__CODE_24
 00:3FFF l__CODE_21
 00:3FFF l__CODE_23
 00:3FFF l__CODE_26
+00:3FFF l__CODE_27
 00:3FFF l__CODE_29
 00:4000 _RTC_SELECT_REG
 00:4000 _rRAMB
@@ -2399,8 +2397,8 @@
 00:4000 l__CODE_18
 00:4000 l__CODE_19
 00:4000 l__CODE_2
+00:4000 l__CODE_20
 00:4000 l__CODE_22
-00:4000 l__CODE_24
 00:4000 l__CODE_25
 00:4000 l__CODE_28
 00:4000 l__CODE_3
@@ -2410,7 +2408,9 @@
 00:4000 l__CODE_34
 00:4000 l__CODE_35
 00:4000 l__CODE_36
+00:4000 l__CODE_37
 00:4000 l__CODE_38
+00:4000 l__CODE_39
 00:4000 l__CODE_4
 00:4000 l__CODE_5
 00:4000 l__CODE_6
