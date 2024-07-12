@@ -14,19 +14,19 @@ I passaggi da seguire per recuperare la *rom* sono i seguenti:
 
 1. Aprire la cartella: "GiocoMiriel")
                                                 
-<img src="images/Passaggio1.png" alt="Esempio di immagine" width="200px">
+<img src="images/Passaggio1.png" alt="Esempio di immagine" width="250px">
                                                    
 2. Aprire la cartella: "build/rom"
                                                                         
-<img src="images/Passaggio2.png" alt="Esempio di immagine" width="200px">
+<img src="images/Passaggio2.png" alt="Esempio di immagine" width="250px">
                                                    
 3. Aprire la cartella: "rom"
                                     
-<img src="images/Passaggio3.png" alt="Esempio di immagine" width="200px">
+<img src="images/Passaggio3.png" alt="Esempio di immagine" width="250px">
                                     
 4. Selezionare la rom: "game.gbc"
                                     
-<img src="images/Passaggio4.png" alt="Esempio di immagine" width="200px">
+<img src="images/Passaggio4.png" alt="Esempio di immagine" width="250px">
                                     
 5. Copiare il file "game.gbc" all'interno della cartella relativa alle rom dell'emulatore desiderato, quindi eseguire il core *GAMBATTE* per il GAMEBOY COLOR. 
 
