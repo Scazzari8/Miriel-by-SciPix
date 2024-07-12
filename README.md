@@ -1,4 +1,6 @@
-![Logo del gruppo SciPix](images/LogoSciPix.png)
+| <img src="images/LogoSciPix.png" alt="Esempio di immagine" width="300px"> |
+|:--:|
+
             
 # Miriel-by-SciPix
 
