@@ -26,7 +26,7 @@ I passaggi da seguire per recuperare la *rom* sono i seguenti:
                                     
 4. Selezionare la rom: "game.gbc"
                                     
-<img src="images/Passaggio4.png" alt="Esempio di immagine" width="250px">
+<img src="images/Passaggio4.png" alt="Esempio di immagine" width="300px">
                                     
 5. Copiare il file "game.gbc" all'interno della cartella relativa alle rom dell'emulatore desiderato, quindi eseguire il core *GAMBATTE* per il GAMEBOY COLOR. 
 
