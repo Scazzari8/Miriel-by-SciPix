@@ -1,3 +1,5 @@
+![Logo del gruppo SciPix](images/LogoSciPix.png)
+            
 # Miriel-by-SciPix
 
 ---
