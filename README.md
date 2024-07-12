@@ -14,12 +14,10 @@ I passaggi da seguire per recuperare la *rom* sono i seguenti:
 
 1. Aprire la cartella: "GiocoMiriel")
             | <img src="images/Passaggio1.png" alt="Esempio di immagine" width="300px"> |
-            |:--:|
-   
+                                                   
 3. Aprire la cartella: "build/rom"
             | <img src="images/Passaggio2.png" alt="Esempio di immagine" width="300px"> |
-            |:--:|
-   
+                                                   
 5. Aprire la cartella: "rom"
 
 6. Selezionare la rom: "game.gbc"
